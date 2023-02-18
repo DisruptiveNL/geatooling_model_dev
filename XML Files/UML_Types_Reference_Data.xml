@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<RefData version="1.0" exporter="EA.25">
+	<DataSet name="Stereotypes" table="t_stereotypes" filter="Stereotype='#Stereotype#' and AppliesTo='#AppliesTo#'">
+		<DataRow>
+			<Column name="Stereotype" value="process"/>
+			<Column name="AppliesTo" value="activity"/>
+			<Column name="Description" value="A classifier whose instances represent a flow"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{89CB0FC9-D73A-4c1e-874B-F0CFF18EBF95}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="subscribe"/>
+			<Column name="AppliesTo" value="association"/>
+			<Column name="Description" value="Source class will be notified when an event occurs in target"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{50A5004D-17FD-4c62-ABFE-E3246BD485A1}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="column"/>
+			<Column name="AppliesTo" value="AttribTable"/>
+			<Column name="Description" value="A column attribute for a table"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{AF1D617A-23D3-4be0-BA5D-BF93C1B36D7B}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="case worker"/>
+			<Column name="AppliesTo" value="business class"/>
+			<Column name="Description" value="A worker who directly interacts with actors outside the system"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{D9D33854-EE08-4793-839C-88F7C01A216D}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="entity"/>
+			<Column name="AppliesTo" value="business class"/>
+			<Column name="Description" value="Passive class accessed and manipulated by workers"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{F6313FFB-08D5-480b-A8A4-440ACA264FF1}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="internal worker"/>
+			<Column name="AppliesTo" value="business class"/>
+			<Column name="Description" value="A worker that interacts with other workers and entities inside the system."/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{C4C535A7-E674-4d5f-8FD3-794FA47A16AE}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="worker"/>
+			<Column name="AppliesTo" value="business class"/>
+			<Column name="Description" value="An abstraction of a human that works within the system."/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{471C4D2D-9C70-42cc-91CD-CF0CFB5903F1}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="object system"/>
+			<Column name="AppliesTo" value="business model"/>
+			<Column name="Description" value="Contains business process objects, work units, organization units and relationships"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{E4EEF2E6-9352-4d92-9B7E-C5FE87909A04}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="organization unit"/>
+			<Column name="AppliesTo" value="business model"/>
+			<Column name="Description" value="Subsystem corresponding to an organizational unit of the actual business"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{42F64AAA-0746-45ab-BE46-8615FB9628C0}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="work unit"/>
+			<Column name="AppliesTo" value="business model"/>
+			<Column name="Description" value="Subsystem with one or more entities"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{1F0B4387-1CA7-4a7f-8FDA-C2B8AA8474A5}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="asp page"/>
+			<Column name="AppliesTo" value="class"/>
+			<Column name="Description" value="A Microsoft active server page"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{E00240CB-C3AA-4863-9BD2-E839064B7C18}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="boundary"/>
+			<Column name="AppliesTo" value="class"/>
+			<Column name="Description" value="Specifies an element that is at the system boundary (e.g.. User Interface)"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{0D0D5337-4244-4947-9183-65D754267272}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="client page"/>
+			<Column name="AppliesTo" value="class"/>
+			<Column name="Description" value="A class that represents a client based web page"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{D02E4E25-B3DC-4ecc-B54C-86B854C438D3}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="clientscript"/>
+			<Column name="AppliesTo" value="class"/>
+			<Column name="Description" value="A collection of client-side scripts"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{F309E364-311D-42ba-AD0E-6FE2C891DE92}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="control"/>
+			<Column name="AppliesTo" value="class"/>
+			<Column name="Description" value="Specifies an element that controls the work and lifetimes of other objects"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{35A2D975-7D8E-4783-8047-F6F02D2915D4}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="entity"/>
+			<Column name="AppliesTo" value="class"/>
+			<Column name="Description" value="Specifies a persistent element mainly concerned with managing its own state"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{F6FABCDE-C919-404d-A5E0-F566F1BD3E33}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="enumeration"/>
+			<Column name="AppliesTo" value="class"/>
+			<Column name="Description" value="Specifies an enumerated type"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{FE0C831D-E8B0-4177-96BB-393FEDC29475}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="exception"/>
+			<Column name="AppliesTo" value="class"/>
+			<Column name="Description" value="An event may be thrown or caught by operation"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{4DEC0099-471B-4c36-9DF5-970A6EA935DE}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="form"/>
+			<Column name="AppliesTo" value="class"/>
+			<Column name="Description" value="A class that represents a html form"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{E830F4FE-1CA0-4fb6-AFDE-03242E09DFB5}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="frameset"/>
+			<Column name="AppliesTo" value="class"/>
+			<Column name="Description" value="A class that represents a html frame set"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{655E029A-0027-48d0-B727-3A04E33529F5}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="implementationClass"/>
+			<Column name="AppliesTo" value="class"/>
+			<Column name="Description" value="Implementation of a class in some programming language"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{873487DF-05F5-4300-9561-A3FD96BF8FF6}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="interface"/>
+			<Column name="AppliesTo" value="class"/>
+			<Column name="Description" value="A collection of operations that specify a service of a class or component"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{3113FFFA-4D41-477d-9BE6-B3CD58564111}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="jsp page"/>
+			<Column name="AppliesTo" value="class"/>
+			<Column name="Description" value="A java server page"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{B51DE113-F755-4c25-9F47-C5BBC204219D}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="model document"/>
+			<Column name="AppliesTo" value="class"/>
+			<Column name="Description" value="Set a class as an RTF &quot;Model Document&quot;"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="Style" value="Fill=-1;Border=-1;Font=-1;"/>
+			<Column name="ea_guid" value="{2AB307E9-919F-4a6a-A78F-78D2F00FCABE}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="powertype"/>
+			<Column name="AppliesTo" value="class"/>
+			<Column name="Description" value="A classifier whose objects are all children of a given parent"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{658FBF7A-BC2C-4a30-90FB-267C9A2A6FD3}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="process"/>
+			<Column name="AppliesTo" value="class"/>
+			<Column name="Description" value="A classifier whose instances represent a flow"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{AE8797EC-863F-460e-ADA7-991AE4A24973}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="script library"/>
+			<Column name="AppliesTo" value="class"/>
+			<Column name="Description" value="A library of subroutines/functions for web pages"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{6FBE47FB-FB4F-4567-AB69-033832FF15C4}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="server page"/>
+			<Column name="AppliesTo" value="class"/>
+			<Column name="Description" value="A class that represents a server based web page"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{76AA965C-4DCC-4afd-8B0E-C1AD6E8D6BE9}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="servlet"/>
+			<Column name="AppliesTo" value="class"/>
+			<Column name="Description" value="A java servlet component"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{FEBCB459-3A2D-4515-859F-B807B0974F2C}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="signal"/>
+			<Column name="AppliesTo" value="class"/>
+			<Column name="Description" value="Specifies an asynchronous stimulus communicated amongst instances"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{06B60C10-0082-46bd-9F25-B0082305702F}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="stereotype"/>
+			<Column name="AppliesTo" value="class"/>
+			<Column name="Description" value="The classifier is a stereotype that may be applied to other elements"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{615A5CE4-4134-43b5-BE60-90E59076793A}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="table"/>
+			<Column name="AppliesTo" value="class"/>
+			<Column name="Description" value="A class that represents a database table"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{CC13F96B-084A-4f72-8DFC-33108A569F29}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="target"/>
+			<Column name="AppliesTo" value="class"/>
+			<Column name="Description" value="A class that represents a target"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{8F4E1BEE-5316-447c-A115-2A40F85D6E5A}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="thread"/>
+			<Column name="AppliesTo" value="class"/>
+			<Column name="Description" value="A classifier whose instances represent a lightweight flow of control"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{8E6251F6-DBB3-4213-96CD-40A2227B2451}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="type"/>
+			<Column name="AppliesTo" value="class"/>
+			<Column name="Description" value="An abstract class specifying the structure but not implementation of a set of objects"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{4C128B46-B1A3-436d-A298-CD894FD83CA9}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="utility"/>
+			<Column name="AppliesTo" value="class"/>
+			<Column name="Description" value="A class whose attributes and operations are all class-scoped"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{B02A99F3-ECC0-4a8b-8250-B77D39D5A0BC}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="web page"/>
+			<Column name="AppliesTo" value="class"/>
+			<Column name="Description" value="A html web page"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{7F699293-F486-4a3e-AA69-607D4895B2D8}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="metaclass"/>
+			<Column name="AppliesTo" value="classifier"/>
+			<Column name="Description" value="A classifier whose objects are all classes"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{2896AD08-A906-4e5c-90F0-D2B39B4DE336}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="requirement"/>
+			<Column name="AppliesTo" value="comment"/>
+			<Column name="Description" value="Specifies a desired feature, property or behavior of system"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{23F094D6-1F59-413c-A498-99BE8F9FC14D}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="responsibility"/>
+			<Column name="AppliesTo" value="comment"/>
+			<Column name="Description" value="Specifies a contract by or an obligation of a class"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{FF1860FA-64FB-417e-A8E7-A70ABD2D18A8}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="document"/>
+			<Column name="AppliesTo" value="component"/>
+			<Column name="Description" value="The component represents a document"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{76518854-B956-4fbe-97C7-F457197FB509}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="executable"/>
+			<Column name="AppliesTo" value="component"/>
+			<Column name="Description" value="A component may be executed on a node"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{EEBEA933-2B27-4230-BA72-030A4FBB9029}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="file"/>
+			<Column name="AppliesTo" value="component"/>
+			<Column name="Description" value="Component represents a document containing source code"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{DCC13CE6-0B57-4680-992B-AE0272F5B6B3}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="library"/>
+			<Column name="AppliesTo" value="component"/>
+			<Column name="Description" value="Static or dynamic object library"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{9FF9086C-C177-4f5d-BC9E-58186F2DEC38}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="table"/>
+			<Column name="AppliesTo" value="component"/>
+			<Column name="Description" value="A component that represents a database table"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{39BA07B4-4610-4d9b-8399-F06C3B1F1EDD}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="invariant"/>
+			<Column name="AppliesTo" value="constraint"/>
+			<Column name="Description" value="Constrain must always hold for associated element"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{0E6E3206-D6C8-4e2b-8DD9-C74EE68686DB}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="postcondition"/>
+			<Column name="AppliesTo" value="constraint"/>
+			<Column name="Description" value="A constraint must hold after the invocation of an element"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{4AD503B3-CF5D-40a2-90B2-E202166C1DF9}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="precondition"/>
+			<Column name="AppliesTo" value="constraint"/>
+			<Column name="Description" value="A constraint that must hold before an element is invoked"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{2727099B-E372-48a1-AEC0-725BDAEBF715}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="access"/>
+			<Column name="AppliesTo" value="dependency"/>
+			<Column name="Description" value="Public contents of target are accessible to namespace of source"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{C8131C99-6DA5-4044-8755-7EF262EA08B3}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="bind"/>
+			<Column name="AppliesTo" value="dependency"/>
+			<Column name="Description" value="Source instantiates target template using given parameters"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{BE41862F-CAD1-400f-A011-327BC3FB0A69}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="call"/>
+			<Column name="AppliesTo" value="dependency"/>
+			<Column name="Description" value="Source invokes the target"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{18150FFA-A057-43ee-A097-015F53FB772C}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="derive"/>
+			<Column name="AppliesTo" value="dependency"/>
+			<Column name="Description" value="Source may be computed from target"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{7A44AA59-A2BF-46a1-B2F8-67612BA36F76}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="friend"/>
+			<Column name="AppliesTo" value="dependency"/>
+			<Column name="Description" value="Source is given special visibility of target"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{42E4E986-410C-4de6-8472-9D7D53317C5D}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="import"/>
+			<Column name="AppliesTo" value="dependency"/>
+			<Column name="Description" value="Public contents of target are imported into source namespace"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{DC8C89DD-9F55-47ab-B7AE-BC5DAF3B263D}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="instanceOf"/>
+			<Column name="AppliesTo" value="dependency"/>
+			<Column name="Description" value="The source object is an instance of the target"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{EE00100F-0D26-4f5a-B275-32FC975B638B}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="instantiate"/>
+			<Column name="AppliesTo" value="dependency"/>
+			<Column name="Description" value="Operations on the source class create instances of the target class"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{4E994FAA-6EA7-458a-9E4A-D794D8A61189}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="powertype"/>
+			<Column name="AppliesTo" value="dependency"/>
+			<Column name="Description" value="A classifier whose objects are all children of a given parent"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{9620C329-2B0E-45de-A527-768D30F01129}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="refine"/>
+			<Column name="AppliesTo" value="dependency"/>
+			<Column name="Description" value="Target is at a finer degree of abstraction than source"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{F4AD1285-BE37-4e00-BEF2-EA00F92FE03B}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="send"/>
+			<Column name="AppliesTo" value="dependency"/>
+			<Column name="Description" value="The source sends the target an event"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{14686288-2FC5-42fb-90E1-CE646660A8B6}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="trace"/>
+			<Column name="AppliesTo" value="dependency"/>
+			<Column name="Description" value="The target is an historical ancestor of source"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{090A4EB7-3F43-44e1-91C6-5C0FC50EC629}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="use"/>
+			<Column name="AppliesTo" value="dependency"/>
+			<Column name="Description" value="The semantics of the source depend on the public part of the target"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{BFD8CB74-7BFE-493f-AA0F-87E1236636F2}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="implementation"/>
+			<Column name="AppliesTo" value="generalization"/>
+			<Column name="Description" value="Child inherits implementation of parent but does not support its interfaces"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{1494946B-2753-4bd8-B057-027E26589655}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="button"/>
+			<Column name="AppliesTo" value="GUIElement"/>
+			<Column name="Description" value="A button GUI element"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{21504AD7-0064-462a-A216-8E3BBBCA7F73}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="checkbox"/>
+			<Column name="AppliesTo" value="GUIElement"/>
+			<Column name="Description" value="A checkbox GUI element"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{CB8AE0B9-E199-47b9-8414-E4A6ABAB55FD}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="combobox"/>
+			<Column name="AppliesTo" value="GUIElement"/>
+			<Column name="Description" value="A combo box GUI element"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{D8A955A8-F9C1-4707-B545-9793112616CD}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="date"/>
+			<Column name="AppliesTo" value="GUIElement"/>
+			<Column name="Description" value="A GUI element for date entry"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{588C9602-D941-464c-9941-B11716D89E0C}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="dialog"/>
+			<Column name="AppliesTo" value="GUIElement"/>
+			<Column name="Description" value="A GUI screen"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{63B0F42D-E644-43a5-B810-A1E41F6AC52A}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="dropdown"/>
+			<Column name="AppliesTo" value="GUIElement"/>
+			<Column name="Description" value="A GUI element that forces user selection"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{8E535603-12DB-43ef-94A4-9B790ECC7BCF}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="form"/>
+			<Column name="AppliesTo" value="GUIElement"/>
+			<Column name="Description" value="A GUI screen"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{44EB1B5F-5BE5-4dbb-8C97-197EE06C6691}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="hline"/>
+			<Column name="AppliesTo" value="GUIElement"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="Style" value="Fill=-1;Border=-1;Font=-1;"/>
+			<Column name="ea_guid" value="{521B2057-164E-4b33-ABFC-06A8CE5521E8}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="list"/>
+			<Column name="AppliesTo" value="GUIElement"/>
+			<Column name="Description" value="A List of Information"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{5EE2C004-895D-44ce-914B-85441F20C204}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="listview"/>
+			<Column name="AppliesTo" value="GUIElement"/>
+			<Column name="Description" value="A stand list view control"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{54163194-0604-4246-92E6-AF37B838428F}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="panel"/>
+			<Column name="AppliesTo" value="GUIElement"/>
+			<Column name="Description" value="A GUI element for grouping other controls"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{5D538492-F3DB-4cfa-A532-C618DE0E80D4}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="radio"/>
+			<Column name="AppliesTo" value="GUIElement"/>
+			<Column name="Description" value="A radio button GUI element"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{F4BE1035-4C97-41dd-B206-763AB8E957AF}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="report"/>
+			<Column name="AppliesTo" value="GUIElement"/>
+			<Column name="Description" value="A List of Information with an expandable text field"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{05DCE4F3-18EC-4f9f-9FAF-238CE5B5BCD8}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="tab"/>
+			<Column name="AppliesTo" value="GUIElement"/>
+			<Column name="Description" value="A tab control GUI element"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{8BC3ABBC-75E0-4dec-A5C8-B036A7AE9B9C}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="textbox"/>
+			<Column name="AppliesTo" value="GUIElement"/>
+			<Column name="Description" value="A GUI element for user text entry"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{21BB1B62-5368-4a6f-ACB5-EB54223BC161}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="time"/>
+			<Column name="AppliesTo" value="GUIElement"/>
+			<Column name="Description" value="A GUI element for time entry"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{B4C17F57-079F-4fcc-962F-CF512D21C86A}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="treelist"/>
+			<Column name="AppliesTo" value="GUIElement"/>
+			<Column name="Description" value="A List of Information with a tree structure"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{0E89B354-F2D4-4bbc-874E-1FDD0304E1B7}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="vline"/>
+			<Column name="AppliesTo" value="GUIElement"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="Style" value="Fill=-1;Border=-1;Font=-1;"/>
+			<Column name="ea_guid" value="{F8EFAF78-2FE4-408d-98BD-33A6CA87E37C}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="global"/>
+			<Column name="AppliesTo" value="link end"/>
+			<Column name="Description" value="Corresponding object is visible because of enclosing scope"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{8CC13299-FA8D-4dcf-B089-6D6421A6D8A7}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="local"/>
+			<Column name="AppliesTo" value="link end"/>
+			<Column name="Description" value="The corresponding object is visible in local scope"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{18899BC5-A889-4234-ADC6-E675C4EE1703}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="parameter"/>
+			<Column name="AppliesTo" value="link end"/>
+			<Column name="Description" value="The corresponding element is visible because it is a parameter"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{938AAE89-3524-4bda-A730-2E602ED8B9DB}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="self"/>
+			<Column name="AppliesTo" value="link end"/>
+			<Column name="Description" value="The corresponding object is visible because it is the dispatcher"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{742052E8-44C5-4aa5-8816-C556426EFEEF}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="become"/>
+			<Column name="AppliesTo" value="message"/>
+			<Column name="Description" value="Target is same as source but later in time"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{2CE43EAB-7E22-441a-8F59-F669ABC217E7}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="copy"/>
+			<Column name="AppliesTo" value="message"/>
+			<Column name="Description" value="Target is exact but independent copy of source"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{3781E0E3-BD1F-43aa-9E81-F846C443EA8C}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="create"/>
+			<Column name="AppliesTo" value="message"/>
+			<Column name="Description" value="Target is created by event or message"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{63A15CA3-1AB8-4b07-91F5-4AFABEC66B90}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="destroy"/>
+			<Column name="AppliesTo" value="message"/>
+			<Column name="Description" value="Target is destroyed by event or message"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{21ADB160-C3CA-4b99-A39D-C48CC580ACA9}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="analysis system"/>
+			<Column name="AppliesTo" value="model"/>
+			<Column name="Description" value="Contains analysis classes - entities, boundaries and control elements"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{99234B59-032D-4a4c-BB92-F81AA96CA253}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="design system"/>
+			<Column name="AppliesTo" value="model"/>
+			<Column name="Description" value="Contains design elements"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{C5FB1B64-FE98-4b4a-B30E-895CEBD099B8}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="implementation system"/>
+			<Column name="AppliesTo" value="model"/>
+			<Column name="Description" value="Contains implementation subsystems and/or components and relationships"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{0D15182E-18B5-4568-80FA-394B3B49860F}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="use case system"/>
+			<Column name="AppliesTo" value="model"/>
+			<Column name="Description" value="Specifies the services offered to the users"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{CA3A39BB-A75C-4d08-BA78-3BFE251D6271}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="cdrom"/>
+			<Column name="AppliesTo" value="node"/>
+			<Column name="Description" value="A class that represents a CDRom drive"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{757D9219-6A29-4b61-8BAC-29D54A65A8E8}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="cd-rom"/>
+			<Column name="AppliesTo" value="node"/>
+			<Column name="Description" value="A class that represents a CDRom drive"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{86682D89-512C-46ed-B2D3-722322AB78D6}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="computer"/>
+			<Column name="AppliesTo" value="node"/>
+			<Column name="Description" value="A class that represents a computer"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{BE905910-A96A-4031-AB96-C828435C705E}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="disk array"/>
+			<Column name="AppliesTo" value="node"/>
+			<Column name="Description" value="A class that represents a disk array"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{8D2D5041-DDEB-4f6a-9E65-D59430064096}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="pc"/>
+			<Column name="AppliesTo" value="node"/>
+			<Column name="Description" value="A class that represents a personal computer"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{D7817640-5D28-4e40-B1A2-712A9E7E944C}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="pc client"/>
+			<Column name="AppliesTo" value="node"/>
+			<Column name="Description" value="A class that represents a clients PC"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{B55D3FDE-893E-4b11-BEA9-535F522C1AD2}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="pc server"/>
+			<Column name="AppliesTo" value="node"/>
+			<Column name="Description" value="A class that represents a PC server"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{5D23FA20-8ED5-4337-B257-0F6F65C8543A}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="secure"/>
+			<Column name="AppliesTo" value="node"/>
+			<Column name="Description" value="A class that represents aet"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{F8B95429-3C74-4ae7-865D-F3DBC290C5F7}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="server"/>
+			<Column name="AppliesTo" value="node"/>
+			<Column name="Description" value="A class that represents a server"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{AD3A2975-F927-4d02-8135-7AA2C7554A84}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="storage"/>
+			<Column name="AppliesTo" value="node"/>
+			<Column name="Description" value="A class that represents a storage device"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{91C145C7-D030-4d30-9509-C823F0EE0D25}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="unix server"/>
+			<Column name="AppliesTo" value="node"/>
+			<Column name="Description" value="A class that represents a Unix server"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{DC73FA86-46FB-4d02-9E60-7FD2A8E5107A}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="user pc"/>
+			<Column name="AppliesTo" value="node"/>
+			<Column name="Description" value="A class that represents a users PC"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{CA863438-8B32-437a-9D65-0B192E665838}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="check"/>
+			<Column name="AppliesTo" value="OpTable"/>
+			<Column name="Description" value="A Check constraint to enforce domain integrity"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{9F9D6A78-34D0-43b5-9512-B2B0687B2CDC}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="FK"/>
+			<Column name="AppliesTo" value="OpTable"/>
+			<Column name="Description" value="A Foreign Key"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{2FA6E00D-F39D-4b77-8D00-7F2A9393B97F}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="index"/>
+			<Column name="AppliesTo" value="OpTable"/>
+			<Column name="Description" value="An index of one or more columns"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{3B4F664C-078B-418b-944A-5572710F98BC}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="PK"/>
+			<Column name="AppliesTo" value="OpTable"/>
+			<Column name="Description" value="A Primary Key"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{4FE10DAD-ADB2-4f3d-96E2-01F19174D790}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="proc"/>
+			<Column name="AppliesTo" value="OpTable"/>
+			<Column name="Description" value="A stored procedure"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{D7092930-4FF1-4c0c-8677-6D974C802A70}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="trigger"/>
+			<Column name="AppliesTo" value="OpTable"/>
+			<Column name="Description" value="A trigger which executes automatically when an UPDATE, INSERT, or DELETE statement is issued"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{5D7D5CBA-590D-49f1-8D57-A68A45A7E6E4}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="unique"/>
+			<Column name="AppliesTo" value="OpTable"/>
+			<Column name="Description" value="A Unique constraint to enforce the integrity of a database automatically"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{2CE73A58-19AF-464c-B746-7BA6ADC17E4E}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="facade"/>
+			<Column name="AppliesTo" value="package"/>
+			<Column name="Description" value="Package is a view of another concrete package"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{6D2CA4A9-C6FD-4696-8AE2-AEAC7DFC3000}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="framework"/>
+			<Column name="AppliesTo" value="package"/>
+			<Column name="Description" value="Package consists mainly of patterns"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{3247DDBD-7969-48f7-975B-276B10E755E9}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="model"/>
+			<Column name="AppliesTo" value="package"/>
+			<Column name="Description" value="A semantically closed abstraction of a system"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{EB317F29-9C21-4ccc-B555-06CB3C4B971F}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="stub"/>
+			<Column name="AppliesTo" value="package"/>
+			<Column name="Description" value="A package serves as a proxy for the public contents of another package"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{57487A9D-B159-4a9b-895E-E62A409CE240}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="subsystem"/>
+			<Column name="AppliesTo" value="package"/>
+			<Column name="Description" value="A grouping of elements that constitute a specification of behavior offered by other contained elements"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{E85BDEE3-1B64-4cdc-94B3-5045061EE139}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="system"/>
+			<Column name="AppliesTo" value="package"/>
+			<Column name="Description" value="A package representing the entire system being modeled"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{A986396A-C92D-41ff-96EC-8AA6904F894B}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="communicate"/>
+			<Column name="AppliesTo" value="uses"/>
+			<Column name="Description" value="Communication between actor and use case"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{7D9A2604-5029-41de-9029-39CDAB3C45BF}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="extend"/>
+			<Column name="AppliesTo" value="uses"/>
+			<Column name="Description" value="Target use case extends the source at a given extension point"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{E9763FF9-E6F2-4ae6-B586-722791C809A6}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="include"/>
+			<Column name="AppliesTo" value="uses"/>
+			<Column name="Description" value="Source use case explicitly includes the behavior of target"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{E54B5BA2-7D2B-41a4-A013-011796BA44F7}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="enum"/>
+			<Column name="AppliesTo" value="EnumerationLiteral"/>
+			<Column name="Description" value="enum"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="ea_guid" value="{FA7D4DD3-2622-4856-8227-FF8CB95735C1}"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Stereotype" value="Perspectief"/>
+			<Column name="AppliesTo" value="class"/>
+			<Column name="Description" value="Perspectief"/>
+			<Column name="MFEnabled" value="FALSE"/>
+			<Column name="Style" value="&lt;STYLE fill=&quot;16777215&quot; text=&quot;5197647&quot; border=&quot;9109504&quot; groupname=&quot;GEA&quot; type=&quot;script&quot;&gt;&lt;SHAPE file=&quot;shape main&amp;#xA;{&amp;#xA;	layoutType = &amp;quot;border&amp;quot;;&amp;#xA;	//noshadow=false;&amp;#xA;	&amp;#xA;	setpencolor(0,0,139);&amp;#xA;	setlinestyle(&amp;quot;solid&amp;quot;);&amp;#xA;	setfillcolor(211,255,255);&amp;#xA;	//polygon(50,50,16,50,0);&amp;#xA;	ellipse(100,100,0,0);&amp;#xA;	&amp;#xA;	defsize(90,70);&amp;#xA;	//rectangle(0,0,100,100);&amp;#xA;	addsubshape(&amp;quot;padding&amp;quot;,&amp;quot;n&amp;quot;);&amp;#xA;	addsubshape(&amp;quot;name&amp;quot;,&amp;quot;center&amp;quot;);&amp;#xA;	addsubshape(&amp;quot;perspectief&amp;quot;,&amp;quot;center&amp;quot;);&amp;#xA;	&amp;#xA;	shape padding&amp;#xA;	{&amp;#xA;		preferredheight=20;&amp;#xA;	}&amp;#xA;	&amp;#xA;	shape name&amp;#xA;	{&amp;#xA;		h_align=&amp;quot;center&amp;quot;;&amp;#xA;		bold=true;&amp;#xA;		print(&amp;quot;#name#&amp;quot;);&amp;#xA;	}&amp;#xA;	&amp;#xA;}&amp;#xA;&amp;#xA;shape label&amp;#xA;{&amp;#xA;	bold=true;&amp;#xA;	setorigin(&amp;quot;sw&amp;quot;,0,0);&amp;#xA;}&amp;#xA;&amp;#xA;decoration perspectief {&amp;#xA;      orientation = &amp;quot;E&amp;quot;;&amp;#xA;      noshadow = false;&amp;#xA;      image (&amp;quot;Perspectief_Icon&amp;quot;, 0, 0, 80, 80);&amp;#xA;}&quot; type=&quot;EAShapeScript 1.0&quot; enabled=&quot;1&quot;/&gt;&lt;/STYLE&gt;&#xA;"/>
+			<Column name="ea_guid" value="{49FE1E45-62F1-4206-85EE-F2CCEB46E861}"/>
+		</DataRow>
+	</DataSet>
+</RefData>

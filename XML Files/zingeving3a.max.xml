@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<max:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" exportDate="6-5-2021 13:05:00" xmlns:max="http://www.groeiplatformgea.nl/MAX">
+  <modelId>01c8a58b-a3f5-4092-92fc-1082a774a1a6</modelId>
+  <objects>
+    <object>
+      <id>{A9ADC1CD-0A8C-487b-A0E1-664865CF86EF}</id>
+      <eType>Kernwaarde</eType>
+      <name>Biedt kansen met de eerste stappen op de arbeidsmarkt</name>
+      <notes>Tijdelijkheid: De Key biedt mensen de kans om de eerste stappen te zetten op de arbeidsmarkt. Onze toekomstige collega's, en zij die al bij De Key werken, krijgen de kans te groeien, binnen De Key of ergens anders. Hierbij snijdt het mes aan twee kanten: de organisatie is flexibel en mensen zijn gemotiveerd omdat zij hun talenten benutten. Er is ruimte om te (blijven) doen waar je goed in bent.</notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>1</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>1</aantal_kernwaarden>
+      <aantal_doelen>0</aantal_doelen>
+      <aantal_strategieuitspraken>0</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{2994CBDC-B4C4-461f-9362-4D7143227616}</id>
+      <eType>Kernwaarde</eType>
+      <name>Daadkracht op basis van professionaliteit</name>
+      <notes>Daadkracht: Op basis van hun professionaliteit kunnen medewerkers van De Key snel knopen doorhakken en dingen voor elkaar krijgen. Zelfstandig als het kan, samen met anderen als het een bredere inzet vergt. Collega's met rechtstreekse klantcontacten krijgen meer ruimte om snel in te spelen op vragen van bewoners. Overbodige regeltjes of vastgeroeste tradities vormen daarvoor geen belemmering.</notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>2</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>2</aantal_kernwaarden>
+      <aantal_doelen>0</aantal_doelen>
+      <aantal_strategieuitspraken>0</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{2F957F86-81A3-4840-B5F9-A04EAE155250}</id>
+      <eType>Kernwaarde</eType>
+      <name>Eigenaarschap en verantwoordelijkheid nemen</name>
+      <notes>Eigenaarschap: Bij De Key werken we gezamenlijk aan de woonconcepten voor onze doelgroep: toetreders op de woningmarkt. Iedereen heeft daarbij zijn eigen rol, die wordt ingevuld op basis van vakmanschap. Er is ruimte om verantwoordelijkheid te nemen, en er wordt verwacht dat je die ruimte ook gebruikt. Eigen initiatief wordt op prijs gesteld.</notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>3</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>3</aantal_kernwaarden>
+      <aantal_doelen>0</aantal_doelen>
+      <aantal_strategieuitspraken>0</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{441F40A0-F091-4990-8257-C19F9BDB8254}</id>
+      <eType>Kernwaarde</eType>
+      <name>Vertrouwen zit in onze manier van werken</name>
+      <notes>Vertrouwen is de basis voor de manier waarop wij werken en de manier waarop wij met onze klanten omgaan.</notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>4</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>4</aantal_kernwaarden>
+      <aantal_doelen>0</aantal_doelen>
+      <aantal_strategieuitspraken>0</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{A81057EA-B350-4282-AE0B-CC52B4D7417C}</id>
+      <eType>Missie Element</eType>
+      <name>De Key</name>
+      <notes></notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>5</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>4</aantal_kernwaarden>
+      <aantal_doelen>0</aantal_doelen>
+      <aantal_strategieuitspraken>0</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{F4FF14F7-18F1-4419-A454-72B8C76FEF8C}</id>
+      <eType>Missie Element</eType>
+      <name>Dynamiek van de stad</name>
+      <notes></notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>6</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>4</aantal_kernwaarden>
+      <aantal_doelen>0</aantal_doelen>
+      <aantal_strategieuitspraken>0</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{FDA50B5C-2567-46e4-9FF8-1FEEBB5D4737}</id>
+      <eType>Missie Element</eType>
+      <name>Eerste stappen</name>
+      <notes></notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>7</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>4</aantal_kernwaarden>
+      <aantal_doelen>0</aantal_doelen>
+      <aantal_strategieuitspraken>0</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{F6696167-D7FB-4ccf-B186-054A0E26C899}</id>
+      <eType>Missie Uitspraak</eType>
+      <name>Eerste stappen op de huizenmarkt ondersteunen</name>
+      <notes>Woonstichting De Key draagt bij aan de dynamiek van de stad door binnen en net buiten de Amsterdamse ring A10 mensen de kans te bieden om hun eerste stappen te zetten op de woningmarkt.</notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>8</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>4</aantal_kernwaarden>
+      <aantal_doelen>0</aantal_doelen>
+      <aantal_strategieuitspraken>0</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{0071D891-1947-4e93-A0AA-F3FD9D257167}</id>
+      <eType>Missie Element</eType>
+      <name>Mensen</name>
+      <notes></notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>9</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>4</aantal_kernwaarden>
+      <aantal_doelen>0</aantal_doelen>
+      <aantal_strategieuitspraken>0</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{7641B903-491F-4bc1-8B35-024FF54ECA36}</id>
+      <eType>Missie Element</eType>
+      <name>Ring A-10</name>
+      <notes></notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>10</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>4</aantal_kernwaarden>
+      <aantal_doelen>0</aantal_doelen>
+      <aantal_strategieuitspraken>0</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{F5A4E140-3D4F-415d-BDB4-821005E5E575}</id>
+      <eType>Missie Element</eType>
+      <name>Woningmarkt</name>
+      <notes></notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>11</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>4</aantal_kernwaarden>
+      <aantal_doelen>0</aantal_doelen>
+      <aantal_strategieuitspraken>0</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{4DCE9C2C-36E8-4d75-B7D4-DCF6A2A4763E}</id>
+      <eType></eType>
+      <name></name>
+      <notes>De missie-elementen bij de missie.</notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>12</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>4</aantal_kernwaarden>
+      <aantal_doelen>0</aantal_doelen>
+      <aantal_strategieuitspraken>0</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{BF706E1B-6DC6-41d2-8AFE-9E53756FE162}</id>
+      <eType></eType>
+      <name></name>
+      <notes>De uitspraak geclassificeerd als zijnde van de soort missie.
+</notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>13</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>4</aantal_kernwaarden>
+      <aantal_doelen>0</aantal_doelen>
+      <aantal_strategieuitspraken>0</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{0908639A-02C5-4b4b-A3F5-376179162964}</id>
+      <eType></eType>
+      <name></name>
+      <notes></notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>14</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>4</aantal_kernwaarden>
+      <aantal_doelen>0</aantal_doelen>
+      <aantal_strategieuitspraken>0</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{8890E38D-6455-462b-9365-62D002D4F302}</id>
+      <eType>Visie Uitspraak</eType>
+      <name>Actief portefeuillebeheer innovatieve woonconcepten en initiatieven ondersteunen</name>
+      <notes>Het huidige woningbezit bouwen we voort met actief portefeuillebeheer, innovatieve woonconcepten en door het ondersteunen van initiatieven.</notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>15</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>4</aantal_kernwaarden>
+      <aantal_doelen>0</aantal_doelen>
+      <aantal_strategieuitspraken>0</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{4D89EEA8-BBAD-4990-BF50-0B2CFEF07E8B}</id>
+      <eType>Visie Uitspraak</eType>
+      <name>Bijdragen aan de dynamiek in Amsterdam door betaalbare woonvormen voor starters op de woningmarkt</name>
+      <notes>Onze bijdrage aan de dynamiek in Amsterdam is betaalbare woonvormen cre&amp;#235;ren en beheren die aantrekkelijk zijn voor mensen die hun eerste stappen willen zetten op de woningmarkt.</notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>16</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>4</aantal_kernwaarden>
+      <aantal_doelen>0</aantal_doelen>
+      <aantal_strategieuitspraken>0</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{FCD2D218-FF90-4323-9716-696ECD05F83A}</id>
+      <eType>Visie Uitspraak</eType>
+      <name>De dynamiek van Amsterdam is cruciaal voor haar ontwikkeling als metropool</name>
+      <notes>Amsterdam is een dynamische stad, een stad in beweging. Deze dynamiek is cruciaal voor de ontwikkeling van Amsterdam als metropool.</notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>17</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>4</aantal_kernwaarden>
+      <aantal_doelen>0</aantal_doelen>
+      <aantal_strategieuitspraken>0</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{B3B15E73-62A9-465f-AF60-AF23BD757555}</id>
+      <eType>Visie Uitspraak</eType>
+      <name>De integriteit van de organisatie bepaalt in hoge mate haar legitimiteit</name>
+      <notes>De integriteit van de organisatie bepaalt in hoge mate de legitimiteit van de organisatie.</notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>18</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>4</aantal_kernwaarden>
+      <aantal_doelen>0</aantal_doelen>
+      <aantal_strategieuitspraken>0</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{EAEB566D-8103-4bbe-9185-A8A7793CF7F2}</id>
+      <eType>Visie Uitspraak</eType>
+      <name>Een eenduidig gezicht naar buiten vraagt om goede onderlinge afstemming</name>
+      <notes>Een eenduidig gezicht naar buiten vraagt om goede onderlinge afstemming, intern en met onze klanten en partners.</notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>19</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>4</aantal_kernwaarden>
+      <aantal_doelen>0</aantal_doelen>
+      <aantal_strategieuitspraken>0</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{36DA8988-3729-4d67-877B-105AA85A4D9E}</id>
+      <eType>Visie Uitspraak</eType>
+      <name>Investeren in woonproducten voor mensen die financieel nog niet zelfredzaam zijn op de woningmarkt</name>
+      <notes>De Key steekt haar energie en kapitaal in woonproducten voor mensen die financieel nog niet zelfredzaam zijn op de woningmarkt.</notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>20</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>4</aantal_kernwaarden>
+      <aantal_doelen>0</aantal_doelen>
+      <aantal_strategieuitspraken>0</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{9E65DCAE-4BF2-4cbf-8993-48E7E1DBE3DE}</id>
+      <eType>Visie Uitspraak</eType>
+      <name>Maatschappelijk rendement is de drijfveer voor onze activiteiten</name>
+      <notes>Maatschappelijk rendement is de drijfveer voor onze activiteiten.</notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>21</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>4</aantal_kernwaarden>
+      <aantal_doelen>0</aantal_doelen>
+      <aantal_strategieuitspraken>0</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{C55D619A-E3BE-4ed2-9707-239AC5D5413C}</id>
+      <eType>Visie Uitspraak</eType>
+      <name>Om woningen te realiseren is meer hoogbouw nodig</name>
+      <notes>Ruimtelijk heeft de verstedelijking consequenties: om woningen te realiseren is bijvoorbeeld meer hoogbouw nodig.</notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>22</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>4</aantal_kernwaarden>
+      <aantal_doelen>0</aantal_doelen>
+      <aantal_strategieuitspraken>0</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{7377BAA6-8A4A-4f9f-A05F-C326256B07ED}</id>
+      <eType>Visie Uitspraak</eType>
+      <name>Ons financiële beleid is een randvoorwaarde om duurzaam onze activiteiten mogelijk te maken</name>
+      <notes>Ons financi&amp;#235;le beleid is een randvoorwaarde om duurzaam onze activiteiten mogelijk te maken.</notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>23</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>4</aantal_kernwaarden>
+      <aantal_doelen>0</aantal_doelen>
+      <aantal_strategieuitspraken>0</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{91E9FF18-C077-46e6-9CA6-F920F7FEB123}</id>
+      <eType>Visie Uitspraak</eType>
+      <name>Op basis van een grote variëteit aan standaardproducten creëren we dienstverlening op maat</name>
+      <notes>Op basis van een grote vari&amp;#235;teit aan standaardproducten cre&amp;#235;ren we dienstverlening op maat.</notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>24</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>4</aantal_kernwaarden>
+      <aantal_doelen>0</aantal_doelen>
+      <aantal_strategieuitspraken>0</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{5FBC2856-81EF-434f-BA63-C4A648087F5B}</id>
+      <eType>Visie Uitspraak</eType>
+      <name>Veel toetreders tot de woningmartkt zoeken naar een woning die op dat moment bij hun situatie past</name>
+      <notes>Veel mensen zoeken niet naar de zekerheid van een huis voor het leven, maar naar een oplossing die op dat moment bij hun situatie past. Dit geldt des te meer voor toetreders op de woningmarkt.</notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>25</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>4</aantal_kernwaarden>
+      <aantal_doelen>0</aantal_doelen>
+      <aantal_strategieuitspraken>0</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{B824F280-7453-482f-A27C-EF55A859A91F}</id>
+      <eType>Visie Uitspraak</eType>
+      <name>Vertrouwen is de basis voor de manier waarop wij werken</name>
+      <notes>Vertrouwen: is de basis voor de manier waarop wij werken en de manier waarop wij met onze klanten omgaan.</notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>26</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>4</aantal_kernwaarden>
+      <aantal_doelen>0</aantal_doelen>
+      <aantal_strategieuitspraken>0</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{DCA46998-A19D-42ca-BEC8-D27985D5F606}</id>
+      <eType>Visie Uitspraak</eType>
+      <name>We sluiten aan bij actuele ontwikkelingen en blijven trouw aan waarden</name>
+      <notes>We sluiten aan bij actuele ontwikkelingen en blijven trouw aan waarden die van oudsher de identiteit van De Key bepalen.</notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>27</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>4</aantal_kernwaarden>
+      <aantal_doelen>0</aantal_doelen>
+      <aantal_strategieuitspraken>0</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{75BABBEA-F8BC-483f-9ADB-FBEA5752D754}</id>
+      <eType>Visie Uitspraak</eType>
+      <name>We staan open voor initiatieven van anderen</name>
+      <notes>We staan open voor initiatieven van anderen (Bijvoorbeeld door zelfbouwgroepen op gang te helpen of door woonco&amp;#246;peraties met raad en daad te ondersteunen).</notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>28</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>4</aantal_kernwaarden>
+      <aantal_doelen>0</aantal_doelen>
+      <aantal_strategieuitspraken>0</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{788F6B08-E701-4f90-82CA-AAE17F76CB57}</id>
+      <eType>Strategie Uitspraak</eType>
+      <name>Alleen zaken doen met integere relaties</name>
+      <notes>De Key wil alleen zaken doen met integere relaties en heeft het beleid en de procedures hier op ingericht.</notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>29</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>4</aantal_kernwaarden>
+      <aantal_doelen>0</aantal_doelen>
+      <aantal_strategieuitspraken>1</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{ED4063CE-DC6D-4c72-97A7-05B797B88784}</id>
+      <eType>Strategie Uitspraak</eType>
+      <name>DAEB- en niet-DAEB-activiteiten dragen bij aan onze ambities </name>
+      <notes>(Zowel) DAEB- en niet-DAEB-activiteiten dragen allemaal bij aan de ambities geformuleerd in onze missie.</notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>30</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>4</aantal_kernwaarden>
+      <aantal_doelen>0</aantal_doelen>
+      <aantal_strategieuitspraken>2</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{879AAF2B-DFE9-46e5-991C-ADAF72BF3978}</id>
+      <eType>Strategie Uitspraak</eType>
+      <name>Duidelijkheid door tijdelijkheid</name>
+      <notes>Tijdelijkheid: De Key kiest voor duidelijkheid door tijdelijkheid.</notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>31</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>4</aantal_kernwaarden>
+      <aantal_doelen>0</aantal_doelen>
+      <aantal_strategieuitspraken>3</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{42523038-0477-453a-90B5-099ACB5BB0D3}</id>
+      <eType>Strategie Uitspraak</eType>
+      <name>Een nieuwe verbindingenstructuur</name>
+      <notes>Vaststellen nieuwe verbindingenstructuur in overeenstemming met de nieuwe woningwet (2016)</notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>32</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>4</aantal_kernwaarden>
+      <aantal_doelen>0</aantal_doelen>
+      <aantal_strategieuitspraken>4</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{FF6ECA67-A415-46ba-8DFC-75D81D05FCB2}</id>
+      <eType>Strategie Uitspraak</eType>
+      <name>Investeren indien dat bijdraagt aan de toetreding van starters op de woningmarkt</name>
+      <notes>Bij investeringen is het altijd de afweging dat deze eraan bijdragen dat mensen hun eerste stappen op de woningmarkt kunnen zetten.</notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>33</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>4</aantal_kernwaarden>
+      <aantal_doelen>0</aantal_doelen>
+      <aantal_strategieuitspraken>5</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{C8DC418C-DEFB-4eaf-8324-D3D32E765E21}</id>
+      <eType>Strategie Uitspraak</eType>
+      <name>Organisch groeien</name>
+      <notes>De groei naar een dergelijke (wendbare) organisatie willen we op een organische wijze bereiken.</notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>34</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>4</aantal_kernwaarden>
+      <aantal_doelen>0</aantal_doelen>
+      <aantal_strategieuitspraken>6</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{BD3D9A84-2AA7-4a60-BA64-AAF3F3567AF1}</id>
+      <eType>Strategie Uitspraak</eType>
+      <name>Vernieuwing mogelijk maken door ook op een indirecte manier in vastgoed te investeren</name>
+      <notes>De Key maakt vernieuwing mogelijk door haar vermogen ook op een indirecte manier in vastgoed te investeren.</notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>35</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>4</aantal_kernwaarden>
+      <aantal_doelen>0</aantal_doelen>
+      <aantal_strategieuitspraken>7</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{9C67BAA8-B6AC-454b-999A-AB69854BE4B7}</id>
+      <eType>Strategie Uitspraak</eType>
+      <name>Voorkomen dat het eigen vermogen door het geleende geld wordt opgegeten</name>
+      <notes>Om te voorkomen dat het eigen vermogen door het geleende geld wordt opgegeten, kiezen wij ervoor om onze leningen zo veel als mogelijk af te lossen en om de ambities te financieren vanuit het eigen vermogen.</notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>36</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>4</aantal_kernwaarden>
+      <aantal_doelen>0</aantal_doelen>
+      <aantal_strategieuitspraken>8</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{F90E9960-4B04-4308-A8C4-04528CACE869}</id>
+      <eType>Strategie Uitspraak</eType>
+      <name>We bieden woonvormen aan met en zonder staatssteun</name>
+      <notes>De Key kiest er voor om nu &amp;#232;n in de toekomst deze woonvormen aan te bieden in producten die met en zonder staatssteun worden gerealiseerd.</notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>37</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>4</aantal_kernwaarden>
+      <aantal_doelen>0</aantal_doelen>
+      <aantal_strategieuitspraken>9</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{1F8D8093-A56F-4f66-B120-DA1F25EAD2DC}</id>
+      <eType>Strategie Uitspraak</eType>
+      <name>We ondersteunen de energievoorzieningsdoelstellingen van Amsterdam</name>
+      <notes>We werken mee aan de doelstellingen van de gemeente Amsterdam om woningen over te laten gaan op een alternatieve vorm van verwarming zonder fossiel gas en zonnepanelen te plaatsen.</notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>38</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>4</aantal_kernwaarden>
+      <aantal_doelen>0</aantal_doelen>
+      <aantal_strategieuitspraken>10</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{7C29EB65-7C7B-438c-89BA-27A4E32F7628}</id>
+      <eType>Strategie Uitspraak</eType>
+      <name>We ontwikkelen koopvormen waarbij het eigenaarschap gaandeweg groeit</name>
+      <notes>Eigenaarschap: Voor mensen die een woning willen kopen maar dat nog niet zelfstandig kunnen financieren, ontwikkelt De Key koopvormen waarbij het eigenaarschap gaandeweg groeit.</notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>39</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>4</aantal_kernwaarden>
+      <aantal_doelen>0</aantal_doelen>
+      <aantal_strategieuitspraken>11</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{AC075D6C-F492-4a64-B9BF-0DC7117A4ED8}</id>
+      <eType>Strategie Uitspraak</eType>
+      <name>We ontwikkelen woonproducten die passen bij het inkomen van starters</name>
+      <notes>We ontwikkelen woonproducten die qua oppervlakte, uitrusting en prijs passen bij het inkomen van veel starters.</notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>40</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>4</aantal_kernwaarden>
+      <aantal_doelen>0</aantal_doelen>
+      <aantal_strategieuitspraken>12</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{04BB372F-27D3-4b39-A334-C8BA23626EC6}</id>
+      <eType>Strategie Uitspraak</eType>
+      <name>We organiseren transparantie en governance</name>
+      <notes>De keuze voor transparantie en governance past in de beweging die we binnen De Key organiseren.</notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>41</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>4</aantal_kernwaarden>
+      <aantal_doelen>0</aantal_doelen>
+      <aantal_strategieuitspraken>13</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{592B94B7-A923-4d43-ACD7-443406F84620}</id>
+      <eType>Strategie Uitspraak</eType>
+      <name>We streven op lange termijn naar een strikt juridische splitsing</name>
+      <notes>Een strikt juridische splitsing is onze ambitie op de lange termijn. (niet-DAEB tak alleen in dochtervennootschap)</notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>42</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>4</aantal_kernwaarden>
+      <aantal_doelen>0</aantal_doelen>
+      <aantal_strategieuitspraken>14</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{3A031861-7FA9-426f-8A55-3993D19B9A43}</id>
+      <eType>Strategie Uitspraak</eType>
+      <name>We verkopen onze commerciële ruimtes woningen die niet passen bij onze ambities</name>
+      <notes>Dit (verkoop van vastgoed) betekent sowieso verkoop van commerci&amp;#235;le ruimtes (BOG), en op termijn verkoop van woningen die niet passen bij onze nieuwe ambities.</notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>43</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>4</aantal_kernwaarden>
+      <aantal_doelen>0</aantal_doelen>
+      <aantal_strategieuitspraken>15</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{A62AE29D-AA63-4a73-A8C9-03413DD5D087}</id>
+      <eType>Doel</eType>
+      <name>Gelijke behandeling van alle huurders</name>
+      <notes>Gelijkheid: Alle huurders van De Key hebben recht op dezelfde kwaliteit van dienstverlening</notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>44</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>4</aantal_kernwaarden>
+      <aantal_doelen>1</aantal_doelen>
+      <aantal_strategieuitspraken>15</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{F097EEA7-5A15-473d-85D6-4C73B7E5B282}</id>
+      <eType>Doel</eType>
+      <name>Kiezen voor mensen die hun eerste stappen zetten op de woningmarkt</name>
+      <notes>Wij kiezen voor mensen die hun eerste stappen zetten op de woningmarkt</notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>45</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>4</aantal_kernwaarden>
+      <aantal_doelen>2</aantal_doelen>
+      <aantal_strategieuitspraken>15</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{74A5CE16-F950-4e01-9487-171865C82500}</id>
+      <eType>Doel</eType>
+      <name>Streven naar een dynamisch evenwicht van de zelfstandige sociale huurvoorraad</name>
+      <notes>We streven naar een dynamisch evenwicht van de zelfstandige sociale huurvoorraad: het aantal nieuwbouwwoningen is minimaal gelijk aan het aantal verkopen en liberalisaties.</notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>46</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>4</aantal_kernwaarden>
+      <aantal_doelen>3</aantal_doelen>
+      <aantal_strategieuitspraken>15</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{EB94A00E-01BB-48eb-9DC2-BB7DEF2540DC}</id>
+      <eType>Doel</eType>
+      <name>Streven naar een jaarlijks een rendement op inflatieniveau plus een risico-opslag</name>
+      <notes>Voldoende betekent voor ons: jaarlijks een rendement op inflatieniveau plus een risico-opslag. In de meerjarenbegroting is dit totaal benodigde rendement berekend op 3 procent voor de geborgde activiteiten (DAEB).</notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>47</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>4</aantal_kernwaarden>
+      <aantal_doelen>4</aantal_doelen>
+      <aantal_strategieuitspraken>15</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{9332A52C-513A-4bd4-845C-9B916E1EC9A5}</id>
+      <eType>Doel</eType>
+      <name>Waardevast vastgoedportefeuille</name>
+      <notes>De vastgoedportefeuille hoeft niet te groeien, maar moet wel waardevast blijven.</notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>48</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>4</aantal_kernwaarden>
+      <aantal_doelen>5</aantal_doelen>
+      <aantal_strategieuitspraken>15</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{EC60D278-95CF-4c68-B934-7001A3FEA8EE}</id>
+      <eType>Doel</eType>
+      <name>We brengen het aantal entiteiten in onze verbindingenstructuur terug</name>
+      <notes>De Key is actief bezig met het terugbrengen van het aantal entiteiten in haar verbindingenstructuur</notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>49</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>4</aantal_kernwaarden>
+      <aantal_doelen>6</aantal_doelen>
+      <aantal_strategieuitspraken>15</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{AAD8DAB7-A2D6-4680-9A93-F0F8BDFD5A8D}</id>
+      <eType>Doel</eType>
+      <name>We stoten BOG-vastgoed af</name>
+      <notes>BOG is niet onze kerntaak. Waar mogelijk stoten we dit vastgoed af. We voegen in principe geen nieuwe BOG toe door nieuwbouw</notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>50</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>4</aantal_kernwaarden>
+      <aantal_doelen>7</aantal_doelen>
+      <aantal_strategieuitspraken>15</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+      <id>{C085CC8D-485B-4f71-9766-C5137D01F7A3}</id>
+      <eType>Doel</eType>
+      <name>We streven naar een afname van het aantal parkeerplaatsen</name>
+      <notes>Parkeren zien we niet als onze kerntaak. We streven naar een afname van het aantal parkeerplaatsen. Voor de meeste woonstarters is dit geen probleem: zij zijn niet in het bezit van een auto. Nieuwbouw realiseren we zoveel mogelijk zonder parkeerplekken.</notes>
+      <type>Class</type>
+      <modified>Moet NOG-T-2021</modified>
+      <aantal_zingevingsuitspraken>51</aantal_zingevingsuitspraken>
+      <aantal_kernwaarden>4</aantal_kernwaarden>
+      <aantal_doelen>8</aantal_doelen>
+      <aantal_strategieuitspraken>15</aantal_strategieuitspraken>
+      <peil_tov_ingangsdatum>1</peil_tov_ingangsdatum>
+      <tag name="EindDatum" value="Waarde"></tag>
+      <tag name="IngangsDatum" value="Waarde">22-12-2016</tag>
+      <tag name="OpvoerDatum" value="Waarde">22-12-2016</tag>
+      <tag name="geaid" value="Waarde">UIT-28</tag>
+    </object>
+    <object></object>
+    <object></object>
+    <object></object>
+    <object></object>
+    <object></object>
+    <object></object>
+    <object></object>
+    <object></object>
+    <object></object>
+    <object></object>
+    <object></object>
+    <object></object>
+    <object></object>
+    <object></object>
+    <object></object>
+    <object></object>
+    <object></object>
+    <object></object>
+    <object></object>
+    <object></object>
+    <object></object>
+    <object></object>
+    <object></object>
+    <object></object>
+    <object></object>
+    <object></object>
+    <object></object>
+    <object></object>
+    <object></object>
+    <object></object>
+    <object></object>
+    <object></object>
+    <object></object>
+    <object></object>
+    <object></object>
+    <object></object>
+    <object></object>
+    <object></object>
+    <object></object>
+    <object></object>
+    <object></object>
+    <object></object>
+    <object></object>
+    <object></object>
+    <object></object>
+    <object></object>
+    <object></object>
+    <object></object>
+    <object></object>
+    <object></object>
+  </objects>
+  <relationships></relationships>
+</max:model>

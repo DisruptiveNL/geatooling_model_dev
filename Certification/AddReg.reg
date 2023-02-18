@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+[HKEY_LOCAL_MACHINE\SOFTWARE\SolidWorks\AddIns\{69035687-7A1A-4692-A466-FB2470D2A65D}]
+@=dword:00000001
+"Description"="Add-in for SolidWorks"
+"Title"="My addon" 

@@ -1,0 +1,47 @@
+Name;Type;Stereotype;Status;Notes;TagValue_Type;TagValue_Toelichting
+VRAAG1;Class;Enterprisevraagstuk;Proposed;"Vraagstuk: Versterken financiële functie De Key: Vanuit verschillende invalshoeken (zowel intern als extern zoals accountant en wetgeving) ligt de aandacht binnen De Key op het versterken van de financiële functie. Dit betreft zowel de financiële afdelingen als ook de overige bedrijfsonderdelen binnen De Key.
+Het gaat hierbij o.a. om:
+- Eigenaarschap data
+- De kwaliteit van de basisgegevens (juist, volledig, controle) en (analyse) dossiervorming (ook v.w.b. de aan te leveren informatie van de verschillende bedrijfsonderdelen)
+- Vervroegen (wettelijke) deadlines m.b.t. rapportages
+- Scherper inrichten van de interne review binnen de financiële afdelingen
+- Verdere detaillering op perceelniveau (zowel financieel als vastgoedinformatie)
+- Homogene complexdefinities t.b.v. taxatiewaarde
+- Verdere verbetering vastgoedsturing
+- Maken van integrale afwegingen op allerlei gebied tussen de verschillende bedrijfsonderdelen
+
+Om deze versterking te realiseren dienen maatregelen te worden getroffen die enerzijds binnen de financiële afdelingen moeten worden geïmplementeerd, maar anderzijds ook in breed overleg tussen alle bedrijfsonderdelen tot stand moeten komen.
+";Beschrijving;
+VRAAG2;Class;Enterprisevraagstuk;Proposed;Externe accountant: versterken financiele afdeling. Verbeteren van dossiers (position papers), cijferbeoordelingen, verbandcontroles (kennisniveau en samenwerking medewerkers). Direct kasstroomoverzicht: processen beter inregelen.;Aanleiding of Oorzaak;
+VRAAG3;Class;Enterprisevraagstuk;Proposed;Externe accountant: versterken financiele functie. Afspraak = afspraak. Aanleveren documenten voor dossiers, en toelichtingen op documenten. Stamgegevens op orde.  ;Aanleiding of Oorzaak;
+VRAAG4;Class;Enterprisevraagstuk;Proposed;Fiscaliteit: van financiele exploitatie op complexniveau naar perceel niveau: investeringskosten, exploitatielasten en -opbrengsten gesplitst naar perceel. Ook vastgoedinformatie o.b.v. perceelniveau.;Aanleiding of Oorzaak;
+VRAAG5;Class;Enterprisevraagstuk;Proposed;Marktwaarde verhuurde staat en bedrijfswaarde: gebrek aan homogene complexdefinities t.b.v. taxatiewaarde. Verplichting vanuit de Woningwet.;Aanleiding of Oorzaak;
+VRAAG6;Class;Enterprisevraagstuk;Proposed;Vastgoedsturing: noodzakelijke schakel in het doorlopen van de beleidsachtbaan. Hulpmiddel t.d.v. het op strategisch, tactisch en operationeel niveau uitvoeren van de portefeuillestrategie.;Aanleiding of Oorzaak;
+VRAAG7;Class;Enterprisevraagstuk;Proposed;Geen integrale afweging tussen verschillende bedrijfsonderdelen / veranderende omgeving (woningwet): inzake besluitvorming op vele aspecten.;Aanleiding of Oorzaak;
+VRAAG8;Class;Enterprisevraagstuk;Proposed;Eigenaarschap data: aanspreekbaarheid kwaliteit data is onduidelijk. En ook van het proces.;Aanleiding of Oorzaak;
+VRAAG9;Class;Enterprisevraagstuk;Proposed;Externe accountant: versterken financiele functie. Moeite met halen deadlines. Vervroegen wettelijke deadlines.;Aanleiding of Oorzaak;
+VRAAG10;Class;Enterprisevraagstuk;Proposed;2 Uiterlijk in 2017 wegwerken. Mate van in control basiswerkzaamheden (must have).;Urgentie;
+VRAAG11;Class;Enterprisevraagstuk;Proposed;3 Uiterlijk in 2017 wegwerken. Mate van in control basiswerkzaamheden (must have).;Urgentie;
+VRAAG12;Class;Enterprisevraagstuk;Proposed;4 Uiterlijk in 2018 wegwerken. Verdampen compensabele verliezen.;Urgentie;
+VRAAG13;Class;Enterprisevraagstuk;Proposed;5 Uiterlijk in 2017 wegwerken. Marktwaarde en bedrijfswaarde zijn basisgegevens voor veel activiteiten (must have).;Urgentie;
+VRAAG14;Class;Enterprisevraagstuk;Proposed;6 Uiterlijk in 2018 wegwerken. Vastgoedsturing. Vanaf scheiding Daeb / niet-Daeb.;Urgentie;
+VRAAG15;Class;Enterprisevraagstuk;Proposed;7 Uiterlijk in 2018 wegwerken. Lagere mate van in control / verbeterambitie (nice to have).;Urgentie;
+VRAAG16;Class;Enterprisevraagstuk;Proposed;8 Uiterlijk in 2018 wegwerken. Lagere mate van in control / verbeterambitie (nice to have).;Urgentie;
+VRAAG17;Class;Enterprisevraagstuk;Proposed;9 Uiterlijk in 2018 wegwerken. Vanaf 2018 geldt de nieuwe wettelijke deadline (1 mei).;Urgentie;
+VRAAG18;Class;Enterprisevraagstuk;Proposed;Belang is hoog. Besluitvorming mede o.b.v. de juiste financiele afweging (intern). Voldoen aan wet- en regelgeving (extern). Sanctie: verscherpt toezicht.;Belang;
+VRAAG19;Class;Enterprisevraagstuk;Proposed;2, 3 en 9 Tijdig starten verbetertraject medewerkers: kennisniveau, kennisdelen, richtlijnen en samenwerking. Mogelijk medewerkers nieuw aannemen en/of afscheid nemen. Samen met externe accountant aan het begin van de controle duidelijke afspraken maken over wederzijdse verwachtingen.;Implicatie;
+VRAAG20;Class;Enterprisevraagstuk;Proposed;Externe accountant & Woningwet: interne review binnen de financiele afdeling scherper neerzetten.;Aanleiding of Oorzaak;
+VRAAG21;Class;Enterprisevraagstuk;Proposed;20 Uiterlijk 2018 wegwerken. Lagere mate in control (nice te have).;Urgentie;
+VRAAG22;Class;Enterprisevraagstuk;Proposed;4 Project Vastgoedregistratie (afdeling IV) moet afgerond zijn in 2017. De activamodule (Aereon) moet geimplementeerd zijn in 2017. Kostenverdeelstaat / administratie scheidingsvoorstel moet gereed zijn in 2017. Vpb aangiften t/m 2015 voor 1 mei 2017 indienen.;Implicatie;
+VRAAG23;Class;Enterprisevraagstuk;Proposed;5 Project Vastgoedregistratie (afdeling IV) moet afgerond zijn in 2017. Complexdefinities opstellen (S&B / P&C).;Implicatie;
+VRAAG24;Class;Enterprisevraagstuk;Proposed;6 Organisatorische afspraken vastleggen: verantwoordelijkheden, bevoegdheden.;Implicatie;
+VRAAG25;Class;Enterprisevraagstuk;Proposed;7 Het concept van de ronde organisatie implementeren en daarbij een werkwijze vinden.;Implicatie;
+VRAAG26;Class;Enterprisevraagstuk;Proposed;"8 Het concept ""eigenaarschap"" implementeren. Het procesmanagement implementeren (T Hagbi). ";Implicatie;
+VRAAG27;Class;Enterprisevraagstuk;Proposed;20 Het financieel reglement implementeren.;Implicatie;
+VRAAG28;Class;Enterprisevraagstuk;Proposed;Algemeen: Onrust bij medewerkers (direct betrokkenen).;Risico;
+VRAAG29;Class;Enterprisevraagstuk;Proposed;4 Verdampen verrekenbare verliezen.;Risico;
+VRAAG30;Class;Enterprisevraagstuk;Proposed;Algemeen: Onvoldoende draagvlak / bereidheid tot medewerking bij medewerkers (organisatie breed).;Risico;
+VRAAG31;Class;Enterprisevraagstuk;Proposed;9 Aanwijzing bij niet voldoen aan deadlines (extern).;Risico;
+VRAAG32;Class;Enterprisevraagstuk;Proposed;5 en 6 Besluitvorming o.b.v. de onjuiste (financiele) afweging (intern). Suboptimale vastgoedbesluiten.;Risico;
+VRAAG33;Class;Enterprisevraagstuk;Proposed;Onvoldoende verandervermogen t.a.v. dit verbetertraject.;Risico;
+VRAAG34;Class;Enterprisevraagstuk;Proposed;Botsing met de uitwerking koers van De Key Ruimte voor beweging: Bijv. wijkgericht samenwerken. Verantwoording kosten op verzamelniveau;Risico;

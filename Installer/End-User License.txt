@@ -1,0 +1,79 @@
+SOFTWARE PRODUCT LICENSE AGREEMENT
+  
+MDG Technology for GEA - Enterprise Architect MDG Add-In, Version 1.0
+Copyright (C) 2009-2021 Sparx Systems Pty Ltd. All Rights Reserved  
+
+IMPORTANT - READ CAREFULLY: This End User License Agreement ("EULA") is a legal agreement between YOU as Licensee and SPARX SYSTEMS ("SPARX") for the SOFTWARE PRODUCT identified above. By installing, copying, or otherwise using the SOFTWARE PRODUCT, YOU agree to be bound by the terms of this EULA. If YOU do not agree to the terms of this EULA, promptly return the unused SOFTWARE PRODUCT to the place of purchase for a full refund.
+
+The copyright in the SOFTWARE PRODUCT and its documentation is owned by Sparx Systems Pty Ltd A.C.N 085 034 546. Subject to the terms of this EULA, YOU are granted a non-exclusive right for the duration of the EULA to use the SOFTWARE PRODUCT. YOU do not acquire ownership of copyright or other intellectual property rights in any part of the SOFTWARE PRODUCT by virtue of this EULA.
+Your use of this software indicates your acceptance of this EULA and warranty.  
+
+DEFINITIONS  
+In this End User License Agreement, unless the contrary intention appears,  
+"EULA" means this End User License Agreement
+"SPARX" means Sparx Systems Pty Ltd A.C.N 085 034 546
+"Licensee" means YOU, or the organization (if any) on whose behalf YOU are taking the EULA.
+"Registered Edition of MDG Technology for GEA" means the edition of the SOFTWARE PRODUCT which is available for purchase from the web site: <<http://www.sparxsystems.com/products/mdg/tech/gea/purchase.html>>, following the thirty-day free evaluation period.
+"SOFTWARE PRODUCT" or "SOFTWARE" means MDG Technology for GEA, which includes computer software and associated media and printed materials, and may include online or electronic documentation.
+"Support Services" means email-based support provided by SPARX, including advice on usage of MDG Technology for GEA, investigation of bugs, fixes, repairs of models, if and when appropriate, and general product support.
+"SPARX support engineers" means employees of SPARX who provide on-line support services.
+"Trial edition of MDG Technology for GEA" means the edition of the SOFTWARE PRODUCT which is available free of charge for evaluation purposes for a period of thirty (30) days.
+ 
+GRANT OF LICENSE  
+In accordance with the terms of this EULA YOU are granted the following rights:  
+To install and use one copy of the SOFTWARE PRODUCT, or in its place, any prior version for the same operating system, on a single computer. As the primary user of the computer on which the SOFTWARE PRODUCT is installed, YOU may make a second copy for your exclusive use on either a home or portable computer.
+To store or install a copy of the SOFTWARE PRODUCT on a storage device, such as a network server, used only to install or run the SOFTWARE PRODUCT over an internal network. If YOU wish to increase the number of users entitled to concurrently access the SOFTWARE PRODUCT, YOU must notify SPARX and agree to pay an additional fee. 
+To make copies of the SOFTWARE PRODUCT for backup and archival purposes only. 
+ 
+EVALUATION LICENSE 
+The Trial version of MDG Technology for GEA is not free software. Subject to the terms of this agreement, YOU are hereby licensed to use this software for evaluation purposes without charge for a period of thirty (30) days. 
+Upon expiration of the thirty (30) days, the Software Product must be removed from the computer. Unregistered use of MDG Technology for GEA after the 30-day evaluation period is in violation of Australian, U.S. and international copyright laws.
+
+SPARX may extend the evaluation period on request and at their discretion.
+If YOU choose to use this software after the 30-day evaluation period, a license must be purchased (as described at <<http://www.sparxsystems.com/products/mdg/tech/GEA/purchase.html>>). Upon payment of the license fee, YOU will be sent details on where to download the registered edition of MDG Technology for GEA and will be provided with a suitable software 'key' by email.
+ 
+ADDITIONAL RIGHTS AND LIMITATIONS 
+YOU hereby undertake not to sell, rent, lease, translate, adapt, vary, modify, decompile, disassemble, reverse engineer, create derivative works of, modify, sub-license, loan or distribute the SOFTWARE PRODUCT other than as expressly authorized by this EULA.
+YOU further undertake not to reproduce or distribute license key-codes except under the express and written permission of SPARX.
+If the Software Product purchased is an Academic Edition, YOU ACKNOWLEDGE THAT the license is limited to use in an educational context, either for self-education or use in a registered teaching institution. The Academic Edition may not be used to produce commercial software products or be used in a commercial environment, without the express written permission of SPARX.
+
+ASSIGNMENT
+YOU may only assign all your rights and obligations under this EULA to another party if YOU supply to the transferee a copy of this EULA and all other documentation including proof of ownership. Your license is then terminated.
+
+TERMINATION
+Without prejudice to any other rights, SPARX may terminate this EULA if YOU fail to comply with the terms and conditions. Upon termination YOU or YOUR representative shall destroy all copies of the SOFTWARE PRODUCT and all of its component parts or otherwise return or dispose of such material in the manner directed by SPARX.
+
+WARRANTIES AND LIABILITY
+WARRANTIES
+SPARX warrants that 
+The SOFTWARE PRODUCT will perform substantially in accordance with the accompanying written materials for a period of ninety (90) days from the date of receipt, and 
+Any Support Services provided by SPARX shall be substantially as described in applicable written materials provided to YOU by SPARX, and SPARX support engineers will make commercially reasonable efforts to solve any problems associated with the SOFTWARE PRODUCT.
+
+EXCLUSIONS
+To the maximum extent permitted by law, SPARX excludes, for itself and for any supplier of software incorporated in the SOFTWARE PRODUCT, all liability for all claims, expenses, losses, damages and costs made against or incurred or suffered by YOU directly or indirectly (including without limitation lost costs, profits and data) arising out of:
+YOUR use or misuse of the SOFTWARE PRODUCT; 
+YOUR inability to use or obtain access to the SOFTWARE PRODUCT; 
+Negligence of SPARX or its employees, contractors or agents, or of any supplier of software incorporated in the SOFTWARE PRODUCT, in connection with the performance of SPARX's obligations under this EULA; or 
+Termination of this EULA by either party for any reason.
+
+LIMITATION
+The SOFTWARE PRODUCT and any documentation are provided "AS IS" and all warranties, whether express, implied, statutory or otherwise, relating in any way to the subject matter of this EULA or to this EULA generally, including without limitation, warranties as to: quality; fitness; merchantability; correctness; accuracy; reliability; correspondence with any description or sample, meeting your or any other requirements; uninterrupted use; compliance with any relevant legislation; and being error or virus free are excluded. Where any legislation implies in this EULA any term, and that legislation avoids or prohibits provisions in a contract excluding or modifying such a term, such term shall be deemed to be included in this EULA. However, the liability of SPARX for any breach of such term shall, if permitted by legislation, be limited, at SPARX's option to any one or more of the following upon return of the SOFTWARE PRODUCT and a copy of the receipt: 
+
+If the breach relates to the SOFTWARE PRODUCT:
+The replacement of the SOFTWARE PRODUCT, or the supply of an equivalent SOFTWARE PRODUCT; 
+The repair of such SOFTWARE PRODUCT, or the payment of the cost of replacing the SOFTWARE PRODUCT, or of acquiring an equivalent SOFTWARE PRODUCT; or 
+The payment of the cost of having the SOFTWARE PRODUCT repaired. 
+
+If the breach relates to services in relation to the SOFTWARE PRODUCT: 
+The supplying of the services again; or 
+The payment of the cost of having the services supplied again.
+ 
+TRADEMARKS
+All names of products and companies used in this EULA, the SOFTWARE PRODUCT, or the enclosed documentation may be trademarks of their corresponding owners. Their use in this EULA is intended to comply with the respective guidelines and licenses. 
+
+Windows, Windows XP, Windows Vista, Windows 7, Windows 8 and Windows 2000 are trademarks of Microsoft. 
+
+GEA is a trademark of The Open Group.
+
+GOVERNING LAW  
+This agreement shall be construed in accordance with the laws of the Commonwealth of AUSTRALIA, in the state of Victoria.

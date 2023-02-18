@@ -1,0 +1,153 @@
+;NSIS Modern User Interface
+;Header Bitmap Example Script
+;Written by Joost Verburg
+
+;--------------------------------
+;Include Modern UI
+
+  !include "MUI2.nsh"
+  !include "MUI_EXTRAPAGES.nsh"
+
+;--------------------------------
+
+;General
+
+  ;$LOCALAPPDATA
+ ;Var Ben
+
+  ;Name and file
+  Name "Sparx GEA Framework"
+  OutFile "D:\geaframework\Installer\EAGEA.exe"
+  Unicode True
+
+  ;Default installation folder
+  ;InstallDir "$LOCALAPPDATA\EGEA"
+  ;C:\Users\bvdve\AppData\Roaming\Sparx Systems\EA\MDGTechnologies
+  
+  ;Get installation folder from registry if available
+  InstallDirRegKey HKCU "Software\EAGEA" ""
+
+  ;Request application privileges for Windows Vista
+  RequestExecutionLevel user
+
+;--------------------------------
+;Interface Configuration
+
+  !define MUI_HEADERIMAGE
+  !define MUI_HEADERIMAGE_BITMAP "D:\OneDrive\Afbeeldingen\GEA\GEA-logo.bmp" ; optional
+  !define MUI_ABORTWARNING
+  !define MUI_ICON "D:\OneDrive\Afbeeldingen\GEA\GEA_logo_icoon.ico"
+
+;--------------------------------
+;Pages
+
+  ;Page Custom myCustom
+
+  !insertmacro MUI_PAGE_LICENSE "D:\geaframework\Installer\End-User License.txt"
+  !insertmacro MUI_PAGE_README "D:\geaframework\Installer\Readme Information.txt"
+  !insertmacro MUI_PAGE_COMPONENTS
+  !insertmacro MUI_PAGE_DIRECTORY
+  !insertmacro MUI_PAGE_INSTFILES
+
+  !insertmacro MUI_UNPAGE_CONFIRM
+  !insertmacro MUI_UNPAGE_INSTFILES
+  
+;--------------------------------
+;Languages
+ 
+  !insertmacro MUI_LANGUAGE "English"
+
+;--------------------------------
+;Installer Sections
+
+Section "GEA Framework" SecGEAModule
+
+  SetOutPath "$INSTDIR"
+  
+  ;ADD YOUR OWN FILES HERE...
+  File /r "D:\geaframework\XML Files\GEA_MDG.xml"
+  ;CopyFiles /FILESONLY "D:\geaframework\XML Files\GEA_MDG.xml" "$APPDATA\Sparx Systems\EA\MDGTechnologies\GEA_MDG.xml"
+  CopyFiles /FILESONLY $INSTDIR\GEA_MDG.xml "$APPDATA\Sparx Systems\EA\MDGTechnologies\GEA_MDG.xml"
+  File /r "D:\geaframework\ReferenceData\*"
+  
+  ;Store installation folder
+  WriteRegStr HKCU "Software\EAGEA" "" $INSTDIR
+
+  ;GET .NET framework
+  EnumRegKey $1 HKLM "SOFTWARE\Microsoft\NET Framework Setup\NDP" $0
+
+  ;find the location of RegAsm
+  ;ReadRegStr $R1 HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft .NET Framework 4.0" "InstallLocation"
+
+  ;KOPIEER GeaTools.dll naar resource map en pak hem vanuit daar!
+  ;execute regasm passing the path to my assembly
+  Exec '"C:\Windows\Microsoft.NET\Framework\v4.0.30319\regasm" "GEATools.dll" /codebase'
+  IfErrors 0 +2
+  MessageBox MB_OK "Error Registering GEATools.dll"
+
+  C:\Windows\Microsoft.NET\Framework\v4.0.30319\regasm GEATools.dll /codebase
+  ;C:\Windows\Microsoft.NET\Framework\v4.0.30319
+  
+  MessageBox MB_OK|MB_ICONSTOP "Installation failed. $1\n\
+         This software requires Windows Framework version"
+
+  ;Make registry entry
+  WriteRegStr HKCU "Software\Sparx Systems\EAAddins" "GEATools" "GEATools.GEAToolsUI"
+  ;Software\Sparx Systems\EAAddins\EAeXchange]
+  ;@="EAeXchange.DSEAeXchangeClass"
+  
+  ;Create uninstaller
+  WriteUninstaller "$INSTDIR\Uninstall.exe"
+
+SectionEnd
+
+;--------------------------------
+
+;Function myCustom
+;StrCpy $Ben = "Ben"
+
+;MessageBox MB_OK '$Ben'
+;FunctionEnd
+
+Function .onInit
+  SetOutPath $TEMP
+  File /oname=spltmp.bmp "D:\OneDrive\Afbeeldingen\GEA\GEA-logo.bmp"
+
+  splash::show 1000 $TEMP\spltmp
+
+  Pop $0 ; $0 has '1' if the user closed the splash screen early,
+	 ; '0' if everything closed normally, and '-1' if some error occurred.
+
+  Delete $TEMP\spltmp.bmp
+FunctionEnd
+
+;--------------------------------
+
+;--------------------------------
+;Descriptions
+
+  ;Language strings
+  LangString DESC_SecGEAModule ${LANG_ENGLISH} "Installing the GEA Framework. Please restart Enterprise Architect from Sparx after installing."
+
+  ;Assign language strings to sections
+  !insertmacro MUI_FUNCTION_DESCRIPTION_BEGIN
+    !insertmacro MUI_DESCRIPTION_TEXT ${SecGEAModule} $(DESC_SecGEAModule)
+  !insertmacro MUI_FUNCTION_DESCRIPTION_END
+ 
+;--------------------------------
+;Uninstaller Section
+
+Section "Uninstall"
+
+  ;ADD YOUR OWN FILES HERE...
+  Delete "$APPDATA\Sparx Systems\EA\MDGTechnologies\GEA_MDG.xml"
+  RMDir /r "$INSTDIR\Images"
+  Delete "$INSTDIR\*.xml"
+
+  Delete "$INSTDIR\Uninstall.exe"
+
+  RMDir "$INSTDIR"
+
+  DeleteRegKey /ifempty HKCU "Software\EAGEA"
+
+SectionEnd

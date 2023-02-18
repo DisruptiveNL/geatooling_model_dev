@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="9294B7E1-5" name="GEA" version="1.0" notes="GEA"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="Example" notes="" cx="251" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Diagram_Custom">
+						<Property name="diagramID" value="eg"/>
+						<Property name="frameString" value="#DGMTYPE# #DGMNAME#"/>
+						<Property name="pdata" value="HideAtts=1;HideOps=1;ShowTags=1;HideEStereo=1;"/>
+						<Property name="styleex" value="HideQuals=0;HideConnStereotype=1;"/>
+						<Property name="toolbox" value="GEA"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+		<ViewDefinitions/>
+		<Metamodel/>
+	</Content>
+</UMLProfile>

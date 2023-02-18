@@ -1,0 +1,74 @@
+Name;Type;Stereotype;Status;Notes;TagValue_Ben.Veranderinitiatief;TagValue_Clusters;TagValue_Toelichting;TagValue_Perspectief
+OPLCONTOUR1;Class;Oplossingscontour;Proposed;Ontwikkelen van een dashboard afgesproken normen (zowel beleid als wettleijk) inzichtelijk worden zodat eventuele bijsturing mogelijk wordt gemaakt;Zie Notes;Onbekend;;Financieel
+OPLCONTOUR2;Class;Oplossingscontour;Proposed;Duurzaamheidsbeleid Key-breed uitwerken en vaststellen;;Onbekend;;Vastgoed
+OPLCONTOUR3;Class;Oplossingscontour;Proposed;Eigenaarschap data inrichten (vastgoed, Verhuur, Grootboek, etc.);;Data;;Processen
+OPLCONTOUR4;Class;Oplossingscontour;Proposed;Definities (op dataveld / atribuut niveau) bepalen en vaststellen;;Data;aansluiten op branche (b.v. CORA) / niet zelf verzinnen;Processen
+OPLCONTOUR5;Class;Oplossingscontour;Proposed;Bepalen van de set noodzakelijke informatie voor Vastgoedsturing en ontwikkelen dashboard;;Data;;Processen
+OPLCONTOUR6;Class;Oplossingscontour;Proposed;Herinrichten systemen t.b.v. vastlegging op perceelniveau;;Data;;Financieel
+OPLCONTOUR7;Class;Oplossingscontour;Proposed;Autorisaties verscherpen (need to know) en overbodige data verwijderen (niet nodig voor proces of bewaartermijn);;Data;;Informatievoorziening
+OPLCONTOUR8;Class;Oplossingscontour;Proposed;Eigenaarschap data implementeren;;Data;;Informatievoorziening
+OPLCONTOUR9;Class;Oplossingscontour;Proposed;Autorisatie verscherpen obv Need to Know;;Data;Botst met 34 (wijkgericht werken en verantwoordelijkheid laag in organisatie)tijdens organische groei;Informatievoorziening
+OPLCONTOUR10;Class;Oplossingscontour;Proposed;Benoem de focus voor afdeling IV op de financiele functie;;Data;;Organisatiebesturing
+OPLCONTOUR11;Class;Oplossingscontour;Proposed;Leveranciersdata: gegevens leveranciers eenduidig vastleggen en onderhouden;;Data;;Leveranciers
+OPLCONTOUR12;Class;Oplossingscontour;Proposed;Een proces (her-)ontwerpen om vastgoedgegevens op orde te brengen en te houden;;Data;Wat zijn vastgoedgegevens?;Vastgoed
+OPLCONTOUR13;Class;Oplossingscontour;Proposed;Taskforce instellen die met hoge prioriteit complexdefinities definieert en vaststelt;;Data;;Vastgoed
+OPLCONTOUR14;Class;Oplossingscontour;Proposed;"Vooaf afstemmen invloed teams ""Wijkgericht samenwerken"" op vastgoedregistratie / stamgegevens opo orde.";;Data;wellicht onder druk;Dienstverlening
+OPLCONTOUR15;Class;Oplossingscontour;Proposed;Implementatie van vastgestelde processen en beleidsdocumenten;;Kennisdeling;;Processen
+OPLCONTOUR16;Class;Oplossingscontour;Proposed;Uitleg waarom kostenregistratie op detail voor alle medewerkers;;Kennisdeling;Perspectief Financiën;Processen
+OPLCONTOUR17;Class;Oplossingscontour;Proposed;Eigenaren continue bewust maken van informatiebeveiliging én privacy (by design);;Kennisdeling;;Informatievoorziening
+OPLCONTOUR18;Class;Oplossingscontour;Proposed;Organiseren van kennis en betrokkenheid obv stages, opdrachten of gezamenlijk ontwikkelen/testen;;Kennisdeling;;Informatievoorziening
+OPLCONTOUR19;Class;Oplossingscontour;Proposed;Organiseren van kennis en betrokkenheid obv stages, opdrachten of gezamenlijk ontwikkelen/testen;;Kennisdeling;Tijd en ruimte zijn voorwaarde / raakvlak perspectief medewerkers;Informatievoorziening
+OPLCONTOUR20;Class;Oplossingscontour;Proposed;Organiseren kennisoverdracht financiele functie;;Kennisdeling;;Medewerkers
+OPLCONTOUR21;Class;Oplossingscontour;Proposed;Bredere terugkoppeling interne toetsing en audits;;Kennisdeling;;Organisatiebesturing
+OPLCONTOUR22;Class;Oplossingscontour;Proposed;"Betekenis geven aan de ""R"" responsiviteit. Bewustzijn vergroten, geheel overzien, handelen vanuit pro-activiteit";;Kennisdeling;;Organisatiebesturing
+OPLCONTOUR23;Class;Oplossingscontour;Proposed;Integrale afweging vastleggen en interne en externe stakeholders in beeld hebben.;;Kennisdeling;;Stakeholders
+OPLCONTOUR24;Class;Oplossingscontour;Proposed;"Vooraf afstemmen / aansluiten dientstverleningsprocessen ""Wijkgericht samenwerken"" met financiele processen";;Kennisdeling;principes niet onder druk;Dienstverlening
+OPLCONTOUR25;Class;Oplossingscontour;Proposed;Beleg de verantwoordelijkheid van het rendement op vastgoed;;Organisatie Besturing;;Organisatiebesturing
+OPLCONTOUR26;Class;Oplossingscontour;Proposed;Positioneren Vastgoedsturing: rollen en verantwoordelijkheden definieren en inregelen;;Organisatie Besturing;;Vastgoed
+OPLCONTOUR27;Class;Oplossingscontour;Proposed;Kosten baten analyse: opbrengsten niet doen versus kosten;;Organisatie Besturing;;Klant
+OPLCONTOUR28;Class;Oplossingscontour;Proposed;Kosten baten analyse: opbrengsten niet doen versus kosten;;Organisatie Besturing;;Klant
+OPLCONTOUR29;Class;Oplossingscontour;Proposed;Is beheermaatregel ivm nieuwe woonconcepten;;Organisatie Besturing;zie dienstverlening;Klant
+OPLCONTOUR30;Class;Oplossingscontour;Proposed;Kosten baten analyse: wel of niet in rekening brengen bij huurders;;Organisatie Besturing;wat zijn kosten en opbrengsten;Dienstverlening
+OPLCONTOUR31;Class;Oplossingscontour;Proposed;Nadrukkelijk volgen van ontwikkeling medewerker;;Personeel;;Medewerkers
+OPLCONTOUR32;Class;Oplossingscontour;Proposed;Consequenties van disfunctioneren nakomen, zowel ondersteunend als sanctionerend;;Personeel;;Medewerkers
+OPLCONTOUR33;Class;Oplossingscontour;Proposed;Vieren van succesen;;Personeel;afspraak gehaald=succes vieren;Medewerkers
+OPLCONTOUR34;Class;Oplossingscontour;Proposed;Onderzoeken van mogelijkheden tot uitbesteding waardoor vrijgekomen capaciteit aangewend kan worden voor het versterken van de financiele functie;;Personeel;;Organisatiebesturing
+OPLCONTOUR35;Class;Oplossingscontour;Proposed;Vanuit nr 1, medewerkers begeleidien en instrueren;;Personeel;Geldt voor medewerkers, managers en directieleden;Organisatiebesturing
+OPLCONTOUR36;Class;Oplossingscontour;Proposed;Meerdere vormen van samenwerken met leveranciers ontwikkelen;;Personeel;;Leveranciers
+OPLCONTOUR37;Class;Oplossingscontour;Proposed;Verwachtingen tussen proceseigenaren benoemen en vastleggen;;Planning;Afspraak = afspraak;Financieel
+OPLCONTOUR38;Class;Oplossingscontour;Proposed;Integrale organisatiebrede jaarplanning waarin wettelijke deadlines verslaggeving zijn geborgd, (samen vastgesteld en gecommuniceerd) die leidend is voor De Key;;Planning;;Financieel
+OPLCONTOUR39;Class;Oplossingscontour;Proposed;Inzicht in kasstromen vergroten door jaarbudgetten en jaarplannen te vertalen naar kasstromen en tijd;;Planning;;Financieel
+OPLCONTOUR40;Class;Oplossingscontour;Proposed;Integrale en organisatiebrede jaarplanning opstellen;;Planning;"Wat moet nu en wat kan later (risico's);
+Botsing met 25 (teveel projecten)";Informatievoorziening
+OPLCONTOUR41;Class;Oplossingscontour;Proposed;Eerder in beeld hebben verplichtingen leveranciers tbv liquiditeitsbegroting;;Planning;;Leveranciers
+OPLCONTOUR42;Class;Oplossingscontour;Proposed;Opzetten jaarplanning tbv verslaglegging en rapportages (jaarbegroting, kwartaalrapportages, dpi, dvi, jaarverslag). En het communiceren ervan!;;Planning;;Vastgoed
+OPLCONTOUR43;Class;Oplossingscontour;Proposed;Concretiseren van uitvoering investeringsplannen bij VVE's in relatie tot convenantseisen;;Planning;;Vastgoed
+OPLCONTOUR44;Class;Oplossingscontour;Proposed;Grip op de eigen interne planning;;Planning;;Stakeholders
+OPLCONTOUR45;Class;Oplossingscontour;Proposed;Aanspreekpunt proces verduidelijken;;Proces;;Processen
+OPLCONTOUR46;Class;Oplossingscontour;Proposed;Het concept  Eigenaarschap definiëren (komt voor implementeren);;Proces;;Processen
+OPLCONTOUR47;Class;Oplossingscontour;Proposed;Integrale besluitvorming van processen;;Proces;;Processen
+OPLCONTOUR48;Class;Oplossingscontour;Proposed;Beleid integraal vaststellen en concreet maken per aspect;;Proces; (waarom doen we het allemaal, wat willen we nu ECHT);Processen
+OPLCONTOUR49;Class;Oplossingscontour;Proposed;bewuste en inzichtelijke risico afwegingen vooraf in integrale besluitvorming waarin alle GEA perspectieven vertegenwoordigd zijn;;Proces;;Processen
+OPLCONTOUR50;Class;Oplossingscontour;Proposed;rol medewerker / hierarchisch leidinggevende in relatie tot proceseigenaarsrol beschrijven;;Proces;;Processen
+OPLCONTOUR51;Class;Oplossingscontour;Proposed;Controle of processen voldoen aan kaders van Financieel Reglement;;Proces;Perspectief Processen;Financieel
+OPLCONTOUR52;Class;Oplossingscontour;Proposed;"Uniformiteit in facturen van leveranciers; factuursjabloon";;Proces;;Leveranciers
+OPLCONTOUR53;Class;Oplossingscontour;Proposed;Beperking van het aantal leveranciers;;Proces;;Leveranciers
+OPLCONTOUR54;Class;Oplossingscontour;Proposed;Inboekingscriteria van facturen handhaven 'aan de poort': voldoet factuur aan alle gestelde voorwaarden?;;Proces;;Leveranciers
+OPLCONTOUR55;Class;Oplossingscontour;Proposed;Samenhang versterken Wonen, Vastgoed en Fin rondom in- en uit exploitatiename.;;Proces;;Klant
+OPLCONTOUR56;Class;Oplossingscontour;Proposed;Eigenaarschap klantprocessen versterken;;Proces;;Klant
+OPLCONTOUR57;Class;Oplossingscontour;Proposed;Expliciet maken rollen in klantprocessen: wie is waar eigenaar van?;;Proces;;Klant
+OPLCONTOUR58;Class;Oplossingscontour;Proposed;Geen huurdersactiviteiten verrichten: alleen verhuurdersactiviteiten;;Proces;;Klant
+OPLCONTOUR59;Class;Oplossingscontour;Proposed;Afspraken in convenanten vertalen naar intern eigenaarschap;;Proces;;Stakeholders
+OPLCONTOUR60;Class;Oplossingscontour;Proposed;Vooraf operationaliseren van onze bijdrage / doelstellingen;;Proces;;Stakeholders
+OPLCONTOUR61;Class;Oplossingscontour;Proposed;"Proces opdrachtgeven in ""Wijkgericht samenwerken"" in kaart brengen. Zodat het proces ondersteunend is.";;Proces;;Dienstverlening
+OPLCONTOUR62;Class;Oplossingscontour;Proposed;Verbeteren dataverwerking werkbonnen tbv technische en financiele gereedmeelding;;Proces;;Dienstverlening
+OPLCONTOUR63;Class;Oplossingscontour;Proposed;Zorgpartijen die niet voldoen aan dienstovereenkomst, dan leveren wij geen woningen;;Proces;;Dienstverlening
+OPLCONTOUR64;Class;Oplossingscontour;Proposed;Meer prioritering en proceseigenaarschap tevoren duidelijk vastleggen;;Proces;;Dienstverlening
+OPLCONTOUR65;Class;Oplossingscontour;Proposed;Verbeteren koppelingen en vaststellen authentieke bron (systeem);;Systeem;;Informatievoorziening
+OPLCONTOUR66;Class;Oplossingscontour;Proposed;Verbeteren koppelingen en vaststellen authentieke bron (systeem);;Systeem;;Informatievoorziening
+OPLCONTOUR67;Class;Oplossingscontour;Proposed;Systemen voorbereiden cq aanpassen op vastgoedregistratie;;Systeem;;Informatievoorziening
+OPLCONTOUR68;Class;Oplossingscontour;Proposed;DMS systemen voorbereiden cq aanpassen op dossier-verwerking;;Systeem;;Informatievoorziening
+OPLCONTOUR69;Class;Oplossingscontour;Proposed;Verbeteren informatievoorziening ter voorkoming van extra systemen (Excel e.d.);;Systeem;;Informatievoorziening
+OPLCONTOUR70;Class;Oplossingscontour;Proposed;Werken vanuit 1 automatiseringssysteem (denk aan Reaforce, SG, Wocas, Basware, urenregistratie);;Systeem;;Leveranciers
+OPLCONTOUR71;Class;Oplossingscontour;Proposed;Werken vanuit 1 automatiseringssysteem (denk aan Reaforce, SG, Wocas, Basware, urenregistratie);;Systeem;;Vastgoed
+OPLCONTOUR72;Class;Oplossingscontour;Proposed;Digitaal facilteren wijkteams;;Systeem;prioritering investeringen;Klant
