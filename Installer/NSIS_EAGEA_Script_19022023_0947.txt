@@ -100,7 +100,8 @@ Section "GEA Framework" SecGEAModule
   
   ;ADD YOUR OWN FILES HERE...
   File /r "D:\geaframework\XML Files\GEA_MDG.xml"
-  File /r "D:\xml2fo\geatools\GEATools\GEATools\bin\Release\*.*"
+  File /r "D:\geatooling_model_dev\geatooling_csharp_dev\geatools\GEATools\GEATools\bin\Release\*.*"
+  ;File /r "D:\xml2fo\geatools\GEATools\GEATools\bin\Release\*.*"
   ;CopyFiles /FILESONLY "D:\geaframework\XML Files\GEA_MDG.xml" "$APPDATA\Sparx Systems\EA\MDGTechnologies\GEA_MDG.xml"
   CopyFiles /FILESONLY $INSTDIR\GEA_MDG.xml "$APPDATA\Sparx Systems\EA\MDGTechnologies\GEA_MDG.xml"
   File /r "D:\geaframework\ReferenceData\*"
