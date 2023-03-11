@@ -1,70 +1,18 @@
 <?xml version="1.0" encoding="windows-1252"?>
 <UMLProfile profiletype="uml2">
-	<Documentation id="8C2E22F5-2" name="GEA" version="1.0" notes="GEA"/>
+	<Documentation id="9294B7E1-5" name="GEA" version="1.0" notes="GEA"/>
 	<Content>
 		<Stereotypes>
-			<Stereotype name="Relationships" notes="GEA Framework Relaties" cx="322" cy="240" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+			<Stereotype name="Example" notes="" cx="251" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>
-					<Apply type="ToolboxPage"/>
+					<Apply type="Diagram_Custom">
+						<Property name="diagramID" value="eg"/>
+						<Property name="frameString" value="#DGMTYPE# #DGMNAME#"/>
+						<Property name="pdata" value="HideAtts=1;HideOps=1;ShowTags=1;HideEStereo=1;"/>
+						<Property name="styleex" value="HideQuals=0;HideConnStereotype=1;"/>
+						<Property name="toolbox" value="GEA"/>
+					</Apply>
 				</AppliesTo>
-				<TaggedValues>
-					<Tag name="GEA::Aggregeert(UML::Dependency)" type="" description="" unit="" values="" default="Aggregeert"/>
-					<Tag name="GEA::AssocieertNaar(UML::Dependency)" type="" description="" unit="" values="" default="Associeert Naar"/>
-					<Tag name="GEA::AssocieertVan(UML::Dependency)" type="" description="" unit="" values="" default="Associeert Van"/>
-					<Tag name="GEA::Beinvloed(UML::Influence)" type="" description="" unit="" values="" default="Beinvloed"/>
-					<Tag name="GEA::Generaliseert(UML::Dependency)" type="" description="" unit="" values="" default="Generaliseert"/>
-					<Tag name="GEA::Perspectiefeigenaar(UML::Dependency)" type="" description="" unit="" values="" default="Perpsectiefeigenaar"/>
-					<Tag name="GEA::Realiseert(UML::Dependency)" type="" description="" unit="" values="" default="Realiseert"/>
-					<Tag name="GEA::RelevanteRelatie(UML::Dependency)" type="" description="" unit="" values="" default="Relevante Relatie"/>
-					<Tag name="GEA::Specialiseert(UML::Dependency)" type="" description="" unit="" values="" default="Specialiseert"/>
-					<Tag name="GEA::Sturing(UML::Dependency)" type="" description="" unit="" values="" default="Sturing"/>
-					<Tag name="GEA::WordBeinvloedDoor(UML::Dependency)" type="" description="" unit="" values="" default="Wordt beinvloed door"/>
-					<Tag name="GEA::WordGegeneraliseerdDoor(UML::Dependency)" type="" description="" unit="" values="" default="Wordt gegeneraliseerd door"/>
-					<Tag name="GEA::WordtGeaggregeertDoor(UML::Dependency)" type="" description="" unit="" values="" default="Wordt geaggregeerd door"/>
-					<Tag name="GEA::WordtGerealiseerdDoor(UML::Dependency)" type="" description="" unit="" values="" default="Wordt gerealiseerd door"/>
-					<Tag name="GEA::WordtGespecialiseerdDoor(UML::Dependency)" type="" description="" unit="" values="" default="Wordt gespecialiseerd door"/>
-				</TaggedValues>
-			</Stereotype>
-			<Stereotype name="GEA Framework" notes="GEA Framework Elementen" cx="289" cy="526" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<AppliesTo>
-					<Apply type="ToolboxPage"/>
-				</AppliesTo>
-				<TaggedValues>
-					<Tag name="GEA::Beleidsuitspraak(UML::Class)" type="" description="" unit="" values="" default="Beleidsuitspraak"/>
-					<Tag name="GEA::Bron(UML::Class)" type="" description="" unit="" values="" default="Bron"/>
-					<Tag name="GEA::Doel(UML::Class)" type="" description="" unit="" values="" default="Doel"/>
-					<Tag name="GEA::Doelstelling(UML::Class)" type="" description="" unit="" values="" default="Doelstelling"/>
-					<Tag name="GEA::Enterprise Vraagstuk(UML::Class)" type="" description="" unit="" values="" default="Enterprisevraagstuk"/>
-					<Tag name="GEA::Enterprise(UML::Class)" type="" description="" unit="" values="" default="Enterprise"/>
-					<Tag name="GEA::Implicatie(UML::Class)" type="" description="" unit="" values="" default="Implicatie"/>
-					<Tag name="GEA::Kernbegrip(UML::Class)" type="" description="" unit="" values="" default="Kernbegrip"/>
-					<Tag name="GEA::Kernmodel(UML::Class)" type="" description="" unit="" values="" default="Kernmodel"/>
-					<Tag name="GEA::Kernwaarde(UML::Class)" type="" description="" unit="" values="" default="Kernwaarde"/>
-					<Tag name="GEA::Missie Element(UML::Class)" type="" description="" unit="" values="" default="Missie Element"/>
-					<Tag name="GEA::Missie Uitspraak(UML::Class)" type="" description="" unit="" values="" default="Missie Uitspraak"/>
-					<Tag name="GEA::Missie(UML::Class)" type="" description="" unit="" values="" default="Missie"/>
-					<Tag name="GEA::Ontwikkeling(UML::Class)" type="" description="" unit="" values="" default="Ontwikkeling"/>
-					<Tag name="GEA::Oorzaak(UML::Class)" type="" description="" unit="" values="" default="Oorzaak"/>
-					<Tag name="GEA::Opdracht(UML::Class)" type="" description="" unit="" values="" default="Opdracht"/>
-					<Tag name="GEA::Oplossingscontour(UML::Class)" type="" description="" unit="" values="" default="Oplossingscontour"/>
-					<Tag name="GEA::Perspectief(UML::Class)" type="" description="" unit="" values="" default="Perspectief"/>
-					<Tag name="GEA::Portfolio(UML::Class)" type="" description="" unit="" values="" default="Portfolio"/>
-					<Tag name="GEA::Principe(UML::Class)" type="" description="" unit="" values="" default="Principe"/>
-					<Tag name="GEA::Rapport(UML::Class)" type="" description="" unit="" values="" default="Rapport"/>
-					<Tag name="GEA::Relevante Relatie(UML::Class)" type="" description="" unit="" values="" default="Relevante Relatie"/>
-					<Tag name="GEA::RichtinggevendeUitspraak(UML::Class)" type="" description="" unit="" values="" default="Richtinggevende uitspraak"/>
-					<Tag name="GEA::Risico(UML::Class)" type="" description="" unit="" values="" default="Risico"/>
-					<Tag name="GEA::Rol(UML::Class)" type="" description="" unit="" values="" default="Rol"/>
-					<Tag name="GEA::Scope(UML::Class)" type="" description="" unit="" values="" default="Scope"/>
-					<Tag name="GEA::Stakeholder(UML::Class)" type="" description="" unit="" values="" default="Stakeholder"/>
-					<Tag name="GEA::Strategie Uitspraak(UML::Class)" type="" description="" unit="" values="" default="Strategie Uitspraak"/>
-					<Tag name="GEA::Strategie(UML::Class)" type="" description="" unit="" values="" default="Strategie"/>
-					<Tag name="GEA::Uitspraak(UML::Class)" type="" description="" unit="" values="" default="Uitspraak"/>
-					<Tag name="GEA::Veranderiniatief Cluster(UML::Class)" type="" description="" unit="" values="" default="Veranderinitiatief Cluster"/>
-					<Tag name="GEA::Veranderinitiatief(UML::Class)" type="" description="" unit="" values="" default="Veranderinitiatief"/>
-					<Tag name="GEA::Visie Uitspraak(UML::Class)" type="" description="" unit="" values="" default="Visie Uitspraak"/>
-					<Tag name="GEA::Visie(UML::Class)" type="" description="" unit="" values="" default="Visie"/>
-				</TaggedValues>
 			</Stereotype>
 		</Stereotypes>
 		<TaggedValueTypes/>

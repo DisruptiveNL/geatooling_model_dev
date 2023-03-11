@@ -10,7 +10,7 @@ https://www.groeiplatformgea.nl/
 W. Krijgsman and B. van der Veen
 
 
-© 2009 - 2021 Sparx Systems. All rights reserved.
+© 2009 - 2023 Sparx Systems. All rights reserved.
 Welcome to the Model Driven Generator Technology™ for GEA Framework. Detailed below are system requirements for installing MDG Technology™ for GEA Framework.
 For further information on using MDG Technology for GEA  Framework, please refer to the User Guide.
 System Requirements
