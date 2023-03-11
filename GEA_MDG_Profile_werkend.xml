@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="C0AAEF65-1" name="GEA" version="1.0" notes="GEA"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="Afdeling" metatype="Afdeling" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Base" baseStereotypes="Base"/>
+			<Stereotype name="Base" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="_HideUmlLinks" value="True"/>
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="TicketStatus" type="enumeration" description="" unit="" values="Undefined,Completed,In Progress,Assigned,Acknowledged,Raised" default="Undefined"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Bron" metatype="Bron" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Base" baseStereotypes="Base"/>
+			<Stereotype name="Doel" metatype="Doel" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Base" baseStereotypes="Base">
+				<TaggedValues>
+					<Tag name="niveau" type="enumeration" description="" unit="" values="Zingeving,Vormgeving" default="Zingeving"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Enterprise" metatype="Enterprise" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Base" baseStereotypes="Base"/>
+			<Stereotype name="GEA::Example" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0"/>
+			<Stereotype name="HoortBij" metatype="Hoort bij" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Association">
+						<Property name="_lineStyle" value="orthogonalR"/>
+						<Property name="_MeaningBackwards" value="Wordt gevormd door"/>
+						<Property name="_MeaningForwards" value="Hoort bij"/>
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Kandidaat Perspectief" metatype="KandidaatPerspectief" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Base" baseStereotypes="Base">
+				<TaggedValues>
+					<Tag name="niveau" type="enumeration" description="" unit="" values="Zingeving,Vormgeving" default="Vormgeving"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Kernbegrip" metatype="Kernbegrip" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Base" baseStereotypes="Base">
+				<TaggedValues>
+					<Tag name="niveau" type="enumeration" description="" unit="" values="Zingeving,Vormgeving" default="Vormgeving"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Kernmodel" metatype="Kernmodel" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Base" baseStereotypes="Base">
+				<TaggedValues>
+					<Tag name="niveau" type="enumeration" description="" unit="" values="Zingeving,Vormgeving" default="Vormgeving"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Kernwaarde" metatype="Kernwaarde" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Base" baseStereotypes="Base">
+				<TaggedValues>
+					<Tag name="niveau" type="enumeration" description="" unit="" values="Zingeving,Vormgeving" default="Zingeving"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Missie" metatype="Missie" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Base" baseStereotypes="Base">
+				<TaggedValues>
+					<Tag name="niveau" type="enumeration" description="" unit="" values="Zingeving,Vormgeving" default="Zingeving"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Opdracht" metatype="Opdracht" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Base" baseStereotypes="Base"/>
+			<Stereotype name="Perspectief" metatype="Perspectief" notes="" cx="0" cy="0" bgcolor="16777200" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="Base" baseStereotypes="Base">
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="GEA::WordtGevormdDoor" constraint="GEA::RichtinggevendeUitspraak"/>
+				</stereotypedrelationships>
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk32AAAAAAAAAHYAAAAoAAAAEAAAABAAAAABAAQAAAAAAIAAAADEDgAAxA4AABAAAAAAAAAA
+///T/wAAAP8WFhL/IiIc/woKCP8rKyP/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAREQAA
+AAAAAAAREQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEREAAAAAAAAAEREAAAAAABEA
+AREAAAAAEwAAARAAAAAUM1AAEQAAABEAMAABAAAAEQAwABEAAAASMxABEAAAAAAAAREAAAAA
+ABERAAAAAAAREQAAAAAAAAAAAAAAAAAAAAAAAAAA</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAGpSZFI94B6pzgEAADAFAAAHABEAc3RyLmRhdFVUDQAHSbRAYEm0QGBJtEBg
+jVRNT8JAEJ0rJv4HAhdMSAQMKjEcPXjz4J0A/aBJqaSUEDT+d9+b6bbbCsQ0uzvdnTfz5mN3
+LxtZyk5C6coWUiKZ3MqNfOvckRR7J/mUgxTyAck05xg9WWE/lwA7Of5eSsQ9vgwne7UcQDpC
+P4KcYi+s9GzmTqFWM1lDN1WbAxnJUMdYHmQmdxXK9FPlGeKvAKcU0gAM9opP4LP3BxFhP8Xn
++5jA+hg+JjLF59YayUh2qn+SGGsGzFRZ2TyWx0oeebhQPSXA0vcAeqNS39a2vs3MYwREIl+K
+mqneU0OTjHKcrhHREnziMvY6W76nGsc6BLB9QM2sLsw4c7Yrz5jPGP9DjKyRv8vYDPIWsqHW
+WsNCrBv+g+eaY48rI0o0A9etuZrWXduMwM5d93ZwynxFaodSAGQI3Rhrgb6cIE/O9s9FHy7S
+tvWNLLSvaS+DtTZvZ7mjdyWF9znOcuSivgfGkewLzUq/8tZvRO6zM5nDZ8m7uhJ2H08cy8ue
+7WbwLpA/GdgtOmoNml1ae2Sf8hbl8Maa8V6wCudq2S1ZdL3P/FmWfAv2prxWWfMx7ffEtNtv
+io9I9DWLNS+M6v0sv4W8aSzs+CE0GbObn721zsIvUEsBAhcLFAAAAAgAalJkUj3gHqnOAQAA
+MAUAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB0m0QGBQSwUGAAAAAAEAAQA+AAAA
+BAIAAAAA</Image>
+				<TaggedValues>
+					<Tag name="niveau" type="enumeration" description="" unit="" values="Zingeving,Vormgeving" default="Vormgeving"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Relevante Relatie" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Base" baseStereotypes="Base">
+				<TaggedValues>
+					<Tag name="niveau" type="enumeration" description="" unit="" values="Zingeving,Vormgeving" default="Vormgeving"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="RichtinggevendeUitspraak" metatype="RichtinggevendeUitspraak" notes="" cx="0" cy="0" bgcolor="15794160" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="Base" baseStereotypes="Base">
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="GEA::HoortBij" constraint="GEA::Perspectief"/>
+				</stereotypedrelationships>
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk32AAAAAAAAAHYAAAAoAAAAEAAAABAAAAABAAQAAAAAAIAAAADEDgAAxA4AABAAAAAAAAAA
+2P/Y/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABERAAAAAAAAABERAAAAAAAQAAAA
+AAAAAAERAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEREAAAAAAAAAEREAAAAAABAA
+AAAAAAAAAREAAQAAAAAAARABEAAAABERERERAAAAAAEQARAAAAABEQABAAAAABAAAAAAAAAA
+ABERAAAAAAAREQAAAAAAAAAAAAAAAAAAAAAAAAAA</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAGRTZFJnO+uzyQEAAAoFAAAHABEAc3RyLmRhdFVUDQAHJrZAYCa2QGAmtkBg
+jVTbSsNAED2vFfyH0L5EKFgLtRXpo4ivos9im0sD6VrSlFLFf/fMTC6bSFFCdmd358yZ2+4e
+G7xjhxgBtpQyOFziAl86DpBz74QPHFDihZJpLvkPseJ+gYg7BVf3FeKan+PJXi1HlI7UTyjn
+3IsbPRtlp1SrDmvq5mozxBxTjLHAjKPIVw3OELl6GnNV0qucUkgf9mohI+vwFyLhfs7PZ5ni
+BrdkmJJHmGzdIiWWneqfkHJ2xMwwoaaNhjZ50sPFypYRL/whdScVxuY+xkbJZkJEhk9F3ane
+vKNZaD0cdQvqrBlb2Fjss0hUMw8rFYlo/8DqWYUk95K7XXUmeU25HvN3nTyexzrKW8qGWms1
+S1hf/AdfkPHwB7quZduvXY/tvO7bAU8lO4naESkiMqZuyrlkR06Zn9r291mOOrK+9Q3etKPF
+nqO1vt+15YHekpzsS54VjLK9AeajeC8VHGLUsI06kfvemSy/76Xc0hWk4+Sk9vI8s90IuQPi
+v3hgt+eoNeh2ZssovSm3pyBbSZTch6CqXVCxBt5n9i0rPsJej4cmSz6m/3KYdv/18BGZvlup
+5kGieMYjXlmdJ/VVOnjME4mpHhfe3Eb5A1BLAQIXCxQAAAAIAGRTZFJnO+uzyQEAAAoFAAAH
+AAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAcmtkBgUEsFBgAAAAABAAEAPgAAAP8BAAAA
+AA==</Image>
+				<TaggedValues>
+					<Tag name="DateIdentified" type="" description="" unit="" values="" default=""/>
+					<Tag name="niveau" type="enumeration" description="" unit="" values="Zingeving,Vormgeving" default="Vormgeving"/>
+					<Tag name="typergu" type="enumeration" description="" unit="" values="Principe,Beleidsuitspraak,Doelstelling" default="Principe"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Scope" metatype="Scope" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Base" baseStereotypes="Base"/>
+			<Stereotype name="Stakeholder" metatype="Stakeholder" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Base" baseStereotypes="Base">
+				<TaggedValues>
+					<Tag name="TypeStakeholder" type="enumeration" description="" unit="" values="Perspectiefeigneaar,Opdrachtgever" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Strategie" metatype="Strategie" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Base" baseStereotypes="Base">
+				<TaggedValues>
+					<Tag name="niveau" type="enumeration" description="" unit="" values="Zingeving,Vormgeving" default="Zingeving"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Visie" metatype="Visie" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Base" baseStereotypes="Base">
+				<TaggedValues>
+					<Tag name="niveau" type="enumeration" description="" unit="" values="Zingeving,Vormgeving" default="Zingeving"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="WordtGevormdDoor" metatype="Wordt gevormd door" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Association">
+						<Property name="_lineStyle" value="orthogonalR"/>
+						<Property name="_MeaningBackwards" value="Hoort bij"/>
+						<Property name="_MeaningForwards" value="Wordt gevormd door"/>
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+		<ViewDefinitions>
+			<View name="GEA Framework" notes="">
+				<appliesto>
+					<diagrams constraint="GEA::Example"/>
+				</appliesto>
+				<view>
+					<group name="" constraint="GEA::HoortBij;GEA::Perspectief;GEA::RichtinggevendeUitspraak;GEA::WordtGevormdDoor"/>
+				</view>
+			</View>
+		</ViewDefinitions>
+		<Metamodel/>
+	</Content>
+</UMLProfile>

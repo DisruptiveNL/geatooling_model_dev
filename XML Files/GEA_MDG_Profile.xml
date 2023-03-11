@@ -570,11 +570,11 @@ ehSoT25m37u19fIXUEsBAhcLFAAAAAgABE+LUoEcyuy8AQAAGAUAAAcACQAAAAAAAAAAAACA
 AAAAAHN0ci5kYXRVVAUAB7LHcmBQSwUGAAAAAAEAAQA+AAAA8gEAAAAA</Image>
 				<TaggedValues>
 					<Tag name="Definitie" type="" description="" unit="" values="" default=" Een RAPPORT is een uitingsvorm of verslag van iets dat is onderzocht of beoordeeld."/>
-					<Tag name="Enterprise" type="" description="" unit="" values="" default=""/>
-					<Tag name="Logo" type="" description="" unit="" values="" default=""/>
+					<Tag name="Enterprise" type="char" description="" unit="" values="" default=""/>
+					<Tag name="Logo" type="char" description="" unit="" values="" default=""/>
 					<Tag name="Niveau" type="enumeration" description="" unit="" values="Zingeving,Vormgeving" default=""/>
-					<Tag name="Traject" type="" description="" unit="" values="" default=""/>
-					<Tag name="Versienummer" type="" description="" unit="" values="" default=""/>
+					<Tag name="Traject" type="char" description="" unit="" values="" default=""/>
+					<Tag name="Versienummer" type="char" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Realiseert" metatype="Realiseert" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">

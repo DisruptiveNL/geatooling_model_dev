@@ -1,0 +1,1041 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="C0AAEF65-1" name="GEA" version="1.0" notes="GEA"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="Aggregeert" metatype="Aggregeert" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAGJQalLbm4oDCwEAAHwCAAAHABEAc3RyLmRhdFVUDQAHZZlIYGWZSGBlmUhg
+lZHdSsNAEIXPrYLvsHhloRALIoJ4Vb0QBAWfIDaxFdOkJFurSN/dbyaJ/VEvZJlhd+acsztn
+EyUKGqtSyco1UWRfU7vRu1LNtVBB/UiHajSjsuAUqKd6gWH1T88HsCrYqceTs4KuiEhnyemy
+w5XgWq2M3QrMPqJhH1GwG3JOUR+ud6JjPeped7rVNfvBN2OO0puzKlCnGhKbbq/Udkf0dhFr
+z/szNqCXvGzSzd/P+TfDJq819Zu2GYm7nNFLmTeQS8+1e7ZCIXc3rBZdxyq7eoFcgvmf1+ad
+aUReaOgZ8298eUClwNup/3/v21BnxDkx0sWWS6Fb7Tt+03vG54Jl82V+t73zFcZP9FpfUEsB
+AhcLFAAAAAgAYlBqUtubigMLAQAAfAIAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUA
+B2WZSGBQSwUGAAAAAAEAAQA+AAAAQQEAAAAA</Image>
+				<AppliesTo>
+					<Apply type="Dependency">
+						<Property name="_lineStyle" value="direct"/>
+						<Property name="_MeaningBackwards" value="WordtGeaggregeerdDoor"/>
+						<Property name="_MeaningForwards" value="Aggregeert"/>
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="AssocieertNaar" metatype="AssocieertNaar" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAICyaVJ3PQ4dEAEAAJACAAAHABEAc3RyLmRhdFVUDQAHkPRHYJD0R2CQ9Edg
+jZJRS8NAEITnVcH/cPikUIhFEEF8Uh8EQcFfEJvYimlSkqtVpP/dbzeJaSsFOXa5252Z7A5J
+lCjoRpVKTq6JIvea2p0+lWquhQrqRzpUoxmVBa9APdUbDKt/ez6AVcFOPV6cFXRNRDpLXlcd
+rgTXamXcVmB2EQ33iIJ9IecV9eV6JzrWsx71oHvdcj/9ZcxR+nBWBepMI2Lo9kptd0xvG7H2
+vLtjA3rJZJNu/37P/QzbvNbUv7TJSNzljF7KvoFceq7dsxUKubthteg6VtnWC+QSzKD4X78N
+ax6aVmRSY8zwYfDHEE+oFfg89X+h93Ckc+KCGOtyw7HQHWO2c+3TfcX7gmM7Zz6Hzf0O6y9j
+rR9QSwECFwsUAAAACACAsmlSdz0OHRABAACQAgAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRh
+dFVUBQAHkPRHYFBLBQYAAAAAAQABAD4AAABGAQAAAAA=</Image>
+				<AppliesTo>
+					<Apply type="Dependency">
+						<Property name="_lineStyle" value="direct"/>
+						<Property name="_MeaningBackwards" value="Associeert van"/>
+						<Property name="_MeaningForwards" value="Associeert naar"/>
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="AssocieertVan" metatype="AssocieertVan" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAJpKkFKJyogQAQEAAIgCAAAHABEAc3RyLmRhdFVUDQAH3VZ5YN1WeWDdVnlg
+lZDPTsJAEMa/qya+w4YTJiaVCxfjST2YmHiQFyi0ChFa0i6iIbw7v5kWFFASs9nJ7Hx/dmYS
+JQq6U6mCk2ukSF5Re9CnUs0015T6hc5Va0xlzitQTzVBYfWVxzNUJerU79BVQbfcCLLgddPy
+CniNV0a2hHPIqMkjDvZDzivqy/266uhFz3rSo+7JL3eKGU4friphXeuK+41unRq0B7bPWHs8
+nLGGvaCzUTv/ds6/FTZ5pTf/6aci8S1nYCnzBmLhsfKdLXHIfRtWi+5jlX2/QCzg/G/Xtjvz
+iHRo7DHzH29tcHJrDdoH7e/Q0J6mp9+8X1FPOTZr5n1Yz+8ojtlrbQBQSwECFwsUAAAACACa
+SpBSicqIEAEBAACIAgAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAH3VZ5YFBLBQYA
+AAAAAQABAD4AAAA3AQAAAAA=</Image>
+				<AppliesTo>
+					<Apply type="Dependency">
+						<Property name="_lineStyle" value="direct"/>
+						<Property name="_MeaningBackwards" value="Associeert naar"/>
+						<Property name="_MeaningForwards" value="Associeert van"/>
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Base" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="_HideUmlLinks" value="True"/>
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Afkorting" type="char" description="" unit="" values="" default=""/>
+					<Tag name="Datum" type="date" description="" unit="" values="" default=""/>
+					<Tag name="Definitie" type="" description="" unit="" values="" default=""/>
+					<Tag name="Einddatum" type="char" description="" unit="" values="" default="01-01-1999"/>
+					<Tag name="geaid" type="" description="" unit="" values="" default=""/>
+					<Tag name="Ingangsdatum" type="" description="" unit="" values="" default="01-01-1999"/>
+					<Tag name="Opvoerdatum" type="char" description="" unit="" values="" default="01-01-1999"/>
+					<Tag name="TicketStatus" type="enumeration" description="" unit="" values="Undefined,Completed,In Progress,Assigned,Acknowledged,Raised" default="Undefined"/>
+					<Tag name="Toelichting" type="char" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Beinvloed" metatype="Beinvloed" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAIaryVIfg06JHQEAAMICAAAHABEAc3RyLmRhdFVUDQAHYzLBYGMywWBjMsFg
+jZJRS8NAEITnVcH/EHxSEGJBRBCf1AdBUPAXxCS2YpqU5Got0v/ut5vENJWCHLvc7c3M7Q4X
+K1akW1UqWblSBfY1tXt9KdFcCxXUj3SoRjMqC04R9UTvMKz+7fkAVgU78Xh1VqQbInCz5HTd
+4UpwrVbGbgVmF9GwDyjYCzmnoLXrnehYL3rSox50x/70lzFH6dNZFahznRHDba/U3k64GyM2
+nndnbEAv6Szt5u/n3M+wyWtN/aVtRuwuZ9wlzBuRS8+1e7ZCIXc3rBZcxypjvYhcghkU/+u3
+Yc1D0wp0aowZPgz+tAh75Q2nClaKduE/oXdz7Kgxnh2zpj/7PQPugrgkJrra4kTdMmY7yb5O
++h7Mpcw7t0k/YP1lbPQDUEsBAhcLFAAAAAgAhqvJUh+DTokdAQAAwgIAAAcACQAAAAAAAAAA
+AACAAAAAAHN0ci5kYXRVVAUAB2MywWBQSwUGAAAAAAEAAQA+AAAAUwEAAAAA</Image>
+				<AppliesTo>
+					<Apply type="Dependency">
+						<Property name="_lineStyle" value="direct"/>
+						<Property name="_MeaningBackwards" value="WordtBeinvloedDoor"/>
+						<Property name="_MeaningForwards" value="Beinvloed"/>
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Beleidsuitspraak" metatype="Beleidsuitspraak" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Base" baseStereotypes="Base">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIACZYjFKBHMrsvAEAABgFAAAHABEAc3RyLmRhdFVUDQAHbyh0YG8odGBvKHRg
+jVTbasJAEJ1XC/2HoC8WhFalWCk+9g/6XtRcDMQoSUTa0n/vOTPZZBO1lLC7k92dM2duW8pO
+1nKUSALZQ0oll3u5k2+dB5Jh71MOcpJK3iHZzRXGUDbYLyTEToG/11rjEV+Ok1KRQ0hn3I8h
+Z9iLmns2c6dS1Fy2uJsp5lieZFKPh0bD7mbKMcJfBT4ZpDGsl6qbwt7wQiPGfobPx5/KQpbA
+n8mzzLFO5aVjq1Cfc+AVwNgCpeU0xeyv82Zu9RmFSK2m8I48aLOr1/fPZsYzhkYqX6q11HuL
+C3THaw2WSR2H6wxbPeYjBPYJubP8MPKM37E+Y2wT/E8w8k4sb+vmkPeQTWuruazEquI/+lwL
+7HGlR6lG4G80l9+2erse2Lmr4gFOGa9YcSiF0IxwN8FaoT5niJPD/rlpw3naR9/Jh9Y38XKg
+9Xk75IH2TAbrK5wViEXbD8aR7FlrQxk11kYdz312JnP4LNmzG2H18cSxvG3ZuoR9Qf5kYB11
+1hx0q7S1yDplRxWwxpwdoMcsXMtlULMIvM/sWZR8BHtb3pqo+Tr9d8Vu998WXyPVVy3RuNAr
+ehSoT25m37u19fIXUEsBAhcLFAAAAAgAJliMUoEcyuy8AQAAGAUAAAcACQAAAAAAAAAAAACA
+AAAAAHN0ci5kYXRVVAUAB28odGBQSwUGAAAAAAEAAQA+AAAA8gEAAAAA</Image>
+				<TaggedValues>
+					<Tag name="Definitie" type="" description="" unit="" values="" default="Een beleidsuitspraak is een RICHTINGGEVENDE UITSPRAAK die een intentie van de ENTERPRISE uitdrukt."/>
+					<Tag name="Niveau" type="enumeration" description="" unit="" values="Zingeving,Vormgeving" default="Vormgeving"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Bron" metatype="Bron" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Base" baseStereotypes="Base">
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="GEA::AssocieertNaar" constraint="GEA::Doel;GEA::Kernwaarde;GEA::Missie Uitspraak;GEA::Strategie Uitspraak;GEA::Uitspraak;GEA::Visie Uitspraak"/>
+					<stereotypedrelationship stereotype="GEA::Beinvloed" constraint="GEA::Uitspraak"/>
+					<stereotypedrelationship stereotype="GEA::Realiseert" constraint="GEA::RichtinggevendeUitspraak"/>
+				</stereotypedrelationships>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAHhEnlIX2NNQMQIAANgGAAAHABEAc3RyLmRhdFVUDQAHYMGLYGDBi2BgwYtg
+nVVNb9NAEH3XIPEfrPYSpEoQKlQK6oFD4cIBiUgcURo7wcJxK8dpgYr/znsza+/aJChC1u6M
+d+fNt8dbfMMCdyiQYUOuRI2neIJH2yeoePYTt9ihxZycS15xneCG5w1ynjR8exsQz/nUvNma
+5pzcA+VX5CueFb2c7zppTWuNJWUr0znFC5yF9axHuGxlPhZ8a+lPRW5K61vDlrR38hdixfOK
+T6p/hgtcUv9LvMI56QyvB7YURWNx19TZUM+SmqJfM+4pPe/3oY7CLJeMUL7I7hA3jtF35XRF
+RIlfhro0uYuB5Gf6s6BnLT6Rtsz2NLnd0Pd7YuekU0Y5tvMxZNHvozdRosvzUMLpIanjJORN
+vL+2DO+L4X2o2zuTULyqyHfq2iftFfM6LYhYh97YX7GIU4/mzPWO/ew9q25UT92FO/m/5vsZ
+Vz3or8PYmvyGvKOWUH+38C/lGLxowzNRRVRCHfG/2roa/Bvve0Rmowz4/WOgE94q3yvTIy4n
+sqDsmrTlN686d7p/D2zI9g/uWe/ZWPc9vkITQ9pq6hp73emd0NaxkppXFb28sk7aIc4ij0We
+aL7UlrPTvoangyxN2H2d7BdyypWylQfUnP36AW9IS/OhGuHTTDivlWZdM/fGkLrpcnLYe59y
+mmvKgTzzifhg9R5+19GiZowmoiJQf90Sp4rv67sseJElj9vzTKca/N9w3Wc+xYz/Cy49/jek
+iNL+SmvLi6JSRJnF1O2a2x2NUf4BUEsBAhcLFAAAAAgAeESeUhfY01AxAgAA2AYAAAcACQAA
+AAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB2DBi2BQSwUGAAAAAAEAAQA+AAAAZwIAAAAA
+</Image>
+				<TaggedValues>
+					<Tag name="Begindatum" type="" description="" unit="" values="" default=""/>
+					<Tag name="Bestandsnaam" type="" description="" unit="" values="" default=""/>
+					<Tag name="Bruikbaarheid" type="enumeration" description="" unit="" values="Bruikbaar,Te gedetailleerd,Te abstract,Verouderd,Niet relevant" default=""/>
+					<Tag name="Definitie" type="" description="" unit="" values="" default="Een BRON is een door bevoegd gezag geautoriseerd document dat RICHTINGGEVENDE UITSPRAKEN over de zin- en vormgeving van een ENTERPRISE bevat."/>
+					<Tag name="Doelgroep" type="" description="" unit="" values="" default="Een DOELGROEP is in dit geval verbonden aan de groep STAKEHOLDERS waarop je je richt specifiek bekeken vanuit een DOCUMENT waarmee je iets wilt bereiken (een gezamenlijk DOEL na wilt streven)."/>
+					<Tag name="Einddatum" type="" description="" unit="" values="" default=""/>
+					<Tag name="ID" type="" description="" unit="" values="" default=""/>
+					<Tag name="Jaar" type="int" description="" unit="" values="" default=""/>
+					<Tag name="Opsteller" type="" description="" unit="" values="" default=""/>
+					<Tag name="Paginanummer" type="int" description="" unit="" values="" default=""/>
+					<Tag name="Publicatiedatum" type="" description="" unit="" values="" default=""/>
+					<Tag name="Relevantie" type="enumeration" description="" unit="" values="1,2,3,4,5" default=""/>
+					<Tag name="Status" type="enumeration" description="" unit="" values="Nog te analyseren,Wordt geanalyseerd,Ter discussie,Analyse gereed" default=""/>
+					<Tag name="Titel" type="" description="" unit="" values="" default=""/>
+					<Tag name="Validatie" type="enumeration" description="" unit="" values="Ja,Nee" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Doel" metatype="Doel" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Base" baseStereotypes="Base">
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="GEA::AssocieertNaar" constraint="GEA::Bron;GEA::Uitspraak"/>
+					<stereotypedrelationship stereotype="GEA::Realiseert" constraint="GEA::Visie"/>
+				</stereotypedrelationships>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIADhgaFK3cAF2xAEAABYFAAAHABEAc3RyLmRhdFVUDQAHGBJGYBgSRmAYEkZg
+jVRNSwMxEJ1rBf/DUi8VCtZi1SK96cG792K7H13YxrLdUqr4331vZrObXalISDJJ5s33ZC8b
+eZedJBLJFlQuTi7lQr50HUiBu5N8yEEqeQNlnAvMoaxwX0qMmxKnpxpxg+HwslfJMagj+FPQ
+Be6Shs9W3lQq1ckavIXKHMmtzGQq42C/x7hu0IYr1N4Epwq2FaBGsGSvcnLoHv5CpLgvMEJd
+U4w5dLT7HfYWSY92yn+SDLsDZiYTcNpK2zw96eES1ZYDT/30a1JjbO9jbGVMUyBy+VTUXPke
+OpylZsWBtwTPGr6NGol9LTOdLZZ5iSH/gBxanpgBxm5XvzGuGc5jTNeJ43msA70Fbai15rQS
+q47/4FkrjNffeJ/Ntm67Ntu7r98BXhmfVOWQioFMwJthr1CZU0TIy/4+q8P71pe+kaVWNuU5
+SOvb7SUPtFsKaF/grYT3bSeYjbSeORzKVaPtquN5aJ3RnKGV7NaVxpAv3srzmq0n2AW0nxZY
+/xw1B93abDWyOtk/JbRVQLEjoiZ7Ua03CoZpsLiEGPtHXpo4hZj+H2Lc/X8kROT6g2UaCfrx
+XFu0lFe1l3U8xhv98utjsLee/gBQSwECFwsUAAAACAA4YGhSt3ABdsQBAAAWBQAABwAJAAAA
+AAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHGBJGYFBLBQYAAAAAAQABAD4AAAD6AQAAAAA=</Image>
+				<TaggedValues>
+					<Tag name="Definitie" type="" description="" unit="" values="" default="Een DOEL is een formulering van een gewenste ontwikkelfase van de ENTERPRISE om de VISIE te bereiken."/>
+					<Tag name="Niveau" type="enumeration" description="" unit="" values="Zingeving,Vormgeving" default="Zingeving"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Doelstelling" metatype="Doelstelling" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Base" baseStereotypes="Base">
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="GEA::AssocieertNaar" constraint="GEA::Ontwikkeling"/>
+				</stereotypedrelationships>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIANJOi1KBHMrsvAEAABgFAAAHABEAc3RyLmRhdFVUDQAHccdyYHHHcmBxx3Jg
+jVTbasJAEJ1XC/2HoC8WhFalWCk+9g/6XtRcDMQoSUTa0n/vOTPZZBO1lLC7k92dM2duW8pO
+1nKUSALZQ0oll3u5k2+dB5Jh71MOcpJK3iHZzRXGUDbYLyTEToG/11rjEV+Ok1KRQ0hn3I8h
+Z9iLmns2c6dS1Fy2uJsp5lieZFKPh0bD7mbKMcJfBT4ZpDGsl6qbwt7wQiPGfobPx5/KQpbA
+n8mzzLFO5aVjq1Cfc+AVwNgCpeU0xeyv82Zu9RmFSK2m8I48aLOr1/fPZsYzhkYqX6q11HuL
+C3THaw2WSR2H6wxbPeYjBPYJubP8MPKM37E+Y2wT/E8w8k4sb+vmkPeQTWuruazEquI/+lwL
+7HGlR6lG4G80l9+2erse2Lmr4gFOGa9YcSiF0IxwN8FaoT5niJPD/rlpw3naR9/Jh9Y38XKg
+9Xk75IH2TAbrK5wViEXbD8aR7FlrQxk11kYdz312JnP4LNmzG2H18cSxvG3ZuoR9Qf5kYB11
+1hx0q7S1yDplRxWwxpwdoMcsXMtlULMIvM/sWZR8BHtb3pqo+Tr9d8Vu998WXyPVVy3RuNAr
+ehSoT25m37u19fIXUEsBAhcLFAAAAAgA0k6LUoEcyuy8AQAAGAUAAAcACQAAAAAAAAAAAACA
+AAAAAHN0ci5kYXRVVAUAB3HHcmBQSwUGAAAAAAEAAQA+AAAA8gEAAAAA</Image>
+				<TaggedValues>
+					<Tag name="Definitie" type="" description="" unit="" values="" default="Een DOELSTELLING is een RICHTINGGEVENDE UITSPRAAK die een gewenste staat van de ENTERPRISE uitdrukt in te bereiken concrete resultaten."/>
+					<Tag name="Niveau" type="enumeration" description="" unit="" values="Zingeving,Vormgeving" default="Vormgeving"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Enterprise" metatype="Enterprise" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="Base" baseStereotypes="Base">
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="GEA::AssocieertNaar" constraint="GEA::Bron;GEA::Enterprisevraagstuk;GEA::Perspectief;GEA::Portfolio;GEA::RichtinggevendeUitspraak;GEA::Rol;GEA::Stakeholder;GEA::Uitspraak"/>
+				</stereotypedrelationships>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIADhPi1KBHMrsvAEAABgFAAAHABEAc3RyLmRhdFVUDQAH+MdyYPjHcmD4x3Jg
+jVTbasJAEJ1XC/2HoC8WhFalWCk+9g/6XtRcDMQoSUTa0n/vOTPZZBO1lLC7k92dM2duW8pO
+1nKUSALZQ0oll3u5k2+dB5Jh71MOcpJK3iHZzRXGUDbYLyTEToG/11rjEV+Ok1KRQ0hn3I8h
+Z9iLmns2c6dS1Fy2uJsp5lieZFKPh0bD7mbKMcJfBT4ZpDGsl6qbwt7wQiPGfobPx5/KQpbA
+n8mzzLFO5aVjq1Cfc+AVwNgCpeU0xeyv82Zu9RmFSK2m8I48aLOr1/fPZsYzhkYqX6q11HuL
+C3THaw2WSR2H6wxbPeYjBPYJubP8MPKM37E+Y2wT/E8w8k4sb+vmkPeQTWuruazEquI/+lwL
+7HGlR6lG4G80l9+2erse2Lmr4gFOGa9YcSiF0IxwN8FaoT5niJPD/rlpw3naR9/Jh9Y38XKg
+9Xk75IH2TAbrK5wViEXbD8aR7FlrQxk11kYdz312JnP4LNmzG2H18cSxvG3ZuoR9Qf5kYB11
+1hx0q7S1yDplRxWwxpwdoMcsXMtlULMIvM/sWZR8BHtb3pqo+Tr9d8Vu998WXyPVVy3RuNAr
+ehSoT25m37u19fIXUEsBAhcLFAAAAAgAOE+LUoEcyuy8AQAAGAUAAAcACQAAAAAAAAAAAACA
+AAAAAHN0ci5kYXRVVAUAB/jHcmBQSwUGAAAAAAEAAQA+AAAA8gEAAAAA</Image>
+				<TaggedValues>
+					<Tag name="Definitie" type="" description="" unit="" values="" default="Een ENTERPRISE is een systematische doelgerichte activiteit."/>
+					<Tag name="Recursieniveau" type="enumeration" description="" unit="" values="0,1,2,3,4,5,6,7,8,9" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Enterprisevraagstuk" metatype="Enterprise Vraagstuk" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Base" baseStereotypes="Base">
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="GEA::AssocieertNaar" constraint="GEA::Implicatie;GEA::Oorzaak;GEA::Risico;GEA::Rol"/>
+				</stereotypedrelationships>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIABRPi1KBHMrsvAEAABgFAAAHABEAc3RyLmRhdFVUDQAHusdyYLrHcmC6x3Jg
+jVTbasJAEJ1XC/2HoC8WhFalWCk+9g/6XtRcDMQoSUTa0n/vOTPZZBO1lLC7k92dM2duW8pO
+1nKUSALZQ0oll3u5k2+dB5Jh71MOcpJK3iHZzRXGUDbYLyTEToG/11rjEV+Ok1KRQ0hn3I8h
+Z9iLmns2c6dS1Fy2uJsp5lieZFKPh0bD7mbKMcJfBT4ZpDGsl6qbwt7wQiPGfobPx5/KQpbA
+n8mzzLFO5aVjq1Cfc+AVwNgCpeU0xeyv82Zu9RmFSK2m8I48aLOr1/fPZsYzhkYqX6q11HuL
+C3THaw2WSR2H6wxbPeYjBPYJubP8MPKM37E+Y2wT/E8w8k4sb+vmkPeQTWuruazEquI/+lwL
+7HGlR6lG4G80l9+2erse2Lmr4gFOGa9YcSiF0IxwN8FaoT5niJPD/rlpw3naR9/Jh9Y38XKg
+9Xk75IH2TAbrK5wViEXbD8aR7FlrQxk11kYdz312JnP4LNmzG2H18cSxvG3ZuoR9Qf5kYB11
+1hx0q7S1yDplRxWwxpwdoMcsXMtlULMIvM/sWZR8BHtb3pqo+Tr9d8Vu998WXyPVVy3RuNAr
+ehSoT25m37u19fIXUEsBAhcLFAAAAAgAFE+LUoEcyuy8AQAAGAUAAAcACQAAAAAAAAAAAACA
+AAAAAHN0ci5kYXRVVAUAB7rHcmBQSwUGAAAAAAEAAQA+AAAA8gEAAAAA</Image>
+				<TaggedValues>
+					<Tag name="Definitie" type="" description="" unit="" values="" default="Een ENTERPRISEVRAAGSTUK is een probleem, knelpunt, uitdaging  of vermeende oplossing, die wordt beschouwd en beheerst vanuit de samenhang van verschillende PERSPECTIEVEN."/>
+					<Tag name="Niveau" type="enumeration" description="" unit="" values="Zingeving,Vormgeving" default=""/>
+					<Tag name="Toelichting" type="char" description="" unit="" values="" default=""/>
+					<Tag name="Type" type="enumeration" description="" unit="" values="Beschrijving,Aanleiding of Oorzaak,Urgentie,Belang,Implicatie,Risico" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="GEA::Example" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0"/>
+			<Stereotype name="Generaliseert" metatype="Generaliseert" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAISzwVJc0GN4FgEAAKoCAAAHABEAc3RyLmRhdFVUDQAHgrS2YIK0tmCCtLZg
+lZJRS8NQDIXPq4L/ofikINSBiCA+qQ+CoOAvqG3dxK4d7Z1zyP67X9LWrlMf5JKQm5ycm5w2
+VqxI16pUcnKlCsQ1uVt9KNFcCxXkD7SvRjMyC24R+USvdFj+0/0eXRXdiduzd0W6wgKVJbfL
+DleCa7kyohWYXURDHGCwF3JuQWvnO9KhnvSge93phvj4u2MO07t3VaBOdYIN1Z6prU6ojREb
+97s7NqCXTJZ2+/d7/t1hm9ea+kvbHbGrnFFL2DfCl+5r12wFQ+5qWC44j2XGfBG+BPM/rU07
+4whMaOgZ+w+6tDq/oE7BSeEs/Ov3Co5VfPT6mnnsbxkwZ9g5NtHFFj7qTjv1b6/375oamU9q
+W73R8RO90RdQSwECFwsUAAAACACEs8FSXNBjeBYBAACqAgAABwAJAAAAAAAAAAAAAIAAAAAA
+c3RyLmRhdFVUBQAHgrS2YFBLBQYAAAAAAQABAD4AAABMAQAAAAA=</Image>
+				<AppliesTo>
+					<Apply type="Dependency">
+						<Property name="_lineStyle" value="direct"/>
+						<Property name="_MeaningBackwards" value="WordGegeneraliseerdDoor"/>
+						<Property name="_MeaningForwards" value="Generaliseert"/>
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="HoortBij" metatype="Hoort bij" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAApRaFIWktXZWwIAABgKAAAHABEAc3RyLmRhdFVUDQAHlfdFYJX3RWCV90Vg
+rVXBTttAEH1XKvEPq3AJUisaIIiq6gHRSq3UQiQ4cTOJSaJCYsWhaYXy730zYzv2xl4SFFnr
+rNdv3sy8mXGOcASHS0wx4RWjjzn3M559w19EeEKCR57v4x1SjHiS8MnxPMKYFnL+ovc9MgnX
+gNYRFtxF+hSpXcydI5PYGNsecVN6i3TdqxeHL1xzvnnm0+cMNyHOfA+4WxDjI1Lu5wV7yv0/
+5WujhRtc4yd+4Cv3h4XFE5n+qNWUqI94zyVvnWbR56lkHpMv1QjHqpDDQ6ZO7sthyBPZDzXy
+ES/J65nPo+xEUCvtzH9ub/479L7LGMoR+J6F2/QSljFRYtlGVyNwxa/FsrJJFD1RnQXfwgGu
+cIFf7JSDkrZLvfv9kmpEM2ZlceQ9s2kPjJl1G9+1m255H2oEVzyXKkbEthh1C3eZDjHPbSeR
+HZLRPDrvulEleqpyG8fMvqt1sNUpsvLteoUaEkenlH+OWHKt1PPnok9rUcMylvzLvbLSymlk
+gxLTpopZnQU14z1RixGjrVY1JoP0UaI9YZNwppkf8/6Bex8v0TSxPZBJ+CJFiXeJ9jet6iy2
+ibNpXg0Rtu/R5pFfBJkSqXJe3dMs108VrnCG1bkVfepU8lGmpj9RPkq4fKZw3uGKbFON+qk1
+VWWa5vrupeS32tHyXRKseFhoH8vX2u/sMl+1s3fb1WHVwvZN3XJSTMZ5iS2f9uYqrFe6U1vp
+Osx6Z1UzM5TfEZtgqt5s6l9DvBaNr/PuuvPtde8Gs7JvfQgh/8ybsAguhPFZmnBnDUqvs61j
+mrWWt9vovcR/UEsBAhcLFAAAAAgAClFoUhaS1dlbAgAAGAoAAAcACQAAAAAAAAAAAACAAAAA
+AHN0ci5kYXRVVAUAB5X3RWBQSwUGAAAAAAEAAQA+AAAAkQIAAAAA</Image>
+			</Stereotype>
+			<Stereotype name="Implicatie" metatype="Implicatie" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Base" baseStereotypes="Base">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAIhTi1KBHMrsvAEAABgFAAAHABEAc3RyLmRhdFVUDQAHNM9yYDTPcmA0z3Jg
+jVTbasJAEJ1XC/2HoC8WhFalWCk+9g/6XtRcDMQoSUTa0n/vOTPZZBO1lLC7k92dM2duW8pO
+1nKUSALZQ0oll3u5k2+dB5Jh71MOcpJK3iHZzRXGUDbYLyTEToG/11rjEV+Ok1KRQ0hn3I8h
+Z9iLmns2c6dS1Fy2uJsp5lieZFKPh0bD7mbKMcJfBT4ZpDGsl6qbwt7wQiPGfobPx5/KQpbA
+n8mzzLFO5aVjq1Cfc+AVwNgCpeU0xeyv82Zu9RmFSK2m8I48aLOr1/fPZsYzhkYqX6q11HuL
+C3THaw2WSR2H6wxbPeYjBPYJubP8MPKM37E+Y2wT/E8w8k4sb+vmkPeQTWuruazEquI/+lwL
+7HGlR6lG4G80l9+2erse2Lmr4gFOGa9YcSiF0IxwN8FaoT5niJPD/rlpw3naR9/Jh9Y38XKg
+9Xk75IH2TAbrK5wViEXbD8aR7FlrQxk11kYdz312JnP4LNmzG2H18cSxvG3ZuoR9Qf5kYB11
+1hx0q7S1yDplRxWwxpwdoMcsXMtlULMIvM/sWZR8BHtb3pqo+Tr9d8Vu998WXyPVVy3RuNAr
+ehSoT25m37u19fIXUEsBAhcLFAAAAAgAiFOLUoEcyuy8AQAAGAUAAAcACQAAAAAAAAAAAACA
+AAAAAHN0ci5kYXRVVAUABzTPcmBQSwUGAAAAAAEAAQA+AAAA8gEAAAAA</Image>
+				<TaggedValues>
+					<Tag name="Definitie" type="" description="" unit="" values="" default="Een IMPLICATIE is  een verwikkeling die een   ENTERPRISEVRAAGSTUK met zich meebrengt."/>
+					<Tag name="Niveau" type="enumeration" description="" unit="" values="Zingeving,Vormgeving" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="IsOntstaanUit" metatype="IsOntstaanUit" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0"/>
+			<Stereotype name="Kernbegrip" metatype="Kernbegrip" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Base" baseStereotypes="Base">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAOhOi1KBHMrsvAEAABgFAAAHABEAc3RyLmRhdFVUDQAHiMdyYIjHcmCIx3Jg
+jVTbasJAEJ1XC/2HoC8WhFalWCk+9g/6XtRcDMQoSUTa0n/vOTPZZBO1lLC7k92dM2duW8pO
+1nKUSALZQ0oll3u5k2+dB5Jh71MOcpJK3iHZzRXGUDbYLyTEToG/11rjEV+Ok1KRQ0hn3I8h
+Z9iLmns2c6dS1Fy2uJsp5lieZFKPh0bD7mbKMcJfBT4ZpDGsl6qbwt7wQiPGfobPx5/KQpbA
+n8mzzLFO5aVjq1Cfc+AVwNgCpeU0xeyv82Zu9RmFSK2m8I48aLOr1/fPZsYzhkYqX6q11HuL
+C3THaw2WSR2H6wxbPeYjBPYJubP8MPKM37E+Y2wT/E8w8k4sb+vmkPeQTWuruazEquI/+lwL
+7HGlR6lG4G80l9+2erse2Lmr4gFOGa9YcSiF0IxwN8FaoT5niJPD/rlpw3naR9/Jh9Y38XKg
+9Xk75IH2TAbrK5wViEXbD8aR7FlrQxk11kYdz312JnP4LNmzG2H18cSxvG3ZuoR9Qf5kYB11
+1hx0q7S1yDplRxWwxpwdoMcsXMtlULMIvM/sWZR8BHtb3pqo+Tr9d8Vu998WXyPVVy3RuNAr
+ehSoT25m37u19fIXUEsBAhcLFAAAAAgA6E6LUoEcyuy8AQAAGAUAAAcACQAAAAAAAAAAAACA
+AAAAAHN0ci5kYXRVVAUAB4jHcmBQSwUGAAAAAAEAAQA+AAAA8gEAAAAA</Image>
+				<TaggedValues>
+					<Tag name="Definitie" type="" description="" unit="" values="" default="Een KERNBEGRIP is een invalshoek van waaruit men een PERSPECTIEF wil beschouwen en waarop men wenst te sturen."/>
+					<Tag name="Niveau" type="enumeration" description="" unit="" values="Zingeving,Vormgeving" default="Vormgeving"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Kernmodel" metatype="Kernmodel" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Base" baseStereotypes="Base">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAPhOi1KBHMrsvAEAABgFAAAHABEAc3RyLmRhdFVUDQAHoMdyYKDHcmCgx3Jg
+jVTbasJAEJ1XC/2HoC8WhFalWCk+9g/6XtRcDMQoSUTa0n/vOTPZZBO1lLC7k92dM2duW8pO
+1nKUSALZQ0oll3u5k2+dB5Jh71MOcpJK3iHZzRXGUDbYLyTEToG/11rjEV+Ok1KRQ0hn3I8h
+Z9iLmns2c6dS1Fy2uJsp5lieZFKPh0bD7mbKMcJfBT4ZpDGsl6qbwt7wQiPGfobPx5/KQpbA
+n8mzzLFO5aVjq1Cfc+AVwNgCpeU0xeyv82Zu9RmFSK2m8I48aLOr1/fPZsYzhkYqX6q11HuL
+C3THaw2WSR2H6wxbPeYjBPYJubP8MPKM37E+Y2wT/E8w8k4sb+vmkPeQTWuruazEquI/+lwL
+7HGlR6lG4G80l9+2erse2Lmr4gFOGa9YcSiF0IxwN8FaoT5niJPD/rlpw3naR9/Jh9Y38XKg
+9Xk75IH2TAbrK5wViEXbD8aR7FlrQxk11kYdz312JnP4LNmzG2H18cSxvG3ZuoR9Qf5kYB11
+1hx0q7S1yDplRxWwxpwdoMcsXMtlULMIvM/sWZR8BHtb3pqo+Tr9d8Vu998WXyPVVy3RuNAr
+ehSoT25m37u19fIXUEsBAhcLFAAAAAgA+E6LUoEcyuy8AQAAGAUAAAcACQAAAAAAAAAAAACA
+AAAAAHN0ci5kYXRVVAUAB6DHcmBQSwUGAAAAAAEAAQA+AAAA8gEAAAAA</Image>
+				<TaggedValues>
+					<Tag name="Definitie" type="" description="" unit="" values="" default="Een KERNMODEL is een representatie van één of meerdere PERSPECTIEVEN, gebaseerd op en in overeenstemming met de RICHTINGGEVENDE UITSPRAKEN van de overeenkomstige PERSPECTIEVEN."/>
+					<Tag name="Niveau" type="enumeration" description="" unit="" values="Zingeving,Vormgeving" default="Vormgeving"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Kernwaarde" metatype="Kernwaarde" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Base" baseStereotypes="Base">
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="GEA::Aggregeert" constraint="GEA::Visie"/>
+					<stereotypedrelationship stereotype="GEA::AssocieertNaar" constraint="GEA::Bron;GEA::Uitspraak"/>
+				</stereotypedrelationships>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIACxgaFKOuc6FzAEAADoFAAAHABEAc3RyLmRhdFVUDQAHMhJGYDISRmAyEkZg
+jVRNT8JAEH1XTPwPDV4wIRGJqMRw9GC8eidAP2gsKyklBI3/3Tcz/dhWMGbT3enuvJk3H7s7
+rLHAFhECbCilcLjEBb507iHj3hEf2KPAGyXTnPHrY8n9HCF3cv49lYgbDseTnVoOKR2oH1PO
+uBfVejbLTqFWHVbUzdTmALeYYIyht95zXNdow2XKN+JfQW4ZpQGZ7NROSt/9X4iY+xmH72vM
+MaWPZr3j2iAloq3qH5FwdcRMMKKmzcKtkkcdXKTeUuLFv8Q1KjG2djE2S05jIlJ8Kmqqeg8t
+zVyr4qibU2fF2Aa1xa6XiX4NVuoS0v6eNbQ6SQUkd9vyTPKa8H/Iz7XyeB7rKG8oG2qlNS1g
+3fEf/LvqOvbLgsM6629bVWWbHm7zt/Oql3s8lVzFakekkMiIugnXgl06ZrYq299nfVRxdq2v
+MdcuF3uO1rq8K8s9vTkZvc94ljMTza0wjsJe6tnHVe3tqhW5z85k+XyWcnOXkP6Tk4rlec92
+P+RGCH9hYHfpoDVo92njUWokdymnt4IouR3ByUoGJYfAG+bNcuTj7X15rnPmY7pvi2l33xcf
+kerLligHien1BLs5XjQO6fUh9STean701iYDP1BLAQIXCxQAAAAIACxgaFKOuc6FzAEAADoF
+AAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAcyEkZgUEsFBgAAAAABAAEAPgAAAAIC
+AAAAAA==</Image>
+				<TaggedValues>
+					<Tag name="Definitie" type="" description="" unit="" values="" default="Een KERNWAARDE van een ENTERPRISE schrijft het gewenste gedrag, karakter en cultuur voor en is voorwaardelijk om succesvol te zijn binnen de geformuleerde VISIE."/>
+					<Tag name="Niveau" type="enumeration" description="" unit="" values="Zingeving,Vormgeving" default="Zingeving"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Missie" metatype="Missie" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Base" baseStereotypes="Base">
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="GEA::AssocieertNaar" constraint="GEA::Missie Element;GEA::Missie Uitspraak"/>
+				</stereotypedrelationships>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIABqfdlLLiBqvyQEAACIFAAAHABEAc3RyLmRhdFVUDQAHXfZYYF32WGBd9lhg
+jVRNS8NAEH3XCv6HUi8VCtZi1SI9evDgzXuxzUcDaSxJSqnif/fNTDa7iRRlye5kd97Mm4/d
+Clu8Y48YQ+woZShwiQt86TxAzr0TPnBAjTdKprnkN8Ka+yUi7pT8e2oQNxwFTyq1HFE6Uj+h
+nHMvbvVslp1arRbYUDdXm2PcYo4ZJsF6z3Hdog2XK9+YfzW55ZTGZFKpnYy+R78QCfdzjtDX
+jGNBH3694+qREtFe9U9IuRbEzDGlps3CzcnTHi5Wbxnx4l/imjYYW/sYmyWnCREZPhW1UL2H
+jmapVSmoW1Jnw9jGrcW+l7l+Hit1iWj/wBpanaQCkrt9cyZ5Tfk/4Vd08ngeW1DeUTbURmta
+w7rjP/gdvVYa9V82XEV973Z527nr4QFPJUeJ2hEpIjKmbsq1ZnfOmCVn+/usDxdf3/oWK+1u
+sVfQWp+3szzQG5PT+5JnJTPgb4NxFPZSxxGuWm9XnchDdibLF7KUG7uG9J2cOJbnPdu9kJsg
+/IWB3aGj1qDbn96jdKjcoZLeaqLkVsgL4is4bHwPg2FeLDchzt6T5zZXIab/lph2/z0JEZm+
+ZKlykFheA1YrvChv6ekJzyU+Nz8Gq4/4B1BLAQIXCxQAAAAIABqfdlLLiBqvyQEAACIFAAAH
+AAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAdd9lhgUEsFBgAAAAABAAEAPgAAAP8BAAAA
+AA==</Image>
+				<TaggedValues>
+					<Tag name="Definitie" type="" description="" unit="" values="" default="Een MISSIE is een korte typisch één zin verklaring, die het fundamentele DOEL van de ENTERPRISE definieert dat duurzaam wordt nagestreefd maar nooit wordt bereikt."/>
+					<Tag name="Niveau" type="enumeration" description="" unit="" values="Zingeving,Vormgeving" default="Zingeving"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Missie Element" metatype="MissieElement" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Base" baseStereotypes="Base">
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="GEA::Beinvloed" constraint="GEA::Uitspraak"/>
+				</stereotypedrelationships>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAChPi1KBHMrsvAEAABgFAAAHABEAc3RyLmRhdFVUDQAHEMhyYBDIcmAQyHJg
+jVTbasJAEJ1XC/2HoC8WhFalWCk+9g/6XtRcDMQoSUTa0n/vOTPZZBO1lLC7k92dM2duW8pO
+1nKUSALZQ0oll3u5k2+dB5Jh71MOcpJK3iHZzRXGUDbYLyTEToG/11rjEV+Ok1KRQ0hn3I8h
+Z9iLmns2c6dS1Fy2uJsp5lieZFKPh0bD7mbKMcJfBT4ZpDGsl6qbwt7wQiPGfobPx5/KQpbA
+n8mzzLFO5aVjq1Cfc+AVwNgCpeU0xeyv82Zu9RmFSK2m8I48aLOr1/fPZsYzhkYqX6q11HuL
+C3THaw2WSR2H6wxbPeYjBPYJubP8MPKM37E+Y2wT/E8w8k4sb+vmkPeQTWuruazEquI/+lwL
+7HGlR6lG4G80l9+2erse2Lmr4gFOGa9YcSiF0IxwN8FaoT5niJPD/rlpw3naR9/Jh9Y38XKg
+9Xk75IH2TAbrK5wViEXbD8aR7FlrQxk11kYdz312JnP4LNmzG2H18cSxvG3ZuoR9Qf5kYB11
+1hx0q7S1yDplRxWwxpwdoMcsXMtlULMIvM/sWZR8BHtb3pqo+Tr9d8Vu998WXyPVVy3RuNAr
+ehSoT25m37u19fIXUEsBAhcLFAAAAAgAKE+LUoEcyuy8AQAAGAUAAAcACQAAAAAAAAAAAACA
+AAAAAHN0ci5kYXRVVAUABxDIcmBQSwUGAAAAAAEAAQA+AAAA8gEAAAAA</Image>
+				<TaggedValues>
+					<Tag name="Definitie" type="" description="" unit="" values="" default="Een MISSIE-ELEMENT is een sleutelwoord uit  de MISSIE."/>
+					<Tag name="Niveau" type="enumeration" description="" unit="" values="Zingeving,Vormgeving" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Missie Uitspraak" metatype="Missie Uitspraak" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Base" baseStereotypes="Base">
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="GEA::AssocieertNaar" constraint="GEA::Bron"/>
+				</stereotypedrelationships>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAAShdlLLiBqvyQEAACIFAAAHABEAc3RyLmRhdFVUDQAHQvlYYEL5WGBC+Vhg
+jVRNS8NAEH3XCv6HUi8VCtZi1SI9evDgzXuxzUcDaSxJSqnif/fNTDa7iRRlye5kd97Mm4/d
+Clu8Y48YQ+woZShwiQt86TxAzr0TPnBAjTdKprnkN8Ka+yUi7pT8e2oQNxwFTyq1HFE6Uj+h
+nHMvbvVslp1arRbYUDdXm2PcYo4ZJsF6z3Hdog2XK9+YfzW55ZTGZFKpnYy+R78QCfdzjtDX
+jGNBH3694+qREtFe9U9IuRbEzDGlps3CzcnTHi5Wbxnx4l/imjYYW/sYmyWnCREZPhW1UL2H
+jmapVSmoW1Jnw9jGrcW+l7l+Hit1iWj/wBpanaQCkrt9cyZ5Tfk/4Vd08ngeW1DeUTbURmta
+w7rjP/gdvVYa9V82XEV973Z527nr4QFPJUeJ2hEpIjKmbsq1ZnfOmCVn+/usDxdf3/oWK+1u
+sVfQWp+3szzQG5PT+5JnJTPgb4NxFPZSxxGuWm9XnchDdibLF7KUG7uG9J2cOJbnPdu9kJsg
+/IWB3aGj1qDbn96jdKjcoZLeaqLkVsgL4is4bHwPg2FeLDchzt6T5zZXIab/lph2/z0JEZm+
+ZKlykFheA1YrvChv6ekJzyU+Nz8Gq4/4B1BLAQIXCxQAAAAIAAShdlLLiBqvyQEAACIFAAAH
+AAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAdC+VhgUEsFBgAAAAABAAEAPgAAAP8BAAAA
+AA==</Image>
+				<TaggedValues>
+					<Tag name="Definitie" type="" description="" unit="" values="" default="Een MISSIE-UITSPRAAK is een UITSPRAAK die onderdeel is van de MISSIE van een ENTERPRISE"/>
+					<Tag name="Niveau" type="enumeration" description="" unit="" values="Zingeving,Vormgeving" default="Zingeving"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Ontwikkeling" metatype="Ontwikkeling" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Base" baseStereotypes="Base">
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="GEA::AssocieertNaar" constraint="GEA::Portfolio"/>
+				</stereotypedrelationships>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIANhE71Ruc4PTvAEAACQFAAAHABEAc3RyLmRhdFVUDQAHhCfRYoQn0WKEJ9Fi
+jVTbbsIwDD2vTNo/VPDCJKQN0MTQxOP+YO8T0MsqhYJKEdqm/fuO7aZNO5imKomb2MfHdpwj
+3rHGAQki7CjlKHCLG3zpPIDj3gf2OKHCKyXTXHEMseF+iZg7Jf+ea4t7fgVPjoocUzpTP6Xs
+uJc0eq227FaKXGBLfae4YzxgUo+7DrrpO+Wa8K8iL0dpTBZHtc/pd3jRKuWZ4xf6mWKBJf3M
+8Ig51ymeOj5Ljb8gZkmMLVFablPO4Tpv5q73RL3mjFJ4iM+uXT9OmyW3KS1yfKrVUvUWv9A9
+rzVZZnUuLjNs7aQ2MbFPrKPVSiogOTzUZ5LfjP8TjqKTz+u2BeUdZbPaak0r2A35j72sJfdk
+lYhyzcDfaDa3OFEvAjv3N3rAU8lXqjgixbRMqJtxrXhXZ8yTx/6+6sNH2kd/x5vedcEriNbn
+7ZEH2j+O3lc8K5mLtjeMo7CXuzbEqPE26kQesjNZRshS+ncDuX1y4lle92xdIn0h/IWBddVZ
+a9C9pa1HuafSUSW9Sc32tJMqXKplVLOIgs/8WZZCBHtnXpqshTb9N8a0++9MaJHrC5dpXiQq
+iSjSmPwsfe/XNsofUEsBAhcLFAAAAAgA2ETvVG5zg9O8AQAAJAUAAAcACQAAAAAAAAAAAACA
+AAAAAHN0ci5kYXRVVAUAB4Qn0WJQSwUGAAAAAAEAAQA+AAAA8gEAAAAA</Image>
+				<TaggedValues>
+					<Tag name="Capaciteit" type="int" description="" unit="" values="" default=""/>
+					<Tag name="Definitie" type="" description="" unit="" values="" default="Een ONTWIKKELING is een verzameling geplande activiteiten die nodig is om een VERANBDERINITIATIEF te realiseren op een volwassenheidsniveau dat benodigd is om één of meerdere DOELSTELLINGEN te bereiken."/>
+					<Tag name="Niveau" type="enumeration" description="" unit="" values="Zingeving,Vormgeving" default=""/>
+					<Tag name="Volwassenheidsniveau" type="enumeration" description="" unit="" values="Brons,Zilver,Goud" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Oorzaak" metatype="Oorzaak" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Base" baseStereotypes="Base">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAAxPi1KBHMrsvAEAABgFAAAHABEAc3RyLmRhdFVUDQAHtsdyYLbHcmC2x3Jg
+jVTbasJAEJ1XC/2HoC8WhFalWCk+9g/6XtRcDMQoSUTa0n/vOTPZZBO1lLC7k92dM2duW8pO
+1nKUSALZQ0oll3u5k2+dB5Jh71MOcpJK3iHZzRXGUDbYLyTEToG/11rjEV+Ok1KRQ0hn3I8h
+Z9iLmns2c6dS1Fy2uJsp5lieZFKPh0bD7mbKMcJfBT4ZpDGsl6qbwt7wQiPGfobPx5/KQpbA
+n8mzzLFO5aVjq1Cfc+AVwNgCpeU0xeyv82Zu9RmFSK2m8I48aLOr1/fPZsYzhkYqX6q11HuL
+C3THaw2WSR2H6wxbPeYjBPYJubP8MPKM37E+Y2wT/E8w8k4sb+vmkPeQTWuruazEquI/+lwL
+7HGlR6lG4G80l9+2erse2Lmr4gFOGa9YcSiF0IxwN8FaoT5niJPD/rlpw3naR9/Jh9Y38XKg
+9Xk75IH2TAbrK5wViEXbD8aR7FlrQxk11kYdz312JnP4LNmzG2H18cSxvG3ZuoR9Qf5kYB11
+1hx0q7S1yDplRxWwxpwdoMcsXMtlULMIvM/sWZR8BHtb3pqo+Tr9d8Vu998WXyPVVy3RuNAr
+ehSoT25m37u19fIXUEsBAhcLFAAAAAgADE+LUoEcyuy8AQAAGAUAAAcACQAAAAAAAAAAAACA
+AAAAAHN0ci5kYXRVVAUAB7bHcmBQSwUGAAAAAAEAAQA+AAAA8gEAAAAA</Image>
+				<TaggedValues>
+					<Tag name="Definitie" type="" description="" unit="" values="" default="Een OORZAAK is een reden die het bestaan van  een ENTERPRISEVRAAGSTUK verklaart."/>
+					<Tag name="Niveau" type="enumeration" description="" unit="" values="Zingeving,Vormgeving" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Opdracht" metatype="Opdracht" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Base" baseStereotypes="Base">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIABhPi1KBHMrsvAEAABgFAAAHABEAc3RyLmRhdFVUDQAHzMdyYMzHcmDMx3Jg
+jVTbasJAEJ1XC/2HoC8WhFalWCk+9g/6XtRcDMQoSUTa0n/vOTPZZBO1lLC7k92dM2duW8pO
+1nKUSALZQ0oll3u5k2+dB5Jh71MOcpJK3iHZzRXGUDbYLyTEToG/11rjEV+Ok1KRQ0hn3I8h
+Z9iLmns2c6dS1Fy2uJsp5lieZFKPh0bD7mbKMcJfBT4ZpDGsl6qbwt7wQiPGfobPx5/KQpbA
+n8mzzLFO5aVjq1Cfc+AVwNgCpeU0xeyv82Zu9RmFSK2m8I48aLOr1/fPZsYzhkYqX6q11HuL
+C3THaw2WSR2H6wxbPeYjBPYJubP8MPKM37E+Y2wT/E8w8k4sb+vmkPeQTWuruazEquI/+lwL
+7HGlR6lG4G80l9+2erse2Lmr4gFOGa9YcSiF0IxwN8FaoT5niJPD/rlpw3naR9/Jh9Y38XKg
+9Xk75IH2TAbrK5wViEXbD8aR7FlrQxk11kYdz312JnP4LNmzG2H18cSxvG3ZuoR9Qf5kYB11
+1hx0q7S1yDplRxWwxpwdoMcsXMtlULMIvM/sWZR8BHtb3pqo+Tr9d8Vu998WXyPVVy3RuNAr
+ehSoT25m37u19fIXUEsBAhcLFAAAAAgAGE+LUoEcyuy8AQAAGAUAAAcACQAAAAAAAAAAAACA
+AAAAAHN0ci5kYXRVVAUAB8zHcmBQSwUGAAAAAAEAAQA+AAAA8gEAAAAA</Image>
+			</Stereotype>
+			<Stereotype name="Oplossingscontour" metatype="Oplossingscontour" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Base" baseStereotypes="Base">
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="GEA::AssocieertNaar" constraint="GEA::Enterprisevraagstuk"/>
+				</stereotypedrelationships>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIADRPi1KBHMrsvAEAABgFAAAHABEAc3RyLmRhdFVUDQAHBshyYAbIcmAGyHJg
+jVTbasJAEJ1XC/2HoC8WhFalWCk+9g/6XtRcDMQoSUTa0n/vOTPZZBO1lLC7k92dM2duW8pO
+1nKUSALZQ0oll3u5k2+dB5Jh71MOcpJK3iHZzRXGUDbYLyTEToG/11rjEV+Ok1KRQ0hn3I8h
+Z9iLmns2c6dS1Fy2uJsp5lieZFKPh0bD7mbKMcJfBT4ZpDGsl6qbwt7wQiPGfobPx5/KQpbA
+n8mzzLFO5aVjq1Cfc+AVwNgCpeU0xeyv82Zu9RmFSK2m8I48aLOr1/fPZsYzhkYqX6q11HuL
+C3THaw2WSR2H6wxbPeYjBPYJubP8MPKM37E+Y2wT/E8w8k4sb+vmkPeQTWuruazEquI/+lwL
+7HGlR6lG4G80l9+2erse2Lmr4gFOGa9YcSiF0IxwN8FaoT5niJPD/rlpw3naR9/Jh9Y38XKg
+9Xk75IH2TAbrK5wViEXbD8aR7FlrQxk11kYdz312JnP4LNmzG2H18cSxvG3ZuoR9Qf5kYB11
+1hx0q7S1yDplRxWwxpwdoMcsXMtlULMIvM/sWZR8BHtb3pqo+Tr9d8Vu998WXyPVVy3RuNAr
+ehSoT25m37u19fIXUEsBAhcLFAAAAAgANE+LUoEcyuy8AQAAGAUAAAcACQAAAAAAAAAAAACA
+AAAAAHN0ci5kYXRVVAUABwbIcmBQSwUGAAAAAAEAAQA+AAAA8gEAAAAA</Image>
+				<TaggedValues>
+					<Tag name="Ben.Veranderinitiatief" type="char" description="" unit="" values="" default="Zie Notes"/>
+					<Tag name="Clusters" type="char" description="" unit="" values="" default=""/>
+					<Tag name="Definitie" type="" description="" unit="" values="" default="Een OPLOSSINGSCONTOUR is een integrale en samenhangende verzameling van VERANDERINITIATIEVEN die gezamenlijk de oplossing van een ENTERPRISEVRAAGSTUK omlijnt en daarmee de oplossingsruimte bepaalt."/>
+					<Tag name="Niveau" type="enumeration" description="" unit="" values="Zingeving,Vormgeving" default=""/>
+					<Tag name="Perspectief" type="Classifier:Perspectief" description="" unit="Perspectief" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Perspectief" metatype="Perspectief" notes="" cx="0" cy="0" bgcolor="16777200" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="Base" baseStereotypes="Base">
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="GEA::AssocieertNaar" constraint="GEA::Kernbegrip;GEA::Kernmodel"/>
+				</stereotypedrelationships>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIACJNi1KfAK3hKQIAAEoGAAAHABEAc3RyLmRhdFVUDQAHPcRyYD3EcmA9xHJg
+jVRNa9tAEH1XF/ofRHJxwaW2Q9qGkkMPKfQWaO8hsWRZVFGNLBPSkv/e92a00kq2QxG7O9qd
+jzdvdmeHDe6xRYYEj5QKVHiLN/hr8wQl957xG3s0+EnJNa85zvDA/Ropd2r+fWktPvCreLIz
+zymlJ+qvKZfcyzo9n7XTmNcKK+qW5nOKOWY2FrjAFd51Vq5fGs6Mfw0xlZSmRLAz+4Ixzw4s
+1twv+cUxlvS+YIwlLvmFtbdUJlvTf0bOtaLNpaHyeYGPnTyP7DKLVNBWsafUm7f6vo71fRaP
+a1oU+GNWV6b3aaApRDVPV8zonnjyNveerThSb6c6pPS9Z828LmJcnG3bM/GZ83/GUQ34O21b
+UX6k7FYrq2EDvw3/Y6+15p5WZVQYA697CzXtb+0wAz8Pt3fCU/G1Nj+SUlpm1M25NryXS/IU
+fL+cjBEyHXvf4M7utfxV9DbGHTxP7K2UjH7Ns5pc9O/AMQp9Y6ycd9HOB5nH6FzWiFHqrT5A
+t08nAeXpyP4y9BaEXwj8FT1ZDYa3tI+oe6pXVDOaaqZ3oSocq2XSokiiz+M5S7EH7yk3HWux
+zbifuPa4p8QWhXWz3HhRVrdH8d3hu+WiGz+jpnIO8+doPWQh5l19Z0/vqr0yTuydpsaQsK4Y
+Tad6q4nlPLYRGynEjTgL3S3O6YexVXO+NQ8bZhVQBZ2bUd8R/vfsnzPrUxdH9BX1tL9v8J75
+1fSEoCbCX/R9aPOCf1BLAQIXCxQAAAAIACJNi1KfAK3hKQIAAEoGAAAHAAkAAAAAAAAAAAAA
+gAAAAABzdHIuZGF0VVQFAAc9xHJgUEsFBgAAAAABAAEAPgAAAF8CAAAAAA==</Image>
+				<TaggedValues>
+					<Tag name="Definitie" type="" description="" unit="" values="" default="Een PERSPECTIEF is een invalshoek van waaruit men de ENTERPRISE wil beschouwen en waarop men wenst te sturen."/>
+					<Tag name="ID" type="" description="" unit="" values="" default=""/>
+					<Tag name="Niveau" type="enumeration" description="" unit="" values="Zingeving,Vormgeving" default="Vormgeving"/>
+					<Tag name="StatusPerspectief" type="enumeration" description="" unit="" values="Kandidaat,Vastgesteld" default="Kandidaat"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Perspectiefeigenaar" metatype="Perspectiefeigenaar" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAOpLkFKJyogQAQEAAIgCAAAHABEAc3RyLmRhdFVUDQAHeVl5YHlZeWB5WXlg
+lZDPTsJAEMa/qya+w4YTJiaVCxfjST2YmHiQFyi0ChFa0i6iIbw7v5kWFFASs9nJ7Hx/dmYS
+JQq6U6mCk2ukSF5Re9CnUs0015T6hc5Va0xlzitQTzVBYfWVxzNUJerU79BVQbfcCLLgddPy
+CniNV0a2hHPIqMkjDvZDzivqy/266uhFz3rSo+7JL3eKGU4friphXeuK+41unRq0B7bPWHs8
+nLGGvaCzUTv/ds6/FTZ5pTf/6aci8S1nYCnzBmLhsfKdLXHIfRtWi+5jlX2/QCzg/G/Xtjvz
+iHRo7DHzH29tcHJrDdoH7e/Q0J6mp9+8X1FPOTZr5n1Yz+8ojtlrbQBQSwECFwsUAAAACADq
+S5BSicqIEAEBAACIAgAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHeVl5YFBLBQYA
+AAAAAQABAD4AAAA3AQAAAAA=</Image>
+				<AppliesTo>
+					<Apply type="Dependency">
+						<Property name="_lineStyle" value="direct"/>
+						<Property name="_MeaningBackwards" value="Perspectiefeigenaar"/>
+						<Property name="_MeaningForwards" value="Perspectiefeigenaar"/>
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Portfolio" metatype="Portfolio" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Base" baseStereotypes="Base">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIABBPi1KBHMrsvAEAABgFAAAHABEAc3RyLmRhdFVUDQAHyMdyYMjHcmDIx3Jg
+jVTbasJAEJ1XC/2HoC8WhFalWCk+9g/6XtRcDMQoSUTa0n/vOTPZZBO1lLC7k92dM2duW8pO
+1nKUSALZQ0oll3u5k2+dB5Jh71MOcpJK3iHZzRXGUDbYLyTEToG/11rjEV+Ok1KRQ0hn3I8h
+Z9iLmns2c6dS1Fy2uJsp5lieZFKPh0bD7mbKMcJfBT4ZpDGsl6qbwt7wQiPGfobPx5/KQpbA
+n8mzzLFO5aVjq1Cfc+AVwNgCpeU0xeyv82Zu9RmFSK2m8I48aLOr1/fPZsYzhkYqX6q11HuL
+C3THaw2WSR2H6wxbPeYjBPYJubP8MPKM37E+Y2wT/E8w8k4sb+vmkPeQTWuruazEquI/+lwL
+7HGlR6lG4G80l9+2erse2Lmr4gFOGa9YcSiF0IxwN8FaoT5niJPD/rlpw3naR9/Jh9Y38XKg
+9Xk75IH2TAbrK5wViEXbD8aR7FlrQxk11kYdz312JnP4LNmzG2H18cSxvG3ZuoR9Qf5kYB11
+1hx0q7S1yDplRxWwxpwdoMcsXMtlULMIvM/sWZR8BHtb3pqo+Tr9d8Vu998WXyPVVy3RuNAr
+ehSoT25m37u19fIXUEsBAhcLFAAAAAgAEE+LUoEcyuy8AQAAGAUAAAcACQAAAAAAAAAAAACA
+AAAAAHN0ci5kYXRVVAUAB8jHcmBQSwUGAAAAAAEAAQA+AAAA8gEAAAAA</Image>
+				<TaggedValues>
+					<Tag name="Definitie" type="" description="" unit="" values="" default="Een PORTFOLIO is een verzameling samenhangende realisatie-initiatieven,  van een ENTERPRISE."/>
+					<Tag name="Niveau" type="enumeration" description="" unit="" values="Zingeving,Vormgeving" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Principe" metatype="Principe" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Base" baseStereotypes="Base">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAMZOi1KBHMrsvAEAABgFAAAHABEAc3RyLmRhdFVUDQAHS8dyYEvHcmBLx3Jg
+jVTbasJAEJ1XC/2HoC8WhFalWCk+9g/6XtRcDMQoSUTa0n/vOTPZZBO1lLC7k92dM2duW8pO
+1nKUSALZQ0oll3u5k2+dB5Jh71MOcpJK3iHZzRXGUDbYLyTEToG/11rjEV+Ok1KRQ0hn3I8h
+Z9iLmns2c6dS1Fy2uJsp5lieZFKPh0bD7mbKMcJfBT4ZpDGsl6qbwt7wQiPGfobPx5/KQpbA
+n8mzzLFO5aVjq1Cfc+AVwNgCpeU0xeyv82Zu9RmFSK2m8I48aLOr1/fPZsYzhkYqX6q11HuL
+C3THaw2WSR2H6wxbPeYjBPYJubP8MPKM37E+Y2wT/E8w8k4sb+vmkPeQTWuruazEquI/+lwL
+7HGlR6lG4G80l9+2erse2Lmr4gFOGa9YcSiF0IxwN8FaoT5niJPD/rlpw3naR9/Jh9Y38XKg
+9Xk75IH2TAbrK5wViEXbD8aR7FlrQxk11kYdz312JnP4LNmzG2H18cSxvG3ZuoR9Qf5kYB11
+1hx0q7S1yDplRxWwxpwdoMcsXMtlULMIvM/sWZR8BHtb3pqo+Tr9d8Vu998WXyPVVy3RuNAr
+ehSoT25m37u19fIXUEsBAhcLFAAAAAgAxk6LUoEcyuy8AQAAGAUAAAcACQAAAAAAAAAAAACA
+AAAAAHN0ci5kYXRVVAUAB0vHcmBQSwUGAAAAAAEAAQA+AAAA8gEAAAAA</Image>
+				<TaggedValues>
+					<Tag name="Definitie" type="" description="" unit="" values="" default="Een PRINCIPE is een RICHTINGGEVENDE UITSPRAAK met een langdurig effect in het vormgeven van de VISIE zodat deze kan worden gerealiseerd."/>
+					<Tag name="Implicatie" type="" description="" unit="" values="" default=""/>
+					<Tag name="Niveau" type="enumeration" description="" unit="" values="Zingeving,Vormgeving" default=""/>
+					<Tag name="Rationale" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Rapport" metatype="Rapport" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Base" baseStereotypes="Base">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAARPi1KBHMrsvAEAABgFAAAHABEAc3RyLmRhdFVUDQAHssdyYLLHcmCyx3Jg
+jVTbasJAEJ1XC/2HoC8WhFalWCk+9g/6XtRcDMQoSUTa0n/vOTPZZBO1lLC7k92dM2duW8pO
+1nKUSALZQ0oll3u5k2+dB5Jh71MOcpJK3iHZzRXGUDbYLyTEToG/11rjEV+Ok1KRQ0hn3I8h
+Z9iLmns2c6dS1Fy2uJsp5lieZFKPh0bD7mbKMcJfBT4ZpDGsl6qbwt7wQiPGfobPx5/KQpbA
+n8mzzLFO5aVjq1Cfc+AVwNgCpeU0xeyv82Zu9RmFSK2m8I48aLOr1/fPZsYzhkYqX6q11HuL
+C3THaw2WSR2H6wxbPeYjBPYJubP8MPKM37E+Y2wT/E8w8k4sb+vmkPeQTWuruazEquI/+lwL
+7HGlR6lG4G80l9+2erse2Lmr4gFOGa9YcSiF0IxwN8FaoT5niJPD/rlpw3naR9/Jh9Y38XKg
+9Xk75IH2TAbrK5wViEXbD8aR7FlrQxk11kYdz312JnP4LNmzG2H18cSxvG3ZuoR9Qf5kYB11
+1hx0q7S1yDplRxWwxpwdoMcsXMtlULMIvM/sWZR8BHtb3pqo+Tr9d8Vu998WXyPVVy3RuNAr
+ehSoT25m37u19fIXUEsBAhcLFAAAAAgABE+LUoEcyuy8AQAAGAUAAAcACQAAAAAAAAAAAACA
+AAAAAHN0ci5kYXRVVAUAB7LHcmBQSwUGAAAAAAEAAQA+AAAA8gEAAAAA</Image>
+				<TaggedValues>
+					<Tag name="Definitie" type="" description="" unit="" values="" default=" Een RAPPORT is een uitingsvorm of verslag van iets dat is onderzocht of beoordeeld."/>
+					<Tag name="Niveau" type="enumeration" description="" unit="" values="Zingeving,Vormgeving" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Realiseert" metatype="Realiseert" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAH6yaVJzx2+ECQEAAHoCAAAHABEAc3RyLmRhdFVUDQAHc/RHYHP0R2Bz9Edg
+lZHdSsNAEIXPrYLvsHhloRCLIIJ4UVTwUvAJYhNbMU1KsrWK9N39ZpLYH/WiLDPMzpw5O3M2
+UaKgW1UqObkmisQ1uXt9KNVcCxXkT3SsRjMyC26BfKpXOiz/5f6Iroru1O3Zu4JusEhlye26
+w5XgWq6MaAVmH9EQRxjshZxb1KfznelUdxrrSQ9Egx/8HJ5376nAnGuIbao9T1sdUdtFrN3v
+b9iAXjLXpNu+3/L/Dtu71tRf2u5IXOOMWsq2AV+6r12xFQy5a2G56DyW2eUL+BLMYUqbcsYR
+mdDQM/bf6PIIS4GyU//9XrehLrBLbKSrLZVCd9o5/uJ7QeeCY/tl/rbN+UbHb/Ra31BLAQIX
+CxQAAAAIAH6yaVJzx2+ECQEAAHoCAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAdz
+9EdgUEsFBgAAAAABAAEAPgAAAD8BAAAAAA==</Image>
+				<AppliesTo>
+					<Apply type="Dependency">
+						<Property name="_lineStyle" value="direct"/>
+						<Property name="_MeaningBackwards" value="Wordt gerealiseerd door"/>
+						<Property name="_MeaningForwards" value="Realiseert"/>
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Relevante Relatie" metatype="Relevante Relatie" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Base" baseStereotypes="Base">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIACpNSFO4E8lJuwEAABgFAAAHABEAc3RyLmRhdFVUDQAHQRJgYUESYGFBEmBh
+jVTbasJAEJ1XC/2HoC8WhNaWXqT42D/oe1FzMRCjxIi0pf/ec2ay2U3UUsLuTnZ3zpy57V7W
+spCdJBLJBlIupVzLlXzrPJACe5+ylYPU8g7Jbs4xhrLEfiUxdir8vTYat/hKnOwVOYZ0xP0U
+coG9pL1nM3dqRS1lhbuFYo7lTibNuGk17G6hHBP81eBTQBrD+l51c9gbnmik2C/whfhTeZIZ
+8KfyKA+6vnRsVepzCbwKGCugeE5TzOH60M5en1FI1GoO78iDNrt6ff9sZjxTaOTypVozvfd8
+gu54LcAya+JwnqHXYz5iYB+QO8sPI8/47ZozxjbD/wSj7MTysm4JeQPZtFaay1qsKv6jz7XC
+Hld6lGsE/kZz+fXV2/XAzl0VD3DKeKWKQymGZoK7GdYa9XmPODnsn4s2nKd99LV8aH0TrwRa
+n7dDHmjPFLA+x1mFWPh+MI5kz1obyqi1Nup4HrIzmSNkyZ5dCquPJ47lZcvWJewL8icD66ij
+5qBbpd4i65QdVcEac7aFHrNwLpdRwyIKPrNnUQoR7G15a6MW6vTfFbvdf1tCjVxftUzjQq/o
+UaQ+uZl971bv5S9QSwECFwsUAAAACAAqTUhTuBPJSbsBAAAYBQAABwAJAAAAAAAAAAAAAIAA
+AAAAc3RyLmRhdFVUBQAHQRJgYVBLBQYAAAAAAQABAD4AAADxAQAAAAA=</Image>
+				<TaggedValues>
+					<Tag name="datum_eind_" type="" description="" unit="" values="" default=""/>
+					<Tag name="datum_start_" type="" description="" unit="" values="" default=""/>
+					<Tag name="Definitie" type="" description="" unit="" values="" default="Een RELEVANTE RELATIE is een beschrijving van het verband tussen RICHTINGGEVENDE UITSPRAKEN van verschillende PERSPECTIEVEN."/>
+					<Tag name="Niveau" type="enumeration" description="" unit="" values="Zingeving,Vormgeving" default="Vormgeving"/>
+					<Tag name="weging_" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="RelevanteRelatie" metatype="Relevantie Relatie" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIADSpY1N6vg6XCwEAAH4CAAAHABEAc3RyLmRhdFVUDQAHlvqCYZb6gmGW+oJh
+lZJPS8NAEMXfVaHfYelJoRCLIIJ4sj3rwS8Qm9iKaVKSrVWk393fTBL7Rz3IMsPuzHtvdx6b
+KFHQnSqVrFwzRfY1tanelWqplQrqA52q0YLKilOgnuoFhtU/PZ/AqmCnHk/OCrolIp01p5sO
+V4JrtTJ2GzDHiIZ9RMFuyDlFfbjemYaa6F6PrCm7oc6/OUu03pxXgbvQiNh1e622O6Z3iNh6
+Pp6yAb3mbbPOgX7Svxk2e62537TPSNznjF7KxIFceq7dtQ0Kufthteg6VjnUC+QSzP/cNvdM
+I/JCQy+Yf+fLAyoF7s79B/S+jXRJXBFjXe+5FLrVvuM3vWd8Llg2X+Z32ztfYfxEb/UFUEsB
+AhcLFAAAAAgANKljU3q+DpcLAQAAfgIAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUA
+B5b6gmFQSwUGAAAAAAEAAQA+AAAAQQEAAAAA</Image>
+				<AppliesTo>
+					<Apply type="Dependency">
+						<Property name="_lineStyle" value="autoRoute"/>
+						<Property name="_MeaningBackwards" value="RelevantieRelatie"/>
+						<Property name="_MeaningForwards" value="RelevantieRelatie"/>
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="RichtinggevendeUitspraak" metatype="RichtinggevendeUitspraak" notes="" cx="0" cy="0" bgcolor="15794160" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="Base" baseStereotypes="Base">
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="GEA::AssocieertNaar" constraint="GEA::Beleidsuitspraak;GEA::Doelstelling;GEA::Kernmodel;GEA::Principe;GEA::Relevante Relatie;GEA::Uitspraak;GEA::Veranderinitiatief;GEA::Veranderinitiatief"/>
+					<stereotypedrelationship stereotype="GEA::RelevanteRelatie" constraint="GEA::RichtinggevendeUitspraak"/>
+					<stereotypedrelationship stereotype="GEA::Sturing" constraint="GEA::Perspectief"/>
+					<stereotypedrelationship stereotype="GEA::WordtGerealiseerdDoor" constraint="GEA::Bron"/>
+				</stereotypedrelationships>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAO5LbFMnGhvsQQIAALwGAAAHABEAc3RyLmRhdFVUDQAHazSOYWs0jmFrNI5h
+nVTbTttAED2vqcQ/WMkLSKBSIPSmPqBeEC+oangqqionNiGqY6LYKWor/p1zZtaxk8Y0qqxd
+z+7OnDlz2S1wixgzpIgwpTRBjh08wx+bIzznF+GCuxOUHDEyzgX/Wt1xP8IZ5RJzrodYUEp5
+HuGAoyS6Vo6+oFRSGnItdMfW6oZIc9NK+I9xbzzGXI94MjVmOc+KwCrnbmHME0r33HnH0TUW
+C+J08TZo3uJ74Dw2rq6Xmc+yoSeOpenlxrjEL9PapU5BHzpJKO8Fi06w+2BIA57+Nu0jfofY
+xwvOh0vtCF94OiKq4hgHZOnVuus2lYcz+k3oYcFMDZbVEi9FK7yCeHU9Cp7s47UhOpfjgF2z
+acfMKU8pv7e8z7iaE1k7ueVrFdlHhevYE+YjIpZQlceY8Qr5kic/iRPTq3BUh6+hzilPXFKG
+9wKS92An1OaGGhk/dURm/aJsH+OUWKfoc36Jk0b21F0Ds/xs7BXRv+0iPIR/Sm153pZLPyC+
+smz3Obbj0m5Xc/FZN2S9hw6ssl4JyW1dJAbO3RnsUu/IfK7W0DWd66cQZZPtZqvKi99Jf02e
+7qTVrG6+paOgm9Kyuqmey5Tdq/coZv/6XZ5A9UqWtpX32q6KSXek3Cqmmb1p0s4sY130lri9
+xlsQNSrVzEDb/axsno5+/Y3q8I5s0hsSVe+vslzr/s39Guf4yJt/wTfrG97Qtocrrs8p6wbq
+7U9a4/Ie9Be7GaO8z2mnGqkWd6zaD4utafF/veu2DwGpOTurR1BLAQIXCxQAAAAIAO5LbFMn
+GhvsQQIAALwGAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAdrNI5hUEsFBgAAAAAB
+AAEAPgAAAHcCAAAAAA==</Image>
+				<TaggedValues>
+					<Tag name="Belang" type="enumeration" description="" unit="" values="Hoog,Midden,Laag" default=""/>
+					<Tag name="DateIdentified" type="" description="" unit="" values="" default=""/>
+					<Tag name="Definitie" type="" description="" unit="" values="" default="Een RICHTINGGEVENDE UITSPRAAK is een binnen een ENTERPRISE uitgesproken en vastgelegd statement dat richting geeft aan gewenst gedrag"/>
+					<Tag name="ID" type="" description="" unit="" values="" default=""/>
+					<Tag name="Niveau" type="enumeration" description="" unit="" values="Zingeving,Vormgeving" default="Vormgeving"/>
+					<Tag name="Typergu" type="enumeration" description="" unit="" values="Principe,Beleidsuitspraak,Doelstelling,----" default="Principe"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Risico" metatype="Risico" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Base" baseStereotypes="Base">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAHZTi1KBHMrsvAEAABgFAAAHABEAc3RyLmRhdFVUDQAHL89yYC/PcmAvz3Jg
+jVTbasJAEJ1XC/2HoC8WhFalWCk+9g/6XtRcDMQoSUTa0n/vOTPZZBO1lLC7k92dM2duW8pO
+1nKUSALZQ0oll3u5k2+dB5Jh71MOcpJK3iHZzRXGUDbYLyTEToG/11rjEV+Ok1KRQ0hn3I8h
+Z9iLmns2c6dS1Fy2uJsp5lieZFKPh0bD7mbKMcJfBT4ZpDGsl6qbwt7wQiPGfobPx5/KQpbA
+n8mzzLFO5aVjq1Cfc+AVwNgCpeU0xeyv82Zu9RmFSK2m8I48aLOr1/fPZsYzhkYqX6q11HuL
+C3THaw2WSR2H6wxbPeYjBPYJubP8MPKM37E+Y2wT/E8w8k4sb+vmkPeQTWuruazEquI/+lwL
+7HGlR6lG4G80l9+2erse2Lmr4gFOGa9YcSiF0IxwN8FaoT5niJPD/rlpw3naR9/Jh9Y38XKg
+9Xk75IH2TAbrK5wViEXbD8aR7FlrQxk11kYdz312JnP4LNmzG2H18cSxvG3ZuoR9Qf5kYB11
+1hx0q7S1yDplRxWwxpwdoMcsXMtlULMIvM/sWZR8BHtb3pqo+Tr9d8Vu998WXyPVVy3RuNAr
+ehSoT25m37u19fIXUEsBAhcLFAAAAAgAdlOLUoEcyuy8AQAAGAUAAAcACQAAAAAAAAAAAACA
+AAAAAHN0ci5kYXRVVAUABy/PcmBQSwUGAAAAAAEAAQA+AAAA8gEAAAAA</Image>
+				<TaggedValues>
+					<Tag name="Definitie" type="" description="" unit="" values="" default="Een RISICO is een gevaar dat een ENTERPRISE loopt bij het niet oplossen een ENTERPRISEVRAAGSTUK."/>
+					<Tag name="Niveau" type="enumeration" description="" unit="" values="Zingeving,Vormgeving" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Rol" metatype="Rol" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Base" baseStereotypes="Base">
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="GEA::AssocieertNaar" constraint="GEA::Perspectief"/>
+					<stereotypedrelationship stereotype="GEA::AssocieertVan" constraint="GEA::Stakeholder"/>
+					<stereotypedrelationship stereotype="GEA::Perspectiefeigenaar" constraint="GEA::Perspectief"/>
+				</stereotypedrelationships>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAPBOi1KBHMrsvAEAABgFAAAHABEAc3RyLmRhdFVUDQAHrMdyYKzHcmCsx3Jg
+jVTbasJAEJ1XC/2HoC8WhFalWCk+9g/6XtRcDMQoSUTa0n/vOTPZZBO1lLC7k92dM2duW8pO
+1nKUSALZQ0oll3u5k2+dB5Jh71MOcpJK3iHZzRXGUDbYLyTEToG/11rjEV+Ok1KRQ0hn3I8h
+Z9iLmns2c6dS1Fy2uJsp5lieZFKPh0bD7mbKMcJfBT4ZpDGsl6qbwt7wQiPGfobPx5/KQpbA
+n8mzzLFO5aVjq1Cfc+AVwNgCpeU0xeyv82Zu9RmFSK2m8I48aLOr1/fPZsYzhkYqX6q11HuL
+C3THaw2WSR2H6wxbPeYjBPYJubP8MPKM37E+Y2wT/E8w8k4sb+vmkPeQTWuruazEquI/+lwL
+7HGlR6lG4G80l9+2erse2Lmr4gFOGa9YcSiF0IxwN8FaoT5niJPD/rlpw3naR9/Jh9Y38XKg
+9Xk75IH2TAbrK5wViEXbD8aR7FlrQxk11kYdz312JnP4LNmzG2H18cSxvG3ZuoR9Qf5kYB11
+1hx0q7S1yDplRxWwxpwdoMcsXMtlULMIvM/sWZR8BHtb3pqo+Tr9d8Vu998WXyPVVy3RuNAr
+ehSoT25m37u19fIXUEsBAhcLFAAAAAgA8E6LUoEcyuy8AQAAGAUAAAcACQAAAAAAAAAAAACA
+AAAAAHN0ci5kYXRVVAUAB6zHcmBQSwUGAAAAAAEAAQA+AAAA8gEAAAAA</Image>
+				<TaggedValues>
+					<Tag name="Definitie" type="" description="" unit="" values="" default="Een ROL is het geheel aan verantwoordelijkheden, activiteiten en bevoegdheden dat aan een STAKEHOLDER wordt toegekend."/>
+					<Tag name="gearol" type="enumeration" description="" unit="" values="Ja,Nee" default=""/>
+					<Tag name="Niveau" type="enumeration" description="" unit="" values="Zingeving,Vormgeving" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Scope" metatype="Scope" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Base" baseStereotypes="Base">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAB5Pi1KBHMrsvAEAABgFAAAHABEAc3RyLmRhdFVUDQAHz8dyYM/HcmDPx3Jg
+jVTbasJAEJ1XC/2HoC8WhFalWCk+9g/6XtRcDMQoSUTa0n/vOTPZZBO1lLC7k92dM2duW8pO
+1nKUSALZQ0oll3u5k2+dB5Jh71MOcpJK3iHZzRXGUDbYLyTEToG/11rjEV+Ok1KRQ0hn3I8h
+Z9iLmns2c6dS1Fy2uJsp5lieZFKPh0bD7mbKMcJfBT4ZpDGsl6qbwt7wQiPGfobPx5/KQpbA
+n8mzzLFO5aVjq1Cfc+AVwNgCpeU0xeyv82Zu9RmFSK2m8I48aLOr1/fPZsYzhkYqX6q11HuL
+C3THaw2WSR2H6wxbPeYjBPYJubP8MPKM37E+Y2wT/E8w8k4sb+vmkPeQTWuruazEquI/+lwL
+7HGlR6lG4G80l9+2erse2Lmr4gFOGa9YcSiF0IxwN8FaoT5niJPD/rlpw3naR9/Jh9Y38XKg
+9Xk75IH2TAbrK5wViEXbD8aR7FlrQxk11kYdz312JnP4LNmzG2H18cSxvG3ZuoR9Qf5kYB11
+1hx0q7S1yDplRxWwxpwdoMcsXMtlULMIvM/sWZR8BHtb3pqo+Tr9d8Vu998WXyPVVy3RuNAr
+ehSoT25m37u19fIXUEsBAhcLFAAAAAgAHk+LUoEcyuy8AQAAGAUAAAcACQAAAAAAAAAAAACA
+AAAAAHN0ci5kYXRVVAUAB8/HcmBQSwUGAAAAAAEAAQA+AAAA8gEAAAAA</Image>
+				<TaggedValues>
+					<Tag name="Definitie" type="" description="" unit="" values="" default="Een SCOPE is de reikwijdte van iets. "/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Specialiseert" metatype="Specialiseert" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIACBJSFO6JPK1CwEAAHwCAAAHABEAc3RyLmRhdFVUDQAHvApgYbwKYGG8CmBh
+lZHdSsNAEIXPrYLvsHhloRCLIIJ4Vb0QBAWfIDaxFdOkJFurSN/dbyaJ/VEvZJlhd+acsztn
+EyUKGqtSyco1UWRfU7vRu1LNtVBB/UiHajSjsuAUqKd6gWH1T88HsCrYqceTs4KuiEhnyemy
+w5XgWq2M3QrMPqJhH1GwG3JOUR+ud6JjPeped7rVNfvBN2OO0puzKlCnGhKbbq/Udkf0dhFr
+z/szNqCXvGzSzd/P+TfDJq819Zu2GYm7nNFLmTeQS8+1e7ZCIXc3rBZdxyq7eoFcgvmf1+ad
+aUReaOgZ8298eUClwNup/3/v21BnxDkx0sWWS6Fb7Tt+03vG54Jl82V+t73zFcZP9FpfUEsB
+AhcLFAAAAAgAIElIU7ok8rULAQAAfAIAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUA
+B7wKYGFQSwUGAAAAAAEAAQA+AAAAQQEAAAAA</Image>
+				<AppliesTo>
+					<Apply type="Dependency">
+						<Property name="_lineStyle" value="direct"/>
+						<Property name="_MeaningBackwards" value="WordtGespecialiseerdDoor"/>
+						<Property name="_MeaningForwards" value="Specialiseert"/>
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Stakeholder" metatype="Stakeholder" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Base" baseStereotypes="Base">
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="GEA::AssocieertNaar" constraint="GEA::Enterprisevraagstuk;GEA::Perspectief;GEA::Perspectief;GEA::Rol;GEA::Rol"/>
+				</stereotypedrelationships>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAOJOi1KBHMrsvAEAABgFAAAHABEAc3RyLmRhdFVUDQAHlcdyYJXHcmCVx3Jg
+jVTbasJAEJ1XC/2HoC8WhFalWCk+9g/6XtRcDMQoSUTa0n/vOTPZZBO1lLC7k92dM2duW8pO
+1nKUSALZQ0oll3u5k2+dB5Jh71MOcpJK3iHZzRXGUDbYLyTEToG/11rjEV+Ok1KRQ0hn3I8h
+Z9iLmns2c6dS1Fy2uJsp5lieZFKPh0bD7mbKMcJfBT4ZpDGsl6qbwt7wQiPGfobPx5/KQpbA
+n8mzzLFO5aVjq1Cfc+AVwNgCpeU0xeyv82Zu9RmFSK2m8I48aLOr1/fPZsYzhkYqX6q11HuL
+C3THaw2WSR2H6wxbPeYjBPYJubP8MPKM37E+Y2wT/E8w8k4sb+vmkPeQTWuruazEquI/+lwL
+7HGlR6lG4G80l9+2erse2Lmr4gFOGa9YcSiF0IxwN8FaoT5niJPD/rlpw3naR9/Jh9Y38XKg
+9Xk75IH2TAbrK5wViEXbD8aR7FlrQxk11kYdz312JnP4LNmzG2H18cSxvG3ZuoR9Qf5kYB11
+1hx0q7S1yDplRxWwxpwdoMcsXMtlULMIvM/sWZR8BHtb3pqo+Tr9d8Vu998WXyPVVy3RuNAr
+ehSoT25m37u19fIXUEsBAhcLFAAAAAgA4k6LUoEcyuy8AQAAGAUAAAcACQAAAAAAAAAAAACA
+AAAAAHN0ci5kYXRVVAUAB5XHcmBQSwUGAAAAAAEAAQA+AAAA8gEAAAAA</Image>
+				<TaggedValues>
+					<Tag name="Afdeling" type="" description="" unit="" values="" default=""/>
+					<Tag name="Belang" type="" description="" unit="" values="" default=""/>
+					<Tag name="Definitie" type="" description="" unit="" values="" default="Een STAKEHOLDER is een belanghebbende persoon of organisatie(onderdeel) die invloed uitoefent of wordt beïnvloed door sturen op samenhang."/>
+					<Tag name="E-mail" type="" description="" unit="" values="" default=""/>
+					<Tag name="ID" type="" description="" unit="" values="" default=""/>
+					<Tag name="Is perspectiefeigenaar" type="enumeration" description="" unit="" values="Ja,Nee" default=""/>
+					<Tag name="Kernteam lid" type="enumeration" description="" unit="" values="Ja,Nee" default=""/>
+					<Tag name="Mob. Telefoon" type="" description="" unit="" values="" default=""/>
+					<Tag name="NAW gecheckt (opt-in)" type="enumeration" description="" unit="" values="Ja,Nee" default=""/>
+					<Tag name="Telefoon" type="" description="" unit="" values="" default=""/>
+					<Tag name="Type inzet" type="enumeration" description="" unit="" values="Intern,Extern" default=""/>
+					<Tag name="TypeStakeholder" type="enumeration" description="" unit="" values="Perspectiefeigneaar,Opdrachtgever" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Strategie" metatype="Strategie" notes="Een strategie van een &lt;b&gt;ENTERPRISE &lt;/b&gt;vormt een uitgebreid &lt;b&gt;MASTERPLAN &lt;/b&gt;waarin staat hoe de &lt;b&gt;ENTERPRISE &lt;/b&gt;haar &lt;b&gt;DOELEN &lt;/b&gt;zal bereiken." cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Base" baseStereotypes="Base">
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="GEA::AssocieertNaar" constraint="GEA::Strategie Uitspraak"/>
+				</stereotypedrelationships>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAC5gaFJz3fjYyAEAADQFAAAHABEAc3RyLmRhdFVUDQAHAxJGYAMSRmADEkZg
+jVTBTsMwDH3XIfEP1bgMaRJjYsCEduTAGe4TW7uuUhemrtM0EP/Os920accEipI4iZ/9HDvZ
+YY13bJEgwoZSBodLXOBLxx5y7h3xgT1KvFEyzRl7HwvuF4i5U3D1VCFu2BxPdmo5pnSg/opy
+zr2k1rNRdkq16rCkbq42B7jFBGMMg/me7bpGGy5XvglXJbnllAZkslM7GX33TxAr7udsoa8x
+25Q+mvmOc4OUiLaqf0TK2REzwYiaNgo3L486uES9ZcSLf4lrVGFs7mJslDtdEZHhU1FT1Xto
+aRaaFUfdgjpLxjaoLXa9TLQ3WMlLTPt75tDyJBmQu9tWZ3KvKddDdte6x/NYR3lD2VBLzWkJ
+q47/4CWLBdeCScngL0s+r00Ft9nbua/kHk/lplZqR6SYyIS6KeeSNTrmXXnb32d9+Ci71teY
+a42LPUdrXd7eck/fTU7vM413j+ZNGEdhL9ns46r2dtWKPGRnsvSQpbzbBaT65MSzPO/ZXoe8
+B+EvDCwjB81Bu0obj1Kn8pIsa5m+jeiXPEYVgyho5stuKETb3/Jc31iI6f4rpt39W0JEpr9a
+qhwkotcTbnO8aAxS5UNqSax+fAzmJvofUEsBAhcLFAAAAAgALmBoUnPd+NjIAQAANAUAAAcA
+CQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUABwMSRmBQSwUGAAAAAAEAAQA+AAAA/gEAAAAA
+</Image>
+				<TaggedValues>
+					<Tag name="Definitie" type="" description="" unit="" values="" default="Een STRATEGIE van een ENTERPRISE vormt een uitgebreid masterplan waarin staat hoe de ENTERPRISE haar DOELEN zal bereiken."/>
+					<Tag name="Niveau" type="enumeration" description="" unit="" values="Zingeving,Vormgeving" default="Zingeving"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Strategie Uitspraak" metatype="Strategie Element" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Base" baseStereotypes="Base">
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="GEA::AssocieertNaar" constraint="GEA::Bron"/>
+				</stereotypedrelationships>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAAChdlLLiBqvyQEAACIFAAAHABEAc3RyLmRhdFVUDQAHUPlYYFD5WGBQ+Vhg
+jVRNS8NAEH3XCv6HUi8VCtZi1SI9evDgzXuxzUcDaSxJSqnif/fNTDa7iRRlye5kd97Mm4/d
+Clu8Y48YQ+woZShwiQt86TxAzr0TPnBAjTdKprnkN8Ka+yUi7pT8e2oQNxwFTyq1HFE6Uj+h
+nHMvbvVslp1arRbYUDdXm2PcYo4ZJsF6z3Hdog2XK9+YfzW55ZTGZFKpnYy+R78QCfdzjtDX
+jGNBH3694+qREtFe9U9IuRbEzDGlps3CzcnTHi5Wbxnx4l/imjYYW/sYmyWnCREZPhW1UL2H
+jmapVSmoW1Jnw9jGrcW+l7l+Hit1iWj/wBpanaQCkrt9cyZ5Tfk/4Vd08ngeW1DeUTbURmta
+w7rjP/gdvVYa9V82XEV973Z527nr4QFPJUeJ2hEpIjKmbsq1ZnfOmCVn+/usDxdf3/oWK+1u
+sVfQWp+3szzQG5PT+5JnJTPgb4NxFPZSxxGuWm9XnchDdibLF7KUG7uG9J2cOJbnPdu9kJsg
+/IWB3aGj1qDbn96jdKjcoZLeaqLkVsgL4is4bHwPg2FeLDchzt6T5zZXIab/lph2/z0JEZm+
+ZKlykFheA1YrvChv6ekJzyU+Nz8Gq4/4B1BLAQIXCxQAAAAIAAChdlLLiBqvyQEAACIFAAAH
+AAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAdQ+VhgUEsFBgAAAAABAAEAPgAAAP8BAAAA
+AA==</Image>
+				<TaggedValues>
+					<Tag name="Definitie" type="" description="" unit="" values="" default="Een STRATEGIE-UITSPRAAK is een UITSPRAAK die onderdeel is van de STRATEGIE van een ENTERPRISE."/>
+					<Tag name="Niveau" type="enumeration" description="" unit="" values="Zingeving,Vormgeving" default="Zingeving"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Sturing" metatype="Sturing" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAFqsZFMbmfKgFQEAAMADAAAHABEAc3RyLmRhdFVUDQAH1VGEYdVRhGHVUYRh
+7ZJPS8NAEMXfVcHvEHpSKEQRRBBP2rMe+gXWNrZi2pRkaxTxu/ubSWL676B3GTbMzrz35u1u
+UqVKdKdCSyLTRJG8pDbSu4IWWimnfqJjVZpTWbFLqAe9wLD6p3+PYBWwg68nZyW6ZUU6a3Y3
+LW4JrtGaktVgdhEVeUTBJmTsoj5c71QD3etBY2JENtDZD2eB1pvzCnDnGrL6bqfVdC/obSO+
+/Lt7ygr0Gm+T9gb+elJzHqhF9Aw9Z/a+4/EvHFvXXPf9lHikl3M3M3+/TmOoS9aVM643OEkb
+GdjpQUfPzMyJ4Ahzbyd9hbGPPnxjzXln7nvzxsxtgmZJvyazCfYtfUKNQub/g9Wi61hlW69z
+/v8G/Rt8A1BLAQIXCxQAAAAIAFqsZFMbmfKgFQEAAMADAAAHAAkAAAAAAAAAAAAAgAAAAABz
+dHIuZGF0VVQFAAfVUYRhUEsFBgAAAAABAAEAPgAAAEsBAAAAAA==</Image>
+				<AppliesTo>
+					<Apply type="Dependency">
+						<Property name="_lineStyle" value="direct"/>
+						<Property name="_MeaningBackwards" value="Sturing"/>
+						<Property name="_MeaningForwards" value="Sturing"/>
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Titel" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0"/>
+			<Stereotype name="Uitspraak" metatype="Uitspraak" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Base" baseStereotypes="Base">
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="GEA::AssocieertNaar" constraint="GEA::Bron;GEA::Missie Uitspraak;GEA::Missie Uitspraak;GEA::Strategie Uitspraak;GEA::Visie Uitspraak"/>
+					<stereotypedrelationship stereotype="GEA::Beinvloed" constraint="GEA::Uitspraak"/>
+					<stereotypedrelationship stereotype="GEA::RelevanteRelatie" constraint="GEA::Uitspraak"/>
+				</stereotypedrelationships>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAAZPi1KBHMrsvAEAABgFAAAHABEAc3RyLmRhdFVUDQAHw8dyYMPHcmDDx3Jg
+jVTbasJAEJ1XC/2HoC8WhFalWCk+9g/6XtRcDMQoSUTa0n/vOTPZZBO1lLC7k92dM2duW8pO
+1nKUSALZQ0oll3u5k2+dB5Jh71MOcpJK3iHZzRXGUDbYLyTEToG/11rjEV+Ok1KRQ0hn3I8h
+Z9iLmns2c6dS1Fy2uJsp5lieZFKPh0bD7mbKMcJfBT4ZpDGsl6qbwt7wQiPGfobPx5/KQpbA
+n8mzzLFO5aVjq1Cfc+AVwNgCpeU0xeyv82Zu9RmFSK2m8I48aLOr1/fPZsYzhkYqX6q11HuL
+C3THaw2WSR2H6wxbPeYjBPYJubP8MPKM37E+Y2wT/E8w8k4sb+vmkPeQTWuruazEquI/+lwL
+7HGlR6lG4G80l9+2erse2Lmr4gFOGa9YcSiF0IxwN8FaoT5niJPD/rlpw3naR9/Jh9Y38XKg
+9Xk75IH2TAbrK5wViEXbD8aR7FlrQxk11kYdz312JnP4LNmzG2H18cSxvG3ZuoR9Qf5kYB11
+1hx0q7S1yDplRxWwxpwdoMcsXMtlULMIvM/sWZR8BHtb3pqo+Tr9d8Vu998WXyPVVy3RuNAr
+ehSoT25m37u19fIXUEsBAhcLFAAAAAgABk+LUoEcyuy8AQAAGAUAAAcACQAAAAAAAAAAAACA
+AAAAAHN0ci5kYXRVVAUAB8PHcmBQSwUGAAAAAAEAAQA+AAAA8gEAAAAA</Image>
+				<TaggedValues>
+					<Tag name="Context" type="char" description="" unit="" values="" default=""/>
+					<Tag name="Definitie" type="" description="" unit="" values="" default="Een UITSPRAAK is een vastgelegd statement waarmee richting wordt gegeven aan de zin- en vormgeving van een ENTERPRISE."/>
+					<Tag name="Enterprise" type="Classifier:Enterprise" description="" unit="Enterprise" values="" default=""/>
+					<Tag name="Niveau" type="enumeration" description="" unit="" values="Zingeving,Vormgeving" default=""/>
+					<Tag name="Perspectief" type="Classifier:Perspectief" description="" unit="Perspectief" values="" default=""/>
+					<Tag name="Type Vormgeving" type="enumeration" description="" unit="" values="Principe,Beleidsuitspraak,Doelstelling,----" default=""/>
+					<Tag name="Type Zingeving" type="enumeration" description="" unit="" values="Doel,Kernwaarde,Missie,Strategie,Visie,----" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Veranderiniatief Cluster" metatype="Veranderiniatief Cluster" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Base" baseStereotypes="Base">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAMROi1KBHMrsvAEAABgFAAAHABEAc3RyLmRhdFVUDQAHWsdyYFrHcmBax3Jg
+jVTbasJAEJ1XC/2HoC8WhFalWCk+9g/6XtRcDMQoSUTa0n/vOTPZZBO1lLC7k92dM2duW8pO
+1nKUSALZQ0oll3u5k2+dB5Jh71MOcpJK3iHZzRXGUDbYLyTEToG/11rjEV+Ok1KRQ0hn3I8h
+Z9iLmns2c6dS1Fy2uJsp5lieZFKPh0bD7mbKMcJfBT4ZpDGsl6qbwt7wQiPGfobPx5/KQpbA
+n8mzzLFO5aVjq1Cfc+AVwNgCpeU0xeyv82Zu9RmFSK2m8I48aLOr1/fPZsYzhkYqX6q11HuL
+C3THaw2WSR2H6wxbPeYjBPYJubP8MPKM37E+Y2wT/E8w8k4sb+vmkPeQTWuruazEquI/+lwL
+7HGlR6lG4G80l9+2erse2Lmr4gFOGa9YcSiF0IxwN8FaoT5niJPD/rlpw3naR9/Jh9Y38XKg
+9Xk75IH2TAbrK5wViEXbD8aR7FlrQxk11kYdz312JnP4LNmzG2H18cSxvG3ZuoR9Qf5kYB11
+1hx0q7S1yDplRxWwxpwdoMcsXMtlULMIvM/sWZR8BHtb3pqo+Tr9d8Vu998WXyPVVy3RuNAr
+ehSoT25m37u19fIXUEsBAhcLFAAAAAgAxE6LUoEcyuy8AQAAGAUAAAcACQAAAAAAAAAAAACA
+AAAAAHN0ci5kYXRVVAUAB1rHcmBQSwUGAAAAAAEAAQA+AAAA8gEAAAAA</Image>
+				<TaggedValues>
+					<Tag name="Definitie" type="" description="" unit="" values="" default="Een VERANDERINITIATIEFCLUSTER is een logisch gegroepeerde verzameling VERANDERINITIATIEVEN."/>
+					<Tag name="Niveau" type="enumeration" description="" unit="" values="Zingeving,Vormgeving" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Veranderinitiatief" metatype="Veranderinitiatief" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Base" baseStereotypes="Base">
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="GEA::AssocieertNaar" constraint="GEA::Enterprisevraagstuk;GEA::Implicatie;GEA::Ontwikkeling;GEA::Oorzaak;GEA::Oplossingscontour;GEA::Risico;GEA::Veranderiniatief Cluster"/>
+				</stereotypedrelationships>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAOROi1KBHMrsvAEAABgFAAAHABEAc3RyLmRhdFVUDQAHpsdyYKbHcmCmx3Jg
+jVTbasJAEJ1XC/2HoC8WhFalWCk+9g/6XtRcDMQoSUTa0n/vOTPZZBO1lLC7k92dM2duW8pO
+1nKUSALZQ0oll3u5k2+dB5Jh71MOcpJK3iHZzRXGUDbYLyTEToG/11rjEV+Ok1KRQ0hn3I8h
+Z9iLmns2c6dS1Fy2uJsp5lieZFKPh0bD7mbKMcJfBT4ZpDGsl6qbwt7wQiPGfobPx5/KQpbA
+n8mzzLFO5aVjq1Cfc+AVwNgCpeU0xeyv82Zu9RmFSK2m8I48aLOr1/fPZsYzhkYqX6q11HuL
+C3THaw2WSR2H6wxbPeYjBPYJubP8MPKM37E+Y2wT/E8w8k4sb+vmkPeQTWuruazEquI/+lwL
+7HGlR6lG4G80l9+2erse2Lmr4gFOGa9YcSiF0IxwN8FaoT5niJPD/rlpw3naR9/Jh9Y38XKg
+9Xk75IH2TAbrK5wViEXbD8aR7FlrQxk11kYdz312JnP4LNmzG2H18cSxvG3ZuoR9Qf5kYB11
+1hx0q7S1yDplRxWwxpwdoMcsXMtlULMIvM/sWZR8BHtb3pqo+Tr9d8Vu998WXyPVVy3RuNAr
+ehSoT25m37u19fIXUEsBAhcLFAAAAAgA5E6LUoEcyuy8AQAAGAUAAAcACQAAAAAAAAAAAACA
+AAAAAHN0ci5kYXRVVAUAB6bHcmBQSwUGAAAAAAEAAQA+AAAA8gEAAAAA</Image>
+				<TaggedValues>
+					<Tag name="Definitie" type="" description="" unit="" values="" default="Een veranderinitiatief is een verzameling van voorgenomen activiteiten, bedoeld om een verandering  in gang te zetten die bijdraagt aan het oplossen van een ENTERPRISEVRAAGSTUK."/>
+					<Tag name="Niveau" type="enumeration" description="" unit="" values="Zingeving,Vormgeving" default=""/>
+					<Tag name="Soort aspect" type="enumeration" description="" unit="" values="Oorzaak,Implicatie,Risico" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Visie" metatype="Visie" notes="Een visie is een beknopte verklaring die de &lt;b&gt;MISSIE &lt;/b&gt;operationaliseert, is extern en marktgericht en moet, bij voorkeur in aspirationele termen, uitdrukken hoe de &lt;b&gt;ENTERPRISE &lt;/b&gt;door de &lt;b&gt;WERELD &lt;/b&gt;wil worden waargenomen." cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Base" baseStereotypes="Base">
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="GEA::AssocieertNaar" constraint="GEA::Visie Uitspraak"/>
+					<stereotypedrelationship stereotype="GEA::WordtGeaggregeertDoor" constraint="GEA::Kernwaarde"/>
+					<stereotypedrelationship stereotype="GEA::WordtGerealiseerdDoor" constraint="GEA::Doel"/>
+				</stereotypedrelationships>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAAZgaFK7WZ60xwEAABwFAAAHABEAc3RyLmRhdFVUDQAH8xFGYPMRRmDzEUZg
+jVTBTsJAEH1XTPyHBi6YkIhEVGI4evBuvBKBtjQpKylFgsZ/981Mt93WEM2mu9PdeTNvdmZ2
+jw3esEOMCFtKGRwucYEvnXvIuXfCOw4o8ULJNOf8+lhyv8CaOwX/HivENYfjyV4trykdqZ9Q
+zrkX13o2y06pVh1W1M3V5hA3mGKCUbDecVzVaMPlyjfmX0luOaUhmezVTkbf/V+IhPs5R+hr
+wjGjj2a95dogJaKd6p+QcnXETDGmps3CzcvjDi5Wbxnx4l/iGlcYW7sYm+VOEyIyfCpqpnr3
+Lc1Cs+KoW1BnxdiGtcWul6l+DVbysqb9A3NoeZIMyN3tqjO515T/I36udY/nsY7ylrKhVprT
+ElYd/8F/0KvE/JcFn8+mctus7dxXcI+nckOJ2hFpTWRM3ZRrydqc8I687e+zPnx0XesbLLS2
+xZ6jtS5vb7mn/ZLT+5xnBeNvesE4CnvJYh+D2tugFXnIzmT5QpbSr0tI1cmJZ3nes3WF9IHw
+FwbWQUfNQbs6G49Sn9JBBb2VRElPREH+ospzFAzzYTcTouwteapvKsR03xHT7r4lISLTVyxV
+DhLJa81pgWflLNU84qnE5ueHYG2i/QFQSwECFwsUAAAACAAGYGhSu1metMcBAAAcBQAABwAJ
+AAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAH8xFGYFBLBQYAAAAAAQABAD4AAAD9AQAA
+AAA=</Image>
+				<TaggedValues>
+					<Tag name="Definitie" type="" description="" unit="" values="" default="Een VISIE is een beknopte verklaring die de MISSIE operationaliseert, is extern en marktgericht en moet, bij voorkeur in aspirationele termen, uitdrukken hoe de ENTERPRISE door de wereld wil worden waargenomen."/>
+					<Tag name="Niveau" type="enumeration" description="" unit="" values="Zingeving,Vormgeving" default="Zingeving"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Visie Uitspraak" metatype="VisieUitspraak" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Base" baseStereotypes="Base">
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="GEA::AssocieertNaar" constraint="GEA::Bron"/>
+				</stereotypedrelationships>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIALKhdlLLiBqvyQEAACIFAAAHABEAc3RyLmRhdFVUDQAHhfpYYIX6WGCF+lhg
+jVRNS8NAEH3XCv6HUi8VCtZi1SI9evDgzXuxzUcDaSxJSqnif/fNTDa7iRRlye5kd97Mm4/d
+Clu8Y48YQ+woZShwiQt86TxAzr0TPnBAjTdKprnkN8Ka+yUi7pT8e2oQNxwFTyq1HFE6Uj+h
+nHMvbvVslp1arRbYUDdXm2PcYo4ZJsF6z3Hdog2XK9+YfzW55ZTGZFKpnYy+R78QCfdzjtDX
+jGNBH3694+qREtFe9U9IuRbEzDGlps3CzcnTHi5Wbxnx4l/imjYYW/sYmyWnCREZPhW1UL2H
+jmapVSmoW1Jnw9jGrcW+l7l+Hit1iWj/wBpanaQCkrt9cyZ5Tfk/4Vd08ngeW1DeUTbURmta
+w7rjP/gdvVYa9V82XEV973Z527nr4QFPJUeJ2hEpIjKmbsq1ZnfOmCVn+/usDxdf3/oWK+1u
+sVfQWp+3szzQG5PT+5JnJTPgb4NxFPZSxxGuWm9XnchDdibLF7KUG7uG9J2cOJbnPdu9kJsg
+/IWB3aGj1qDbn96jdKjcoZLeaqLkVsgL4is4bHwPg2FeLDchzt6T5zZXIab/lph2/z0JEZm+
+ZKlykFheA1YrvChv6ekJzyU+Nz8Gq4/4B1BLAQIXCxQAAAAIALKhdlLLiBqvyQEAACIFAAAH
+AAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAeF+lhgUEsFBgAAAAABAAEAPgAAAP8BAAAA
+AA==</Image>
+				<TaggedValues>
+					<Tag name="Definitie" type="" description="" unit="" values="" default="Een VISIE-UITSPRAAK is een UITSPRAAK die onderdeel is van de VISIE van een ENTERPRISE."/>
+					<Tag name="Niveau" type="enumeration" description="" unit="" values="Zingeving,Vormgeving" default="Zingeving"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="WordBeinvloedDoor" metatype="WordtBeinvloedDoor" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAIKryVIfg06JHQEAAMICAAAHABEAc3RyLmRhdFVUDQAHcTLBYHEywWBxMsFg
+jZJRS8NAEITnVcH/EHxSEGJBRBCf1AdBUPAXxCS2YpqU5Got0v/ut5vENJWCHLvc7c3M7Q4X
+K1akW1UqWblSBfY1tXt9KdFcCxXUj3SoRjMqC04R9UTvMKz+7fkAVgU78Xh1VqQbInCz5HTd
+4UpwrVbGbgVmF9GwDyjYCzmnoLXrnehYL3rSox50x/70lzFH6dNZFahznRHDba/U3k64GyM2
+nndnbEAv6Szt5u/n3M+wyWtN/aVtRuwuZ9wlzBuRS8+1e7ZCIXc3rBZcxypjvYhcghkU/+u3
+Yc1D0wp0aowZPgz+tAh75Q2nClaKduE/oXdz7Kgxnh2zpj/7PQPugrgkJrra4kTdMmY7yb5O
++h7Mpcw7t0k/YP1lbPQDUEsBAhcLFAAAAAgAgqvJUh+DTokdAQAAwgIAAAcACQAAAAAAAAAA
+AACAAAAAAHN0ci5kYXRVVAUAB3EywWBQSwUGAAAAAAEAAQA+AAAAUwEAAAAA</Image>
+				<AppliesTo>
+					<Apply type="Dependency">
+						<Property name="_lineStyle" value="direct"/>
+						<Property name="_MeaningBackwards" value="Beinvloed"/>
+						<Property name="_MeaningForwards" value="WordtBeinvloedDoor"/>
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="WordGegeneraliseerdDoor" metatype="WordtGegeneraliseerdDoor" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAL5OalJc0GN4FgEAAKoCAAAHABEAc3RyLmRhdFVUDQAHC5dIYAuXSGALl0hg
+lZJRS8NQDIXPq4L/ofikINSBiCA+qQ+CoOAvqG3dxK4d7Z1zyP67X9LWrlMf5JKQm5ycm5w2
+VqxI16pUcnKlCsQ1uVt9KNFcCxXkD7SvRjMyC24R+USvdFj+0/0eXRXdiduzd0W6wgKVJbfL
+DleCa7kyohWYXURDHGCwF3JuQWvnO9KhnvSge93phvj4u2MO07t3VaBOdYIN1Z6prU6ojREb
+97s7NqCXTJZ2+/d7/t1hm9ea+kvbHbGrnFFL2DfCl+5r12wFQ+5qWC44j2XGfBG+BPM/rU07
+4whMaOgZ+w+6tDq/oE7BSeEs/Ov3Co5VfPT6mnnsbxkwZ9g5NtHFFj7qTjv1b6/375oamU9q
+W73R8RO90RdQSwECFwsUAAAACAC+TmpSXNBjeBYBAACqAgAABwAJAAAAAAAAAAAAAIAAAAAA
+c3RyLmRhdFVUBQAHC5dIYFBLBQYAAAAAAQABAD4AAABMAQAAAAA=</Image>
+				<AppliesTo>
+					<Apply type="Dependency">
+						<Property name="_lineStyle" value="direct"/>
+						<Property name="_MeaningBackwards" value="Generaliseert"/>
+						<Property name="_MeaningForwards" value="WordtGegeneraliseerdDoor"/>
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="WordtGeaggregeertDoor" metatype="WordtGeaggregeerdDoor" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAHBQalLbm4oDCwEAAHwCAAAHABEAc3RyLmRhdFVUDQAHbJlIYGyZSGBsmUhg
+lZHdSsNAEIXPrYLvsHhloRALIoJ4Vb0QBAWfIDaxFdOkJFurSN/dbyaJ/VEvZJlhd+acsztn
+EyUKGqtSyco1UWRfU7vRu1LNtVBB/UiHajSjsuAUqKd6gWH1T88HsCrYqceTs4KuiEhnyemy
+w5XgWq2M3QrMPqJhH1GwG3JOUR+ud6JjPeped7rVNfvBN2OO0puzKlCnGhKbbq/Udkf0dhFr
+z/szNqCXvGzSzd/P+TfDJq819Zu2GYm7nNFLmTeQS8+1e7ZCIXc3rBZdxyq7eoFcgvmf1+ad
+aUReaOgZ8298eUClwNup/3/v21BnxDkx0sWWS6Fb7Tt+03vG54Jl82V+t73zFcZP9FpfUEsB
+AhcLFAAAAAgAcFBqUtubigMLAQAAfAIAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUA
+B2yZSGBQSwUGAAAAAAEAAQA+AAAAQQEAAAAA</Image>
+				<AppliesTo>
+					<Apply type="Dependency">
+						<Property name="_lineStyle" value="direct"/>
+						<Property name="_MeaningBackwards" value="Aggregeert"/>
+						<Property name="_MeaningForwards" value="WordtGeaggregeerdDoor"/>
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="WordtGerealiseerdDoor" metatype="WordtGerealiseerdDoor" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAPBgaFJzx2+ECQEAAHoCAAAHABEAc3RyLmRhdFVUDQAHfBNGYHwTRmB8E0Zg
+lZHdSsNAEIXPrYLvsHhloRCLIIJ4UVTwUvAJYhNbMU1KsrWK9N39ZpLYH/WiLDPMzpw5O3M2
+UaKgW1UqObkmisQ1uXt9KNVcCxXkT3SsRjMyC26BfKpXOiz/5f6Iroru1O3Zu4JusEhlye26
+w5XgWq6MaAVmH9EQRxjshZxb1KfznelUdxrrSQ9Egx/8HJ5376nAnGuIbao9T1sdUdtFrN3v
+b9iAXjLXpNu+3/L/Dtu71tRf2u5IXOOMWsq2AV+6r12xFQy5a2G56DyW2eUL+BLMYUqbcsYR
+mdDQM/bf6PIIS4GyU//9XrehLrBLbKSrLZVCd9o5/uJ7QeeCY/tl/rbN+UbHb/Ra31BLAQIX
+CxQAAAAIAPBgaFJzx2+ECQEAAHoCAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAd8
+E0ZgUEsFBgAAAAABAAEAPgAAAD8BAAAAAA==</Image>
+				<AppliesTo>
+					<Apply type="Dependency">
+						<Property name="_lineStyle" value="direct"/>
+						<Property name="_MeaningBackwards" value="Realiseert"/>
+						<Property name="_MeaningForwards" value="Wordt gerealiseerd door"/>
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="WordtGespecialiseerdDoor" metatype="WordtGespecialiseerdDoor" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAEhOalK6JPK1CwEAAHwCAAAHABEAc3RyLmRhdFVUDQAHbJZIYGyWSGBslkhg
+lZHdSsNAEIXPrYLvsHhloRCLIIJ4Vb0QBAWfIDaxFdOkJFurSN/dbyaJ/VEvZJlhd+acsztn
+EyUKGqtSyco1UWRfU7vRu1LNtVBB/UiHajSjsuAUqKd6gWH1T88HsCrYqceTs4KuiEhnyemy
+w5XgWq2M3QrMPqJhH1GwG3JOUR+ud6JjPeped7rVNfvBN2OO0puzKlCnGhKbbq/Udkf0dhFr
+z/szNqCXvGzSzd/P+TfDJq819Zu2GYm7nNFLmTeQS8+1e7ZCIXc3rBZdxyq7eoFcgvmf1+ad
+aUReaOgZ8298eUClwNup/3/v21BnxDkx0sWWS6Fb7Tt+03vG54Jl82V+t73zFcZP9FpfUEsB
+AhcLFAAAAAgASE5qUrok8rULAQAAfAIAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUA
+B2yWSGBQSwUGAAAAAAEAAQA+AAAAQQEAAAAA</Image>
+				<AppliesTo>
+					<Apply type="Dependency">
+						<Property name="_lineStyle" value="direct"/>
+						<Property name="_MeaningBackwards" value="Specialiseert"/>
+						<Property name="_MeaningForwards" value="WordtGespecialiseerdDoor"/>
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="WordtGevormdDoor" metatype="Wordt gevormd door" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0"/>
+		</Stereotypes>
+		<TaggedValueTypes/>
+		<ViewDefinitions>
+			<View name="GEA Framework" notes="">
+				<appliesto>
+					<diagrams constraint="GEA::Example"/>
+				</appliesto>
+				<view>
+					<group name="" constraint="GEA::HoortBij;GEA::IsOntstaanUit;GEA::Perspectief;GEA::Principe;GEA::RichtinggevendeUitspraak;GEA::WordtGevormdDoor"/>
+				</view>
+			</View>
+		</ViewDefinitions>
+		<Metamodel/>
+	</Content>
+</UMLProfile>
