@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<max:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" exportDate="6-5-2021 13:05:00" xmlns:max="http://www.groeiplatformgea.nl/MAX">
+  <modelId>6997eb9b-7aab-4c0b-8f90-521d4e4d847f</modelId>
+  <objects>
+    <rapportage>
+      <id>{173248F3-F3B3-436f-A12A-79DE5A7EDD5C}</id>
+      <eType>Rapport</eType>
+      <name>De Key</name>
+      <notes></notes>
+      <type>Class</type>
+      <aangepast>2023-03-12T11:47:57</aangepast>
+      <tag name="geaid" value="Waarde">gea_rapp01</tag>
+      <tag name="Logo" value="&amp;lt;memo&amp;gt;">deKeyLogo.jpg</tag>
+      <tag name="Enterprise" value="&amp;lt;memo&amp;gt;">De Key</tag>
+      <tag name="Traject" value="&amp;lt;memo&amp;gt;">Traject ditumdatum</tag>
+      <tag name="Versienummer" value="&amp;lt;memo&amp;gt;">0.1</tag>
+    </rapportage>
+    <object>
+      <id>{80B48C81-97B7-4f10-80BE-F36E0EDB36B5}</id>
+      <eType>Bron</eType>
+      <name>2e kw. Rapp.</name>
+      <notes></notes>
+      <type>Class</type>
+      <modified>2021-03-23T21:49:17</modified>
+      <tag name="geaid" value="Waarde">B-3</tag>
+      <tag name="Titel" value="Waarde">Tweede kwartaalrapportage 2016</tag>
+      <tag name="Bruikbaarheid" value="&amp;lt;memo&amp;gt;">Bruikbaar</tag>
+      <tag name="Jaar" value="&amp;lt;memo&amp;gt;">2016</tag>
+      <tag name="Opsteller" value="&amp;lt;memo&amp;gt;">P&amp;C</tag>
+      <tag name="Doelgroep" value="&amp;lt;memo&amp;gt;">Leidinggevenden</tag>
+      <tag name="Status" value="GEA">Analyse gereed</tag>
+    </object>
+    <object>
+      <id>{A9E82017-2180-483d-B060-E8CAF2F941C9}</id>
+      <eType>Bron</eType>
+      <name>Bel.Not. Zakenp.</name>
+      <notes></notes>
+      <type>Class</type>
+      <modified>2021-03-24T07:54:01</modified>
+      <tag name="geaid" value="Waarde">B-22</tag>
+      <tag name="Titel" value="Waarde">Beleidsnotitie Zakenpartnertoets bij desinvesteringen</tag>
+      <tag name="Bruikbaarheid" value="&amp;lt;memo&amp;gt;">Bruikbaar</tag>
+      <tag name="Jaar" value="&amp;lt;memo&amp;gt;">2015</tag>
+      <tag name="Opsteller" value="&amp;lt;memo&amp;gt;">Vastgoed</tag>
+      <tag name="Doelgroep" value="&amp;lt;memo&amp;gt;">Medewerkers</tag>
+      <tag name="Status" value="GEA">Analyse gereed</tag>
+    </object>
+    <object>
+      <id>{0D317168-567D-4cf5-B2F2-28314FE61B1A}</id>
+      <eType>Bron</eType>
+      <name>BIB2015</name>
+      <notes></notes>
+      <type>Class</type>
+      <modified>2021-03-24T07:54:01</modified>
+      <tag name="geaid" value="Waarde">B-7</tag>
+      <tag name="Titel" value="Waarde">Interne Beheersing De Key Beleid 2015 - 2016</tag>
+      <tag name="Bruikbaarheid" value="&amp;lt;memo&amp;gt;">Bruikbaar</tag>
+      <tag name="Jaar" value="&amp;lt;memo&amp;gt;">2015</tag>
+      <tag name="Opsteller" value="&amp;lt;memo&amp;gt;">A&amp;IB</tag>
+      <tag name="Doelgroep" value="&amp;lt;memo&amp;gt;">Medewerkers</tag>
+      <tag name="Status" value="GEA">Analyse gereed</tag>
+    </object>
+    <object></object>
+    <object>
+      <id>{CF1FFB70-61D8-4a3c-BA58-E7D01D134C5A}</id>
+      <eType>Bron</eType>
+      <name>Compliance</name>
+      <notes></notes>
+      <type>Class</type>
+      <modified>2021-03-24T07:54:01</modified>
+      <tag name="geaid" value="Waarde">B-12</tag>
+      <tag name="Titel" value="Waarde">Compliance framework</tag>
+      <tag name="Bruikbaarheid" value="&amp;lt;memo&amp;gt;">Bruikbaar</tag>
+      <tag name="Jaar" value="&amp;lt;memo&amp;gt;">2016</tag>
+      <tag name="Opsteller" value="&amp;lt;memo&amp;gt;">A&amp;IB</tag>
+      <tag name="Doelgroep" value="&amp;lt;memo&amp;gt;">Medewerkers</tag>
+      <tag name="Status" value="GEA">Analyse gereed</tag>
+    </object>
+    <object>
+      <id>{1521D9F2-D96A-45c1-9CC8-AAF37DF05D17}</id>
+      <eType>Bron</eType>
+      <name>Infobev.</name>
+      <notes></notes>
+      <type>Class</type>
+      <modified>2021-03-24T07:54:01</modified>
+      <tag name="geaid" value="Waarde">B-19</tag>
+      <tag name="Titel" value="Waarde">Informatiebeveiligingsbeleid 2016</tag>
+      <tag name="Bruikbaarheid" value="&amp;lt;memo&amp;gt;">Bruikbaar</tag>
+      <tag name="Jaar" value="&amp;lt;memo&amp;gt;">2016</tag>
+      <tag name="Opsteller" value="&amp;lt;memo&amp;gt;">S&amp;B</tag>
+      <tag name="Doelgroep" value="&amp;lt;memo&amp;gt;">Medewerkers</tag>
+      <tag name="Status" value="GEA">Analyse gereed</tag>
+    </object>
+    <object>
+      <id>{56A81CF6-BF41-4ea4-A578-9F4F7F46DBD1}</id>
+      <eType>Bron</eType>
+      <name>Infoplan</name>
+      <notes></notes>
+      <type>Class</type>
+      <modified>2021-03-24T07:54:01</modified>
+      <tag name="geaid" value="Waarde">B-10</tag>
+      <tag name="Titel" value="Waarde">Informatieplan (concept)</tag>
+      <tag name="Bruikbaarheid" value="&amp;lt;memo&amp;gt;">Bruikbaar</tag>
+      <tag name="Jaar" value="&amp;lt;memo&amp;gt;">2016</tag>
+      <tag name="Opsteller" value="&amp;lt;memo&amp;gt;">S&amp;B</tag>
+      <tag name="Doelgroep" value="&amp;lt;memo&amp;gt;">Medewerkers</tag>
+      <tag name="Status" value="GEA">Analyse gereed</tag>
+    </object>
+    <object>
+      <id>{A6167B05-6825-47d3-BE65-6DDC4BFA8E45}</id>
+      <eType>Bron</eType>
+      <name>Inkoopbel.</name>
+      <notes></notes>
+      <type>Class</type>
+      <modified>2021-03-24T07:54:01</modified>
+      <tag name="geaid" value="Waarde">B-20</tag>
+      <tag name="Titel" value="Waarde">Inkoopbeleid</tag>
+      <tag name="Bruikbaarheid" value="&amp;lt;memo&amp;gt;">Bruikbaar</tag>
+      <tag name="Jaar" value="&amp;lt;memo&amp;gt;">2014</tag>
+      <tag name="Opsteller" value="&amp;lt;memo&amp;gt;">BB</tag>
+      <tag name="Doelgroep" value="&amp;lt;memo&amp;gt;">Medewerkers</tag>
+      <tag name="Status" value="GEA">Analyse gereed</tag>
+    </object>
+    <object>
+      <id>{EA9C9A48-4903-480b-9443-99342122ACAD}</id>
+      <eType>Bron</eType>
+      <name>Integriteitsbeleid</name>
+      <notes></notes>
+      <type>Class</type>
+      <modified>2021-03-24T07:54:01</modified>
+      <tag name="geaid" value="Waarde">B-11</tag>
+      <tag name="Titel" value="Waarde">Integriteitsbeleid</tag>
+      <tag name="Bruikbaarheid" value="&amp;lt;memo&amp;gt;">Bruikbaar</tag>
+      <tag name="Jaar" value="&amp;lt;memo&amp;gt;">2012</tag>
+      <tag name="Opsteller" value="&amp;lt;memo&amp;gt;">P&amp;O</tag>
+      <tag name="Doelgroep" value="&amp;lt;memo&amp;gt;">Medewerkers</tag>
+      <tag name="Status" value="GEA">Analyse gereed</tag>
+    </object>
+    <object>
+      <id>{9B687992-4FD1-48a0-8CCD-027E1A0C012B}</id>
+      <eType>Bron</eType>
+      <name>Klachtenafh.</name>
+      <notes></notes>
+      <type>Class</type>
+      <modified>2021-03-24T07:54:01</modified>
+      <tag name="geaid" value="Waarde">B-9</tag>
+      <tag name="Titel" value="Waarde">Klachten zijn welkom</tag>
+      <tag name="Bruikbaarheid" value="&amp;lt;memo&amp;gt;">Bruikbaar</tag>
+      <tag name="Jaar" value="&amp;lt;memo&amp;gt;">2015</tag>
+      <tag name="Opsteller" value="&amp;lt;memo&amp;gt;">MT Wonen</tag>
+      <tag name="Doelgroep" value="&amp;lt;memo&amp;gt;">Medewerkers</tag>
+      <tag name="Status" value="GEA">Analyse gereed</tag>
+    </object>
+    <object>
+      <id>{1B8B1971-ADE4-47be-B586-5C49A0EB2498}</id>
+      <eType>Bron</eType>
+      <name>Klokkenluid.reg.</name>
+      <notes></notes>
+      <type>Class</type>
+      <modified>2021-03-24T07:54:02</modified>
+      <tag name="geaid" value="Waarde">B-24</tag>
+      <tag name="Titel" value="Waarde">Bijlage 4: Regeling inzake het omgaan met een vermoeden van een misstand (Klokkenluidersregeling)</tag>
+      <tag name="Bruikbaarheid" value="&amp;lt;memo&amp;gt;">Te gedetailleerd</tag>
+      <tag name="Jaar" value="&amp;lt;memo&amp;gt;">2010</tag>
+      <tag name="Opsteller" value="&amp;lt;memo&amp;gt;">P&amp;O</tag>
+      <tag name="Doelgroep" value="&amp;lt;memo&amp;gt;">Medewerkers</tag>
+      <tag name="Status" value="GEA">Analyse gereed</tag>
+    </object>
+    <object>
+      <id>{47431144-84CF-4e46-ACD5-4D85D2FC5017}</id>
+      <eType>Bron</eType>
+      <name>MJB</name>
+      <notes></notes>
+      <type>Class</type>
+      <modified>2021-03-24T07:54:01</modified>
+      <tag name="geaid" value="Waarde">B-2</tag>
+      <tag name="Titel" value="Waarde">Begroting 2017 Meerjarenbegroting 2017 - 2026</tag>
+      <tag name="Bruikbaarheid" value="&amp;lt;memo&amp;gt;">Bruikbaar</tag>
+      <tag name="Jaar" value="&amp;lt;memo&amp;gt;">2016</tag>
+      <tag name="Opsteller" value="&amp;lt;memo&amp;gt;">St&amp;B + P&amp;C</tag>
+      <tag name="Doelgroep" value="&amp;lt;memo&amp;gt;">Leidinggevenden</tag>
+      <tag name="Status" value="GEA">Analyse gereed</tag>
+    </object>
+    <object>
+      <id>{F5DFF662-E24E-463d-8B4C-B8D4849DF21F}</id>
+      <eType>Bron</eType>
+      <name>Not.Int.Beh.</name>
+      <notes></notes>
+      <type>Class</type>
+      <modified>2021-03-24T07:54:01</modified>
+      <tag name="geaid" value="Waarde">B-8</tag>
+      <tag name="Titel" value="Waarde">Interne Beheersing De Key</tag>
+      <tag name="Bruikbaarheid" value="&amp;lt;memo&amp;gt;">Bruikbaar</tag>
+      <tag name="Jaar" value="&amp;lt;memo&amp;gt;">2015</tag>
+      <tag name="Opsteller" value="&amp;lt;memo&amp;gt;">A&amp;IB</tag>
+      <tag name="Doelgroep" value="&amp;lt;memo&amp;gt;">Medewerkers</tag>
+      <tag name="Status" value="GEA">Analyse gereed</tag>
+    </object>
+    <object>
+      <id>{47DB4021-10F0-4db6-9A5C-54BEF577A20F}</id>
+      <eType>Bron</eType>
+      <name>Portefeuillestrategie</name>
+      <notes></notes>
+      <type>Class</type>
+      <modified>2021-03-24T07:54:00</modified>
+      <tag name="geaid" value="Waarde">B-1</tag>
+      <tag name="Titel" value="Waarde">Ruimte voor beweging in Amsterdam en Diemen en Ruimte voor evenwicht in Zandvoort</tag>
+      <tag name="Bruikbaarheid" value="&amp;lt;memo&amp;gt;">Bruikbaar</tag>
+      <tag name="Jaar" value="&amp;lt;memo&amp;gt;">2016</tag>
+      <tag name="Opsteller" value="&amp;lt;memo&amp;gt;">St&amp;B + P&amp;C</tag>
+      <tag name="Doelgroep" value="&amp;lt;memo&amp;gt;">Medewerkers</tag>
+      <tag name="Status" value="GEA">Analyse gereed</tag>
+    </object>
+    <object>
+      <id>{2EBF375F-F1DF-4e1c-83D9-14CA14128AA0}</id>
+      <eType>Bron</eType>
+      <name>Privacy bel.</name>
+      <notes></notes>
+      <type>Class</type>
+      <modified>2021-03-24T07:54:01</modified>
+      <tag name="geaid" value="Waarde">B-16</tag>
+      <tag name="Titel" value="Waarde">Privacy: visie &amp; beleid</tag>
+      <tag name="Bruikbaarheid" value="&amp;lt;memo&amp;gt;">Bruikbaar</tag>
+      <tag name="Jaar" value="&amp;lt;memo&amp;gt;">2016</tag>
+      <tag name="Opsteller" value="&amp;lt;memo&amp;gt;">Directie</tag>
+      <tag name="Doelgroep" value="&amp;lt;memo&amp;gt;">Medewerkers</tag>
+      <tag name="Status" value="GEA">Analyse gereed</tag>
+    </object>
+    <object>
+      <id>{FF90799E-E92B-493a-A8CE-DE45931D5A41}</id>
+      <eType>Bron</eType>
+      <name>Procesbeschr. 2.0</name>
+      <notes></notes>
+      <type>Class</type>
+      <modified>2021-03-24T07:54:01</modified>
+      <tag name="geaid" value="Waarde">B-13</tag>
+      <tag name="Titel" value="Waarde">Procesbeschrijvingen 2.0 (directiebesluit augustus 2016)</tag>
+      <tag name="Bruikbaarheid" value="&amp;lt;memo&amp;gt;">Bruikbaar</tag>
+      <tag name="Jaar" value="&amp;lt;memo&amp;gt;">2016</tag>
+      <tag name="Opsteller" value="&amp;lt;memo&amp;gt;">A&amp;IB</tag>
+      <tag name="Doelgroep" value="&amp;lt;memo&amp;gt;">Medewerkers</tag>
+      <tag name="Status" value="GEA">Analyse gereed</tag>
+    </object>
+    <object>
+      <id>{708A507A-E825-4ddc-A29C-1AF765EC1644}</id>
+      <eType>Bron</eType>
+      <name>Procesman.</name>
+      <notes></notes>
+      <type>Class</type>
+      <modified>2021-03-24T07:54:01</modified>
+      <tag name="geaid" value="Waarde">B-17</tag>
+      <tag name="Titel" value="Waarde">Procesmanagement v1 (directiebesluit augustus 2016)</tag>
+      <tag name="Bruikbaarheid" value="&amp;lt;memo&amp;gt;">Bruikbaar</tag>
+      <tag name="Jaar" value="&amp;lt;memo&amp;gt;">2016</tag>
+      <tag name="Opsteller" value="&amp;lt;memo&amp;gt;">A&amp;IB</tag>
+      <tag name="Doelgroep" value="&amp;lt;memo&amp;gt;">Medewerkers</tag>
+      <tag name="Status" value="GEA">Analyse gereed</tag>
+    </object>
+    <object>
+      <id>{C8B626EC-82D5-4197-AF31-7FAEEECAF082}</id>
+      <eType>Bron</eType>
+      <name>Progr.v.Eisen</name>
+      <notes></notes>
+      <type>Class</type>
+      <modified>2021-03-24T07:54:02</modified>
+      <tag name="geaid" value="Waarde">B-25</tag>
+      <tag name="Titel" value="Waarde">Standaard Programma van Eisen Nieuwbouw</tag>
+      <tag name="Bruikbaarheid" value="&amp;lt;memo&amp;gt;">Bruikbaar</tag>
+      <tag name="Jaar" value="&amp;lt;memo&amp;gt;">2015</tag>
+      <tag name="Opsteller" value="&amp;lt;memo&amp;gt;">Maartje Swüste</tag>
+      <tag name="Doelgroep" value="&amp;lt;memo&amp;gt;">Medewerkers</tag>
+      <tag name="Status" value="GEA">Analyse gereed</tag>
+    </object>
+    <object>
+      <id>{674F66CE-3FF8-4a92-A8B9-F87EDAE35AA5}</id>
+      <eType>Bron</eType>
+      <name>Protoc. Email, ect.</name>
+      <notes></notes>
+      <type>Class</type>
+      <modified>2021-03-24T07:54:01</modified>
+      <tag name="geaid" value="Waarde">B-23</tag>
+      <tag name="Titel" value="Waarde">Bijlage 2: Protocol voor het gebruik van e-mail,Internet en telefoondiensten.</tag>
+      <tag name="Bruikbaarheid" value="&amp;lt;memo&amp;gt;">Te gedetailleerd</tag>
+      <tag name="Jaar" value="&amp;lt;memo&amp;gt;">2010</tag>
+      <tag name="Opsteller" value="&amp;lt;memo&amp;gt;">P&amp;O</tag>
+      <tag name="Doelgroep" value="&amp;lt;memo&amp;gt;">Medewerkers</tag>
+      <tag name="Status" value="GEA">Analyse gereed</tag>
+    </object>
+    <object>
+      <id>{DB2859F7-DD8B-47b1-ACE7-A9FD60DA07B0}</id>
+      <eType>Bron</eType>
+      <name>Regl. Fin. Bel.</name>
+      <notes></notes>
+      <type>Class</type>
+      <modified>2021-03-24T07:54:01</modified>
+      <tag name="geaid" value="Waarde">B-21</tag>
+      <tag name="Titel" value="Waarde">Reglement financieel beleid</tag>
+      <tag name="Bruikbaarheid" value="&amp;lt;memo&amp;gt;">Bruikbaar</tag>
+      <tag name="Jaar" value="&amp;lt;memo&amp;gt;">2016</tag>
+      <tag name="Opsteller" value="&amp;lt;memo&amp;gt;">A&amp;IB</tag>
+      <tag name="Doelgroep" value="&amp;lt;memo&amp;gt;">Medewerkers</tag>
+      <tag name="Status" value="GEA">Analyse gereed</tag>
+    </object>
+    <object>
+      <id>{5F0DA1B3-42F8-4591-BF7E-F82BD313A8E3}</id>
+      <eType>Bron</eType>
+      <name>Risicomgt.</name>
+      <notes></notes>
+      <type>Class</type>
+      <modified>2021-03-24T07:54:01</modified>
+      <tag name="geaid" value="Waarde">B-14</tag>
+      <tag name="Titel" value="Waarde">Risicomanagment bij woningcorporaties: Wat wil "de toezichthouder"?</tag>
+      <tag name="Bruikbaarheid" value="&amp;lt;memo&amp;gt;">Niet relevant</tag>
+      <tag name="Jaar" value="&amp;lt;memo&amp;gt;">2015</tag>
+      <tag name="Opsteller" value="&amp;lt;memo&amp;gt;">A&amp;IB</tag>
+      <tag name="Doelgroep" value="&amp;lt;memo&amp;gt;">Leden RvC</tag>
+      <tag name="Status" value="GEA">Analyse gereed</tag>
+    </object>
+    <object>
+      <id>{535D06E3-DCF6-4692-9047-7B2C721E717A}</id>
+      <eType>Bron</eType>
+      <name>RMStatuut</name>
+      <notes></notes>
+      <type>Class</type>
+      <modified>2021-03-24T07:54:01</modified>
+      <tag name="geaid" value="Waarde">B-18</tag>
+      <tag name="Titel" value="Waarde">Risicomanagementstatuut</tag>
+      <tag name="Bruikbaarheid" value="&amp;lt;memo&amp;gt;">Bruikbaar</tag>
+      <tag name="Jaar" value="&amp;lt;memo&amp;gt;">2016</tag>
+      <tag name="Opsteller" value="&amp;lt;memo&amp;gt;">A&amp;IB</tag>
+      <tag name="Doelgroep" value="&amp;lt;memo&amp;gt;">Medewerkers</tag>
+      <tag name="Status" value="GEA">Analyse gereed</tag>
+    </object>
+    <object>
+      <id>{896C9B85-4F68-42c8-9371-1E7750112B6A}</id>
+      <eType>Bron</eType>
+      <name>Ruimte v B.</name>
+      <notes></notes>
+      <type>Class</type>
+      <modified>2021-03-24T07:54:01</modified>
+      <tag name="geaid" value="Waarde">B-6</tag>
+      <tag name="Titel" value="Waarde">Ruimte voor beweging</tag>
+      <tag name="Bruikbaarheid" value="&amp;lt;memo&amp;gt;">Bruikbaar</tag>
+      <tag name="Jaar" value="&amp;lt;memo&amp;gt;">2015</tag>
+      <tag name="Opsteller" value="&amp;lt;memo&amp;gt;">Directie</tag>
+      <tag name="Doelgroep" value="&amp;lt;memo&amp;gt;">Medewerkers</tag>
+      <tag name="Status" value="GEA">Analyse gereed</tag>
+    </object>
+    <object>
+      <id>{5C745EE4-3464-479f-B969-C00DDC42260D}</id>
+      <eType>Bron</eType>
+      <name>Stijl</name>
+      <notes></notes>
+      <type>Class</type>
+      <modified>2021-03-24T07:54:01</modified>
+      <tag name="geaid" value="Waarde">B-5</tag>
+      <tag name="Titel" value="Waarde">Stijl van het Huis (concept )</tag>
+      <tag name="Bruikbaarheid" value="&amp;lt;memo&amp;gt;">Bruikbaar</tag>
+      <tag name="Jaar" value="&amp;lt;memo&amp;gt;">2016</tag>
+      <tag name="Opsteller" value="&amp;lt;memo&amp;gt;">P&amp;O</tag>
+      <tag name="Doelgroep" value="&amp;lt;memo&amp;gt;">Medewerkers</tag>
+      <tag name="Status" value="GEA">Analyse gereed</tag>
+    </object>
+    <object>
+      <id>{143C3C55-CBAD-436e-B472-9C3FEB195010}</id>
+      <eType>Bron</eType>
+      <name>Visie op besturen</name>
+      <notes></notes>
+      <type>Class</type>
+      <modified>2021-03-24T07:54:01</modified>
+      <tag name="geaid" value="Waarde">B-4</tag>
+      <tag name="Titel" value="Waarde">Visie op besturen, de relatie bestuur � RvT</tag>
+      <tag name="Bruikbaarheid" value="&amp;lt;memo&amp;gt;">Bruikbaar</tag>
+      <tag name="Jaar" value="&amp;lt;memo&amp;gt;">2016</tag>
+      <tag name="Opsteller" value="&amp;lt;memo&amp;gt;">Bestuur</tag>
+      <tag name="Doelgroep" value="&amp;lt;memo&amp;gt;">Leden RvC</tag>
+      <tag name="Status" value="GEA">Analyse gereed</tag>
+    </object>
+    <object>
+      <id>{70B61B99-C8E5-4c76-81B5-EE2F89BA885F}</id>
+      <eType>Bron</eType>
+      <name>Zo werkt het</name>
+      <notes></notes>
+      <type>Class</type>
+      <modified>2021-03-24T07:56:23</modified>
+      <tag name="geaid" value="Waarde">B-15</tag>
+      <tag name="Titel" value="Waarde">Zo werkt het bij De Key</tag>
+      <tag name="Bruikbaarheid" value="&amp;lt;memo&amp;gt;">Verouderd</tag>
+      <tag name="Jaar" value="&amp;lt;memo&amp;gt;">2015</tag>
+      <tag name="Opsteller" value="&amp;lt;memo&amp;gt;">P&amp;O</tag>
+      <tag name="Doelgroep" value="&amp;lt;memo&amp;gt;">Medewerkers</tag>
+      <tag name="Status" value="GEA">Analyse gereed</tag>
+    </object>
+    <object></object>
+  </objects>
+  <relationships></relationships>
+</max:model>
